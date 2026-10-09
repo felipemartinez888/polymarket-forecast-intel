@@ -12,6 +12,8 @@ from .parse import ParseError, iso, parse_event, parse_price_history, parse_ts
 from .store import Store
 
 TERMINAL = {"final", "invalid"}
+# Shared across all Collector instances in one process so `all` (discover + resolve) has ONE budget.
+PROCESS_START = time.monotonic()
 
 
 def event_kind(cls: dict, meeting: dict | None) -> str:
@@ -32,6 +34,12 @@ class Collector:
         self.now = now or (lambda: int(time.time()))
         self.errors: list[dict] = []
         self.incomplete: list[dict] = []
+        self._t0 = PROCESS_START
+        self.budget_s = self.s["history"].get("run_budget_seconds", 2400)
+
+    def over_budget(self) -> bool:
+        """True once this run has used its time budget; remaining history work is deferred to the next run."""
+        return time.monotonic() - self._t0 > self.budget_s
 
     # ---------- API wrappers ----------
     def _gamma(self, path, params=None):
@@ -181,6 +189,9 @@ class Collector:
 
     # ---------- price history ----------
     def fetch_history(self, m: dict, full: bool) -> bool:
+        if self.over_budget():
+            self.incomplete.append({"market_id": m["market_id"], "reason": "deferred_time_budget"})
+            return False
         token = m.get("track_token")
         if not token:
             self.incomplete.append({"market_id": m["market_id"], "reason": "no_clob_token"})

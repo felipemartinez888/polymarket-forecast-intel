@@ -195,3 +195,19 @@ def test_http_retry_backoff(monkeypatch):
     monkeypatch.setattr(H.urllib.request, "urlopen", always_404)
     with pytest.raises(H.HttpError):
         c.get_json("https://x", "/y")
+
+
+def test_time_budget_defers_history_without_losing_metadata(tmp_path):
+    cfg = load_config(tmp_path)
+    cfg.settings["discovery"]["search_queries"] = ["clarity"]
+    cfg.settings["discovery"]["tag_slugs"] = []
+    cfg.settings["history"]["run_budget_seconds"] = -1  # already over budget
+    fake = FakeClient()
+    store = Store(tmp_path)
+    col = Collector(cfg, client=fake, store=store, now=lambda: fake.now)
+    col.run_discover()
+    col.run_resolve()
+    reg = store.load_registry()
+    assert "301" in reg["markets"] and not reg["events"]["9003"].get("frozen")
+    assert store.load_history("301") is None
+    assert any(i["reason"] == "deferred_time_budget" for i in col.incomplete)

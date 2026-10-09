@@ -13,30 +13,85 @@
   },
   "discovery": {
     "search_queries": [
-      "fed", "fomc", "fed rate", "fed decision", "interest rates", "rate cut", "rate hike", "fed chair",
-      "clarity act", "market structure", "crypto bill", "stablecoin", "genius act", "sec crypto", "cftc crypto",
-      "bitcoin etf", "ethereum etf", "crypto etf", "strategic bitcoin reserve",
-      "cpi", "inflation", "pce", "jobs report", "nonfarm payrolls", "unemployment rate", "recession", "gdp"
+      "fed",
+      "fomc",
+      "fed rate",
+      "fed decision",
+      "interest rates",
+      "rate cut",
+      "rate hike",
+      "fed chair",
+      "clarity act",
+      "market structure",
+      "crypto bill",
+      "stablecoin",
+      "genius act",
+      "sec crypto",
+      "cftc crypto",
+      "bitcoin etf",
+      "ethereum etf",
+      "crypto etf",
+      "strategic bitcoin reserve",
+      "cpi",
+      "inflation",
+      "pce",
+      "jobs report",
+      "nonfarm payrolls",
+      "unemployment rate",
+      "recession",
+      "gdp"
     ],
     "max_search_pages": 5,
     "search_limit_per_type": 50,
-    "tag_slugs": ["fed", "fed-rates", "economy", "economic-policy", "crypto-policy", "inflation"],
+    "tag_slugs": [
+      "fed",
+      "fed-rates",
+      "economy",
+      "economic-policy",
+      "crypto-policy",
+      "inflation"
+    ],
     "max_tag_pages": 10,
     "page_size": 100,
     "earliest_end_date": "2023-01-01T00:00:00Z"
   },
   "history": {
     "fidelity_minutes": 60,
-    "chunk_days": 14,
-    "max_points_per_market": 40000
+    "chunk_days": 30,
+    "max_points_per_market": 40000,
+    "run_budget_seconds": 2400
   },
   "horizons": [
-    {"key": "30d", "seconds": 2592000, "max_staleness_seconds": 172800},
-    {"key": "14d", "seconds": 1209600, "max_staleness_seconds": 172800},
-    {"key": "7d", "seconds": 604800, "max_staleness_seconds": 86400},
-    {"key": "3d", "seconds": 259200, "max_staleness_seconds": 43200},
-    {"key": "24h", "seconds": 86400, "max_staleness_seconds": 21600},
-    {"key": "final", "seconds": 0, "max_staleness_seconds": 86400}
+    {
+      "key": "30d",
+      "seconds": 2592000,
+      "max_staleness_seconds": 172800
+    },
+    {
+      "key": "14d",
+      "seconds": 1209600,
+      "max_staleness_seconds": 172800
+    },
+    {
+      "key": "7d",
+      "seconds": 604800,
+      "max_staleness_seconds": 86400
+    },
+    {
+      "key": "3d",
+      "seconds": 259200,
+      "max_staleness_seconds": 43200
+    },
+    {
+      "key": "24h",
+      "seconds": 86400,
+      "max_staleness_seconds": 21600
+    },
+    {
+      "key": "final",
+      "seconds": 0,
+      "max_staleness_seconds": 86400
+    }
   ],
   "final_buffer_seconds": 60,
   "settlement_band": 0.05,
