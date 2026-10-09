@@ -1,0 +1,113 @@
+name: Collect data & deploy
+
+# Scheduled collection from Polymarket's public, read-only APIs.
+#  - every 6h  : discover (new markets, live snapshots, incremental history)
+#  - daily     : resolve  (resolution verification, final histories, freeze finished events)
+#  - each run  : analyze  (recompute all analytics) -> deploy static site
+# Data lives on the `data` branch, rewritten as ONE commit per run (no unbounded history).
+# A tarball of the data directory is kept as a workflow artifact for recovery.
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+    - cron: "47 7 * * *"
+  workflow_dispatch:
+    inputs:
+      command:
+        description: "Pipeline command"
+        type: choice
+        options: [all, discover, resolve, backfill, analyze]
+        default: all
+      backfill_limit:
+        description: "Backfill: max markets this run (blank = all)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+env:
+  PFI_DATA_DIR: ${{ github.workspace }}/data
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    outputs:
+      cmd: ${{ steps.cmd.outputs.cmd }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Choose command
+        id: cmd
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then c="${{ inputs.command }}";
+          elif [ "${{ github.event.schedule }}" = "47 7 * * *" ]; then c="resolve";
+          else c="discover"; fi
+          echo "cmd=$c" >> "$GITHUB_OUTPUT"; echo "Command: $c"
+
+      - name: Check out data branch (or create it)
+        run: |
+          git config user.name "pfi-bot"
+          git config user.email "pfi-bot@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin data >/dev/null 2>&1; then
+            git fetch --depth=1 origin data:data
+            git worktree add data data
+          else
+            git worktree add --orphan -b data data
+          fi
+          ls -la data | head
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run pipeline
+        run: |
+          set -e
+          case "${{ steps.cmd.outputs.cmd }}" in
+            backfill) python -m pipeline.cli backfill ${{ inputs.backfill_limit }} ;;
+            *)        python -m pipeline.cli "${{ steps.cmd.outputs.cmd }}" ;;
+          esac
+          if [ "${{ steps.cmd.outputs.cmd }}" != "analyze" ] && [ "${{ steps.cmd.outputs.cmd }}" != "all" ] && [ "${{ steps.cmd.outputs.cmd }}" != "backfill" ]; then
+            python -m pipeline.cli analyze
+          fi
+
+      - name: Integrity check (blocks commit on failure)
+        run: python -m pipeline.cli check
+
+      - name: Report size
+        run: |
+          du -sh data; find data -type f | wc -l
+          echo "### Data size: $(du -sh data | cut -f1), $(find data -type f | wc -l) files" >> "$GITHUB_STEP_SUMMARY"
+          python -c "import json;r=json.load(open('data/runs.json'))['runs'][-3:];print(json.dumps(r,indent=1)[:4000])" >> "$GITHUB_STEP_SUMMARY" || true
+
+      - name: Commit data as a single squashed commit
+        working-directory: data
+        run: |
+          git checkout --orphan snapshot
+          git add -A
+          git commit -q -m "data snapshot $(date -u +%Y-%m-%dT%H:%MZ) (${{ steps.cmd.outputs.cmd }})"
+          git branch -M snapshot data
+          git push -f origin data
+
+      - name: Backup artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-${{ github.run_id }}
+          path: data/
+          retention-days: 14
+          include-hidden-files: false
+
+  deploy:
+    needs: collect
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit

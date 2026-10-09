@@ -1,0 +1,94 @@
+name: Deploy dashboard
+
+# Builds the static site with the latest `data` branch and deploys it.
+# Target is chosen by the repository variable DEPLOY_TARGET:
+#   cloudflare (default) — needs secrets CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID and variable CF_PAGES_PROJECT
+#   github-pages         — needs Pages enabled with source "GitHub Actions" (free for public repos)
+
+on:
+  workflow_call:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["frontend/**", ".github/workflows/deploy.yml"]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch data branch
+        run: |
+          if git ls-remote --exit-code --heads origin data >/dev/null 2>&1; then
+            git fetch --depth=1 origin data && mkdir -p data
+            git archive FETCH_HEAD derived history 2>/dev/null | tar -x -C data || git archive FETCH_HEAD derived | tar -x -C data || true
+          fi
+          ls data 2>/dev/null || echo "no data yet — site will show the empty state"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Build
+        working-directory: frontend
+        run: |
+          npm install --no-audit --no-fund
+          npm run build
+          PFI_DATA_DIR=../data node scripts/sync-data.mjs --dist
+          du -sh dist; find dist -type f | wc -l
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: frontend/dist
+          retention-days: 3
+      - uses: actions/upload-pages-artifact@v3
+        if: vars.DEPLOY_TARGET == 'github-pages'
+        with:
+          path: frontend/dist
+
+  cloudflare:
+    needs: build
+    if: vars.DEPLOY_TARGET != 'github-pages'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: dist
+      - name: Check secrets
+        id: chk
+        env:
+          T: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          if [ -z "$T" ]; then echo "::warning::CLOUDFLARE_API_TOKEN not set — skipping deploy (see README)"; echo "ok=false" >> $GITHUB_OUTPUT; else echo "ok=true" >> $GITHUB_OUTPUT; fi
+      - name: Ensure Pages project exists
+        if: steps.chk.outputs.ok == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx --yes wrangler@3 pages project create "${{ vars.CF_PAGES_PROJECT || 'forecast-intel' }}" --production-branch main || echo "project exists"
+      - name: Deploy to Cloudflare Pages
+        if: steps.chk.outputs.ok == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx --yes wrangler@3 pages deploy dist --project-name "${{ vars.CF_PAGES_PROJECT || 'forecast-intel' }}" --branch main --commit-dirty=true
+
+  github-pages:
+    needs: build
+    if: vars.DEPLOY_TARGET == 'github-pages'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.d.outputs.page_url }}
+    steps:
+      - id: d
+        uses: actions/deploy-pages@v4

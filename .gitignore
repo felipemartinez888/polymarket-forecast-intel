@@ -1,0 +1,10 @@
+# pipeline output lives on the `data` branch, never on main
+/data/
+frontend/node_modules/
+frontend/dist/
+frontend/public/data/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.DS_Store

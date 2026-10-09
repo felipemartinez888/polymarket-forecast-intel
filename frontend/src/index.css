@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { color-scheme: dark; }
+body { font-feature-settings: "tnum" 1; -webkit-font-smoothing: antialiased; }
+
+@layer components {
+  .card { @apply bg-panel border border-line rounded-md; }
+  .card-h { @apply flex items-center justify-between gap-2 px-3 py-2 border-b border-line text-[11px] uppercase tracking-wider text-mute; }
+  .tbl { @apply w-full text-sm; }
+  .tbl th { @apply text-left font-medium text-[11px] uppercase tracking-wider text-mute px-3 py-2 border-b border-line whitespace-nowrap; }
+  .tbl td { @apply px-3 py-2 border-b border-line/60 align-top; }
+  .tbl tr:hover td { @apply bg-panel2; }
+  .num { @apply font-mono tabular-nums text-right; }
+  .chip { @apply inline-flex items-center rounded px-1.5 py-0.5 text-[10px] uppercase tracking-wide border; }
+  .inp { @apply bg-bg border border-line rounded px-2 py-1 text-sm text-ink focus:outline-none focus:border-accent; }
+  .btn { @apply border border-line rounded px-2.5 py-1 text-xs text-ink hover:border-accent hover:text-accent; }
+  .lnk { @apply text-info hover:underline; }
+}

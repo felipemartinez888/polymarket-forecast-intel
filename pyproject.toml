@@ -1,0 +1,10 @@
+[project]
+name = "polymarket-forecast-intel"
+version = "1.0.0"
+description = "Read-only pipeline that scores Polymarket forecasts for Fed, macro and crypto-regulation events."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"

@@ -1,0 +1,5 @@
+{
+  "_doc": "Manual overrides keyed by Polymarket market id (string). Supported fields: category, subcategory, relevance (high|medium|low), exclude (true = never scored or displayed), external_source (URL of a primary source verifying the outcome), reference_time (ISO-8601 UTC; the true time the outcome became known, overrides the automatic estimate), note. Event-level overrides go under `events`, keyed by event id, with the same fields. Every override is recorded in the market's `audit` trail.",
+  "markets": {},
+  "events": {}
+}

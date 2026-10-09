@@ -1,0 +1,177 @@
+{
+  "_doc": "Rules are evaluated in order against the lower-cased text '<event title> || <market question> || <groupItemTitle>'. The first rule whose `any` pattern matches, whose `all` patterns all match, and none of whose `none` patterns match, assigns the category. Every assignment records the rule id so classification is auditable. Manual overrides in overrides.json win over rules.",
+  "version": "1.0.0",
+  "rules": [
+    {
+      "id": "crypto_price_direction",
+      "category": "crypto_price",
+      "subcategory": "price_direction",
+      "relevance": "low",
+      "any": ["\\b(bitcoin|btc|ethereum|eth|solana|sol|xrp|dogecoin|doge|cardano|bnb|hyperliquid|hype)\\b"],
+      "all": ["(\\bprice\\b|\\babove\\b|\\bbelow\\b|\\breach\\b|\\bhit\\b|\\bdip\\b|up or down|all[- ]time high|\\$ ?\\d|\\d+k\\b|between \\$)"],
+      "none": ["\\betf\\b", "\\breserve\\b", "\\bact\\b", "\\bbill\\b", "\\bsec\\b", "\\bcftc\\b"]
+    },
+    {
+      "id": "fed_decision",
+      "category": "fed",
+      "subcategory": "fomc_decision",
+      "relevance": "high",
+      "any": ["\\bfed decision\\b", "\\bfomc\\b", "\\bfed (?:rate|interest rate)s?\\b", "\\bfed (?:cuts?|hikes?|raises?|lowers?|pauses?)\\b", "\\bfederal reserve\\b.*\\b(rate|cut|hike|decision)\\b"],
+      "all": ["(decision|bps|basis points|no change|cut|hike|increase|decrease|raise|lower|pause|unchanged|hold)"],
+      "none": ["how many", "number of", "chair", "nominat", "emergency"]
+    },
+    {
+      "id": "fed_rate_count",
+      "category": "fed",
+      "subcategory": "rate_path",
+      "relevance": "high",
+      "any": ["\\bfed\\b", "\\bfomc\\b", "federal reserve"],
+      "all": ["(how many|number of|cuts in 20\\d\\d|hikes in 20\\d\\d|upper bound|target range|fed funds)"],
+      "none": ["chair", "nominat"]
+    },
+    {
+      "id": "fed_emergency",
+      "category": "fed",
+      "subcategory": "emergency_action",
+      "relevance": "high",
+      "any": ["\\bfed\\b.*emergency", "emergency.*\\b(rate cut|fed)\\b"],
+      "all": [],
+      "none": []
+    },
+    {
+      "id": "fed_leadership",
+      "category": "fed",
+      "subcategory": "leadership",
+      "relevance": "high",
+      "any": ["fed chair", "federal reserve chair", "\\bfed governor", "powell", "chair of the fed"],
+      "all": [],
+      "none": []
+    },
+    {
+      "id": "clarity_act",
+      "category": "crypto_regulation",
+      "subcategory": "clarity_act",
+      "relevance": "high",
+      "any": ["clarity act", "digital asset market clarity", "\\bclarity\\b.*\\b(bill|act|law|senate|house|sign)"],
+      "all": [],
+      "none": []
+    },
+    {
+      "id": "market_structure",
+      "category": "crypto_regulation",
+      "subcategory": "market_structure",
+      "relevance": "high",
+      "any": ["crypto market structure", "market structure bill", "digital asset (?:bill|legislation|framework)", "crypto (?:bill|legislation)"],
+      "all": [],
+      "none": []
+    },
+    {
+      "id": "stablecoin_legislation",
+      "category": "crypto_regulation",
+      "subcategory": "stablecoin",
+      "relevance": "high",
+      "any": ["stablecoin", "genius act"],
+      "all": ["(bill|act|law|sign|pass|senate|house|congress|legislation|regulat)"],
+      "none": []
+    },
+    {
+      "id": "crypto_reserve_policy",
+      "category": "crypto_regulation",
+      "subcategory": "government_policy",
+      "relevance": "high",
+      "any": ["(strategic )?bitcoin reserve", "crypto reserve", "executive order.*crypto", "crypto.*executive order"],
+      "all": [],
+      "none": []
+    },
+    {
+      "id": "sec_cftc_crypto",
+      "category": "crypto_regulation",
+      "subcategory": "agency_action",
+      "relevance": "high",
+      "any": ["\\bsec\\b", "\\bcftc\\b", "securities and exchange commission", "gensler", "atkins"],
+      "all": ["(crypto|bitcoin|ethereum|coinbase|binance|ripple|xrp|token|digital asset|stablecoin|defi|lawsuit|chair)"],
+      "none": ["\\betf\\b"]
+    },
+    {
+      "id": "crypto_etf",
+      "category": "crypto_events",
+      "subcategory": "etf_decision",
+      "relevance": "high",
+      "any": ["\\b(bitcoin|btc|ethereum|eth|solana|sol|xrp|litecoin|ltc|dogecoin|doge|cardano|ada|avalanche|avax|crypto|spot)\\b.*\\betf\\b"],
+      "all": [],
+      "none": ["flows?\\b.*\\$"]
+    },
+    {
+      "id": "macro_core_cpi",
+      "category": "macro",
+      "subcategory": "core_cpi",
+      "relevance": "medium",
+      "any": ["core cpi", "core inflation"],
+      "all": [],
+      "none": []
+    },
+    {
+      "id": "macro_cpi",
+      "category": "macro",
+      "subcategory": "cpi",
+      "relevance": "medium",
+      "any": ["\\bcpi\\b", "\\binflation\\b"],
+      "all": ["(\\bus\\b|u\\.s\\.|\\bcpi\\b|annual|monthly|yoy|y/y|m/m|bls|20\\d\\d)"],
+      "none": ["\\bpce\\b", "(?<!u\\.s\\. )(uk|eurozone|euro area|japan|canada|china|germany|argentina|turkey) (?:cpi|inflation)"]
+    },
+    {
+      "id": "macro_pce",
+      "category": "macro",
+      "subcategory": "pce",
+      "relevance": "medium",
+      "any": ["\\bpce\\b", "personal consumption expenditures"],
+      "all": [],
+      "none": []
+    },
+    {
+      "id": "macro_payrolls",
+      "category": "macro",
+      "subcategory": "nonfarm_payrolls",
+      "relevance": "medium",
+      "any": ["nonfarm", "non-farm", "payrolls", "jobs report", "jobs added"],
+      "all": [],
+      "none": []
+    },
+    {
+      "id": "macro_unemployment",
+      "category": "macro",
+      "subcategory": "unemployment",
+      "relevance": "medium",
+      "any": ["unemployment rate", "\\bunemployment\\b"],
+      "all": [],
+      "none": ["(uk|eurozone|canada|japan|china) unemployment"]
+    },
+    {
+      "id": "macro_recession",
+      "category": "macro",
+      "subcategory": "recession",
+      "relevance": "medium",
+      "any": ["\\brecession\\b"],
+      "all": ["(\\bus\\b|u\\.s\\.|united states|america|nber|20\\d\\d)"],
+      "none": []
+    },
+    {
+      "id": "macro_gdp",
+      "category": "macro",
+      "subcategory": "gdp",
+      "relevance": "medium",
+      "any": ["\\bgdp\\b", "gross domestic product"],
+      "all": [],
+      "none": ["(uk|eurozone|china|japan|germany|india|canada) gdp"]
+    },
+    {
+      "id": "macro_treasury_liquidity",
+      "category": "macro",
+      "subcategory": "treasury_liquidity",
+      "relevance": "low",
+      "any": ["debt ceiling", "10[- ]year (?:treasury )?yield", "treasury yield", "quantitative (?:easing|tightening)", "\\bqt\\b", "balance sheet runoff"],
+      "all": [],
+      "none": []
+    }
+  ]
+}

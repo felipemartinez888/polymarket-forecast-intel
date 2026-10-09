@@ -1,0 +1,2 @@
+# The pipeline itself uses only the Python standard library (no runtime dependencies).
+pytest==8.3.4

@@ -1,0 +1,32 @@
+{
+  "_doc": "Primary official sources shown next to market groups on the Regulation and Fed monitors. These are reference links for the user to check legislative/policy status; the pipeline does not scrape them, and no status is asserted from them automatically.",
+  "subcategories": {
+    "clarity_act": [
+      {"label": "H.R.3633 — Digital Asset Market Clarity Act (Congress.gov)", "url": "https://www.congress.gov/bill/119th-congress/house-bill/3633"}
+    ],
+    "stablecoin": [
+      {"label": "S.1582 — GENIUS Act (Congress.gov)", "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1582"}
+    ],
+    "market_structure": [
+      {"label": "Congress.gov legislation search: digital assets", "url": "https://www.congress.gov/search?q=%7B%22search%22%3A%22digital+asset%22%7D"}
+    ],
+    "agency_action": [
+      {"label": "SEC press releases", "url": "https://www.sec.gov/newsroom/press-releases"},
+      {"label": "CFTC press releases", "url": "https://www.cftc.gov/PressRoom/PressReleases"}
+    ],
+    "etf_decision": [
+      {"label": "SEC press releases", "url": "https://www.sec.gov/newsroom/press-releases"}
+    ],
+    "fomc_decision": [
+      {"label": "FOMC meeting calendars & statements", "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"},
+      {"label": "Target range history", "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm"}
+    ],
+    "cpi": [{"label": "BLS CPI", "url": "https://www.bls.gov/cpi/"}],
+    "core_cpi": [{"label": "BLS CPI", "url": "https://www.bls.gov/cpi/"}],
+    "pce": [{"label": "BEA PCE price index", "url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index"}],
+    "nonfarm_payrolls": [{"label": "BLS Employment Situation", "url": "https://www.bls.gov/ces/"}],
+    "unemployment": [{"label": "BLS Employment Situation", "url": "https://www.bls.gov/cps/"}],
+    "gdp": [{"label": "BEA GDP", "url": "https://www.bea.gov/data/gdp/gross-domestic-product"}],
+    "recession": [{"label": "NBER business cycle dating", "url": "https://www.nber.org/research/business-cycle-dating"}]
+  }
+}
