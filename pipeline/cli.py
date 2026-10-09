@@ -84,6 +84,8 @@ def main(argv: list[str] | None = None) -> int:
     if cmd in ("resolve", "all"):
         c = Collector(cfg, store=store)
         ok &= _run("resolve", c.run_resolve, store, cfg, c)
+        c = Collector(cfg, store=store)
+        ok &= _run("backfill", c.run_backfill, store, cfg, c)
     if cmd == "backfill":
         c = Collector(cfg, store=store)
         lim = int(argv[1]) if len(argv) > 1 else None

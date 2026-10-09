@@ -73,7 +73,7 @@ class Store:
         return read_json(self.history_path(market_id))
 
     def merge_history(self, market_id: str, token_id: str, outcome_label: str, new_points: list[list],
-                      retrieved_at: int, fidelity: int, max_points: int) -> dict:
+                      retrieved_at: int, fidelity: int, max_points: int, complete: bool = False) -> dict:
         cur = self.load_history(market_id) or {
             "market_id": market_id, "token_id": token_id, "outcome": outcome_label,
             "source": "clob.polymarket.com/prices-history", "fidelity_minutes": fidelity, "points": [],
@@ -87,7 +87,7 @@ class Store:
         if len(pts) > max_points:
             pts = pts[-max_points:]
             cur["truncated"] = True
-        cur.update(points=pts, retrieved_at=retrieved_at, n_points=len(pts),
+        cur.update(points=pts, retrieved_at=retrieved_at, n_points=len(pts), complete=complete,
                    first_ts=pts[0][0] if pts else None, last_ts=pts[-1][0] if pts else None)
         write_json(self.history_path(market_id), cur, compact=True)
         return cur

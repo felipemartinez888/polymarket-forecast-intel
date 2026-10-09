@@ -39,7 +39,7 @@ class Classifier:
             if any(p.search(txt) for p in r["_none"]):
                 continue
             result.update(category=r["category"], subcategory=r["subcategory"],
-                          relevance=r["relevance"], rule_id=r["id"])
+                          relevance=r["relevance"], rule_id=r["id"], skipped=bool(r.get("skip")))
             break
         ov = {**self.eo.get(str(market.get("event_id")), {}), **self.mo.get(str(market.get("market_id")), {})}
         if ov:

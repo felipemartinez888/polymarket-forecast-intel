@@ -211,3 +211,34 @@ def test_time_budget_defers_history_without_losing_metadata(tmp_path):
     assert "301" in reg["markets"] and not reg["events"]["9003"].get("frozen")
     assert store.load_history("301") is None
     assert any(i["reason"] == "deferred_time_budget" for i in col.incomplete)
+
+
+def test_long_windows_are_halved_and_full_history_recovered(tmp_path):
+    cfg = load_config(tmp_path)
+    cfg.settings["discovery"]["search_queries"] = ["fed"]
+    cfg.settings["discovery"]["tag_slugs"] = []
+    cfg.settings["history"]["chunk_days"] = 60  # deliberately too long for the (fake) CLOB
+    fake = FakeClient()
+    store = Store(tmp_path)
+    col = Collector(cfg, client=fake, store=store, now=lambda: fake.now)
+    col.run_discover()
+    col.run_resolve()
+    h = store.load_history("102")
+    assert h["complete"] and h["first_ts"] <= ts("2025-07-16T00:00:00Z")  # not just the last week
+    assert not [e for e in col.errors if "too long" in e["error"]]
+
+
+def test_backfill_prioritizes_fed_and_resumes(tmp_path):
+    cfg = load_config(tmp_path)
+    cfg.settings["discovery"]["search_queries"] = ["fed", "clarity", "stablecoin"]
+    cfg.settings["discovery"]["tag_slugs"] = []
+    fake = FakeClient()
+    store = Store(tmp_path)
+    Collector(cfg, client=fake, store=store, now=lambda: fake.now).run_discover()  # registry only for closed events
+    col = Collector(cfg, client=fake, store=store, now=lambda: fake.now)
+    res = col.run_backfill(limit=4)
+    assert res["histories_backfilled"] == 4 and res["remaining"] > 0
+    got = {mid for mid in ("101", "102", "103", "104") if (store.load_history(mid) or {}).get("complete")}
+    assert got == {"101", "102", "103", "104"}  # FOMC decision markets first
+    res2 = Collector(cfg, client=fake, store=store, now=lambda: fake.now).run_backfill()
+    assert res2["remaining"] == 0

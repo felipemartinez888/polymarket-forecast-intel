@@ -33,6 +33,13 @@ def cls(title, q="", group=None, overrides=None):
     ("Core CPI MoM in August?", "", "macro", "core_cpi"),
     ("Jobs report: nonfarm payrolls above 100k?", "", "macro", "nonfarm_payrolls"),
     ("US Q3 GDP growth above 2%?", "", "macro", "gdp"),
+    # regressions found on the first real-data run
+    ("Fed rate cut by...?", "October meeting", "fed", "rate_path"),
+    ("Fed Decision & Dissent Combo in January?", "No change, Dissents: <2", "fed", "rate_path"),
+    ("Fed decisions (Sep-Dec)", "Cut-Pause-Cut", "fed", "rate_path"),
+    ("Bitcoin ETF Flows on August 25?", "", "crypto_price", "etf_flows"),
+    ("Fed emergency rate cut in 2025?", "", "fed", "emergency_action"),
+    ("U.S. Recession in 2024?", "", "macro", "recession"),
 ])
 def test_rules(title, q, cat, sub):
     r = cls(title, q)
@@ -40,7 +47,10 @@ def test_rules(title, q, cat, sub):
     assert r["rule_id"]
 
 
-@pytest.mark.parametrize("title", ["FedEx earnings beat?", "Will Messi score?", "UK inflation above 3%?", "Who wins the Super Bowl?"])
+@pytest.mark.parametrize("title", ["FedEx earnings beat?", "Will Messi score?", "UK inflation above 3%?", "Who wins the Super Bowl?",
+                                   "What will Powell say during July Press Conference?", "U.K. Annual Inflation 2026",
+                                   "Argentina Monthly Inflation - April", "Bank of Japan emergency rate cut in August?",
+                                   "What will Coinbase say during their next earnings call?", "South Korea GDP growth (YoY) in Q2 2026?"])
 def test_rules_negative(title):
     assert cls(title)["category"] is None
 

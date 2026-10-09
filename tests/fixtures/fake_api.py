@@ -132,6 +132,12 @@ class FakeClient:
             if tok in self.fail_tokens:
                 raise HttpError(path, 500, "fixture failure")
             pts = self.history.get(tok, [])
+            if "startTs" in params and params.get("endTs", 0) - params["startTs"] > 15 * 86400:
+                # mirrors the real CLOB: long windows are rejected
+                raise HttpError(path, 400, '{"error":"invalid filters: \'startTs\' and \'endTs\' interval is too long"}')
+            if "interval" in params:
+                # mirrors the real CLOB at hourly fidelity: only about the last week comes back
+                pts = [p for p in pts if p["t"] >= (pts[-1]["t"] - 7 * 86400)] if pts else []
             if "startTs" in params:
                 pts = [p for p in pts if params["startTs"] <= p["t"] <= params.get("endTs", 1 << 40)]
             return {"history": pts}

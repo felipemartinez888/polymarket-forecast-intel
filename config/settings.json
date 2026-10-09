@@ -57,9 +57,29 @@
   },
   "history": {
     "fidelity_minutes": 60,
-    "chunk_days": 30,
+    "chunk_days": 7,
     "max_points_per_market": 40000,
-    "run_budget_seconds": 2400
+    "run_budget_seconds": 2700,
+    "backfill_priority": [
+      "fomc_decision",
+      "clarity_act",
+      "stablecoin",
+      "market_structure",
+      "government_policy",
+      "agency_action",
+      "etf_decision",
+      "rate_path",
+      "emergency_action",
+      "leadership",
+      "cpi",
+      "core_cpi",
+      "pce",
+      "nonfarm_payrolls",
+      "unemployment",
+      "gdp",
+      "recession",
+      "treasury_liquidity"
+    ]
   },
   "horizons": [
     {

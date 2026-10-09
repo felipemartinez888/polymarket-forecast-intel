@@ -201,32 +201,48 @@ class Collector:
         now = self.now()
         existing = self.store.load_history(m["market_id"])
         pts: list[list] = []
+        complete = False
         try:
-            if existing and existing.get("points") and not full:
+            if existing and existing.get("points") and existing.get("complete") and not full:
                 start = existing["last_ts"] + 1
-                pts = parse_price_history(self._clob("/prices-history", {"market": token, "startTs": start, "endTs": now, "fidelity": fid}))
+                pts = self._chunked(token, {**m, "start_ts": start, "created_ts": None, "closed_ts": None, "end_ts": None}, fid, h["chunk_days"], now)
+                complete = True
             else:
-                pts = parse_price_history(self._clob("/prices-history", {"market": token, "interval": "max", "fidelity": fid}))
-                if not pts:
-                    pts = self._chunked(token, m, fid, h["chunk_days"], now)
+                # interval=max at hourly fidelity only returns roughly the last week, so full histories are
+                # always fetched in startTs/endTs windows from the market's start.
+                pts = self._chunked(token, m, fid, h["chunk_days"], now)
+                complete = True
         except (HttpError, ParseError) as e:
             self._err("prices_history", e, market_id=m["market_id"])
             self.incomplete.append({"market_id": m["market_id"], "reason": "history_fetch_failed", "at": iso(now)})
-            return False
+            if not pts:
+                return False
         if not pts and not existing:
             self.incomplete.append({"market_id": m["market_id"], "reason": "empty_history", "at": iso(now)})
-        self.store.merge_history(m["market_id"], token, m["track_label"], pts, now, fid, h["max_points_per_market"])
-        return True
+        self.store.merge_history(m["market_id"], token, m["track_label"], pts, now, fid, h["max_points_per_market"],
+                                 complete=complete or bool(existing and existing.get("complete")))
+        return complete
 
     def _chunked(self, token, m, fid, chunk_days, now) -> list[list]:
-        start = m.get("start_ts") or m.get("created_ts") or ((m.get("end_ts") or now) - 365 * 86400)
+        """Fetch history in startTs/endTs windows. The CLOB rejects windows it considers too long
+        (HTTP 400 'interval is too long', observed for >= ~16 days at 60-min fidelity), so the window
+        is halved on that error, down to one day."""
+        start = min([x for x in (m.get("start_ts"), m.get("created_ts")) if x] or [(m.get("end_ts") or now) - 365 * 86400])
         end = min(x for x in (m.get("closed_ts"), m.get("end_ts"), now) if x) + 86400
         end = min(end, now)
         out: dict[int, float] = {}
+        win = chunk_days * 86400
         t = start
         while t < end:
-            t2 = min(t + chunk_days * 86400, end)
-            for tt, p in parse_price_history(self._clob("/prices-history", {"market": token, "startTs": t, "endTs": t2, "fidelity": fid})):
+            t2 = min(t + win, end)
+            try:
+                rows = parse_price_history(self._clob("/prices-history", {"market": token, "startTs": t, "endTs": t2, "fidelity": fid}))
+            except HttpError as e:
+                if e.status == 400 and "too long" in (e.detail or "") and win > 86400:
+                    win = max(86400, win // 2)
+                    continue
+                raise
+            for tt, p in rows:
                 out[tt] = p
             t = t2
         return [[k, out[k]] for k in sorted(out)]
@@ -311,16 +327,32 @@ class Collector:
         return {"events_checked": checked, "events_frozen": froze, "histories_fetched": hist}
 
     def run_backfill(self, limit: int | None = None) -> dict:
-        """Fetch full history for every tracked market lacking any stored history."""
+        """Fetch FULL history for tracked markets whose stored history is missing or not marked complete.
+
+        Markets are re-classified with the current rules (skipped / crypto-price markets are not backfilled)
+        and processed in `history.backfill_priority` order, newest first, until the run's time budget is spent.
+        Unfinished markets are simply picked up by the next run.
+        """
         reg = self.store.load_registry()
-        done = 0
-        for mid, m in sorted(reg["markets"].items()):
-            if limit is not None and done >= limit:
-                break
-            if m["classification"].get("excluded") or self.store.load_history(mid):
+        prio = {s: i for i, s in enumerate(self.s["history"].get("backfill_priority", []))}
+        todo = []
+        for mid, m in reg["markets"].items():
+            ev = reg["events"].get(m.get("event_id") or "", {})
+            c = self.cls.classify(ev.get("title", ""), m)
+            if not c["category"] or c.get("excluded") or c["category"] == "crypto_price" or not m.get("track_token"):
                 continue
-            done += self.fetch_history(m, full=True)
-        return {"histories_backfilled": done}
+            h = self.store.load_history(mid)
+            if h and h.get("complete"):
+                continue
+            todo.append((prio.get(c["subcategory"], 99), -(m.get("end_ts") or 0), mid))
+        todo.sort()
+        done = deferred = 0
+        for _, _, mid in todo:
+            if (limit is not None and done >= limit) or self.over_budget():
+                deferred += 1
+                continue
+            done += self.fetch_history(reg["markets"][mid], full=True)
+        return {"histories_backfilled": done, "remaining": deferred, "queue": len(todo)}
 
 
 def scored_category(m: dict) -> bool:

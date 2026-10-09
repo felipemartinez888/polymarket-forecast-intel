@@ -22,7 +22,9 @@ from datetime import datetime, timezone
 from . import metrics as M
 from .classify import SCORED_CATEGORIES, find_duplicates
 from .config import Config
-from .fomc import announcement_ts, verify_fed_market
+from .classify import Classifier
+from .collect import event_kind
+from .fomc import announcement_ts, match_meeting, verify_fed_market
 from .parse import iso, parse_ts
 from .store import Store, write_json, atomic_write
 from .timing import forecast_at, reference_time, value_at_or_before
@@ -101,8 +103,8 @@ class Analyzer:
     # ------------------------------------------------------------------ main
     def run(self) -> dict:
         reg = self.store.load_registry()
-        markets, events = reg["markets"], reg["events"]
         meetings = {mt["id"]: mt for mt in self.cfg.fomc["meetings"]}
+        markets, events = self.reclassify(reg)
 
         dups = find_duplicates([m for m in markets.values() if not m["classification"].get("excluded")])
 
@@ -222,6 +224,33 @@ class Analyzer:
         self.exports(out_dir, meta, market_rows, units, perf)
         return {"markets": len(market_rows), "units": len(units),
                 "scored_units": sum(1 for u in units if u["primary"] and u["scores"])}
+
+    def reclassify(self, reg: dict) -> tuple[dict, dict]:
+        """Re-apply the CURRENT rules, overrides and FOMC calendar to every stored market (in memory only),
+        so rule changes take effect retroactively, including for frozen events that are never re-fetched.
+        Markets whose rule is `skip` (or that no longer match any rule) are dropped from the analysis."""
+        cls = Classifier(self.cfg.rules, self.cfg.overrides)
+        markets, events = {}, {}
+        for eid, ev in reg["events"].items():
+            kept = []
+            meeting = None
+            for mid in ev.get("tracked_market_ids", []):
+                m = reg["markets"].get(mid)
+                if not m:
+                    continue
+                c = cls.classify(ev.get("title", ""), m)
+                if not c["category"]:
+                    continue
+                if c["subcategory"] == "fomc_decision" and meeting is None:
+                    meeting = match_meeting(ev.get("title", ""), ev.get("end_ts") or m.get("end_ts"), self.cfg.fomc)
+                markets[mid] = {**m, "classification": c}
+                kept.append(mid)
+            if not kept:
+                continue
+            main = markets[kept[0]]["classification"]
+            events[eid] = {**ev, "tracked_market_ids": kept, "category": main["category"], "subcategory": main["subcategory"],
+                           "fomc_meeting_id": meeting["id"] if meeting else None, "kind": event_kind(main, meeting)}
+        return markets, events
 
     # ------------------------------------------------------------------ units
     def build_units(self, ev: dict, mids: list[str], markets: dict, rows: dict) -> list[dict]:
