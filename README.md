@@ -30,7 +30,7 @@ federalreserve.gov (transcribed into config/fomc_meetings.json) ─► external 
    - secrets `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`
    - (optional) variable `CF_PAGES_PROJECT` (default `forecast-intel`)
    The site will be at `https://<project>.pages.dev`.
-   *Alternative:* set repository variable `DEPLOY_TARGET=github-pages` and enable Pages → Source: GitHub Actions.
+   *Alternative (default when no Cloudflare token is set):* GitHub Pages — Settings → Pages → Source: **GitHub Actions**. Site: `https://<user>.github.io/<repo>/`.
 3. **Run the first collection:** Actions → *Collect data & deploy* → Run workflow → `all`. Then run it once more with `backfill` to fetch full price histories for every historical market found.
 4. From then on everything is automatic (6-hourly collection, daily resolution checks, redeploy after each run).
 
