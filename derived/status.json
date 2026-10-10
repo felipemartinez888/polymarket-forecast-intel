@@ -1,0 +1,1444 @@
+{
+ "calc_version": "1.0.0",
+ "categories": {
+  "crypto_events": 12,
+  "crypto_price": 492,
+  "crypto_regulation": 46,
+  "fed": 713,
+  "macro": 1222
+ },
+ "fomc_transcribed_at": "2026-10-09",
+ "generated_at": "2026-10-10T21:55:30Z",
+ "last_success": {
+  "analyze": "2026-10-10T14:17:51Z",
+  "backfill": "2026-10-10T14:17:30Z",
+  "check": "2026-10-10T14:17:53Z",
+  "discover": "2026-10-10T21:55:30Z",
+  "resolve": "2026-10-10T14:16:09Z"
+ },
+ "latest_observation_ts": 1791669319,
+ "markets_without_history": 67,
+ "n_events": 1028,
+ "n_markets": 2485,
+ "recent_runs": [
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 0,
+   "finished_at": "2026-10-09T20:09:26Z",
+   "result": {
+    "events": 1026,
+    "markets": 3361,
+    "ok": true
+   },
+   "started_at": "2026-10-09T20:09:26Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 1697,
+   "errors": [],
+   "finished_at": "2026-10-09T20:42:52Z",
+   "http_requests": 6699,
+   "incomplete": [
+    {
+     "at": "2026-10-09T20:28:52Z",
+     "market_id": "515453",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T20:28:59Z",
+     "market_id": "515455",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T20:29:07Z",
+     "market_id": "515457",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T20:29:14Z",
+     "market_id": "515458",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T20:29:21Z",
+     "market_id": "515459",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T20:29:28Z",
+     "market_id": "515460",
+     "reason": "empty_history"
+    }
+   ],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 900,
+    "events_refreshed": 370,
+    "histories_updated": 419,
+    "markets_tracked": 3378,
+    "snapshots_written": 413
+   },
+   "started_at": "2026-10-09T20:14:35Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 1103,
+   "errors": [],
+   "finished_at": "2026-10-09T21:01:15Z",
+   "http_requests": 4266,
+   "incomplete": [
+    {
+     "at": "2026-10-09T20:53:49Z",
+     "market_id": "515454",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T20:53:56Z",
+     "market_id": "515456",
+     "reason": "empty_history"
+    },
+    {
+     "market_id": "1185716",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1185717",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1185718",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1185719",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1185720",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1185721",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1185722",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1190133",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518326",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518327",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518328",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518329",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518330",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518331",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518357",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518358",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518359",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518360",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518699",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518792",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518793",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518796",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518901",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "519322",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "519776",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "519777",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "519778",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "519784",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "520930",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521301",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521318",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521319",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521320",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521321",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521322",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521323",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521324",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521325",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521326",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521327",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521328",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521329",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521330",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521331",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521332",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521333",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521334",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1227346",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1227347",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1227348",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1227349",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1227350",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1227351",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1227352",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521834",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521835",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521836",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521837",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522145",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522146",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522147",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522148",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522149",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522150",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522182",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522183",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522184",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522185",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522186",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522188",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522189",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522190",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522191",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522192",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522440",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522441",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522442",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522443",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522444",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522445",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522446",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522447",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522448",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522449",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522450",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1269103",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1269104",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1269105",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1269106",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1269107",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1269108",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287650",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287651",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287652",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287653",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287654",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287655",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287656",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287863",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287864",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287865",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287866",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287867",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1288243",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1288244",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1288245",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1288246",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1288247",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1288248",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1288249",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1288250",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1288251",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1293514",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1293515",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1299973",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1992898",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1300296",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1320806",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1300842",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1300843",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1300844",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1300845",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1300846",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1300847",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1300848",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1301006",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1301007",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1301011",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1301013",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1301014",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1301017",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1301019",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1301997",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "525219",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "525220",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "525221",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "525222",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "525223",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "525224",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "637896",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "637897",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "637898",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "637899",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1323418",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1323419",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1323420",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1323421",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1323422",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1323423",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1323424",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1329877",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1329878",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1329879",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1329880",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1329881",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1329882",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1329883",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1356892",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1356893",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1356894",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1356895",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1356896",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1356897",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1356898",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526831",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526832",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526833",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526834",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526835",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526836",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526837",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1359764",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1359765",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1359766",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1359767",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1359768",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1359769",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1359770",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360467",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360468",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360469",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360470",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360471",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360472",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360473",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360616",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360617",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360618",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526911",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526936",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526939",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1366274",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1366275",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1366276",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1366277",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1366278",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1366279",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1366280",
+     "reason": "deferred_time_budget"
+    }
+   ],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 363,
+    "events_frozen": 88,
+    "histories_fetched": 350
+   },
+   "started_at": "2026-10-09T20:42:52Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 1,
+   "errors": [],
+   "finished_at": "2026-10-09T21:01:16Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 1345,
+    "remaining": 1345
+   },
+   "started_at": "2026-10-09T21:01:15Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 8,
+   "finished_at": "2026-10-09T21:01:24Z",
+   "result": {
+    "markets": 2485,
+    "scored_units": 141,
+    "units": 410
+   },
+   "started_at": "2026-10-09T21:01:16Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-09T21:01:26Z",
+   "result": {
+    "events": 1028,
+    "markets": 3378,
+    "ok": true
+   },
+   "started_at": "2026-10-09T21:01:24Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 2703,
+   "errors": [],
+   "finished_at": "2026-10-09T21:48:14Z",
+   "http_requests": 10694,
+   "incomplete": [
+    {
+     "at": "2026-10-09T21:14:13Z",
+     "market_id": "587219",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:20:16Z",
+     "market_id": "572495",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:20:24Z",
+     "market_id": "572496",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:20:31Z",
+     "market_id": "572497",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:20:39Z",
+     "market_id": "572498",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:20:47Z",
+     "market_id": "572499",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:20:55Z",
+     "market_id": "572500",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:21:02Z",
+     "market_id": "572501",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:21:11Z",
+     "market_id": "572502",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:21:18Z",
+     "market_id": "572503",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:21:26Z",
+     "market_id": "572504",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:21:34Z",
+     "market_id": "572505",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:21:50Z",
+     "market_id": "572507",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:24Z",
+     "market_id": "1500769",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:30Z",
+     "market_id": "1500771",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:32Z",
+     "market_id": "1500772",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:35Z",
+     "market_id": "1500773",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:38Z",
+     "market_id": "1500774",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:41Z",
+     "market_id": "1500775",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:43Z",
+     "market_id": "1500776",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:46Z",
+     "market_id": "1500777",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:49Z",
+     "market_id": "1500778",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:52Z",
+     "market_id": "1500779",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:54Z",
+     "market_id": "1500780",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:57Z",
+     "market_id": "1500781",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:00Z",
+     "market_id": "1500782",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:03Z",
+     "market_id": "1500783",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:05Z",
+     "market_id": "1500784",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:08Z",
+     "market_id": "1500785",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:11Z",
+     "market_id": "1500786",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:14Z",
+     "market_id": "1500787",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:17Z",
+     "market_id": "1500788",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:19Z",
+     "market_id": "1500789",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:22Z",
+     "market_id": "1500790",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:25Z",
+     "market_id": "1500791",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:28Z",
+     "market_id": "1500792",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:30Z",
+     "market_id": "1500793",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:33Z",
+     "market_id": "1500794",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:36Z",
+     "market_id": "1500795",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:27:43Z",
+     "market_id": "538305",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:27:52Z",
+     "market_id": "538306",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:28:01Z",
+     "market_id": "538307",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:36:44Z",
+     "market_id": "240900",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:36:45Z",
+     "market_id": "240901",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:36:46Z",
+     "market_id": "240902",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:43:45Z",
+     "market_id": "240402",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:43:46Z",
+     "market_id": "240403",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:43:47Z",
+     "market_id": "240404",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:43:48Z",
+     "market_id": "240405",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:43:49Z",
+     "market_id": "240406",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:46:56Z",
+     "market_id": "240411",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:47:00Z",
+     "market_id": "240410",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:47:04Z",
+     "market_id": "240409",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:47:08Z",
+     "market_id": "240408",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:47:12Z",
+     "market_id": "240407",
+     "reason": "empty_history"
+    }
+   ],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 1223,
+    "queue": 1345,
+    "remaining": 122
+   },
+   "started_at": "2026-10-09T21:03:11Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 20,
+   "finished_at": "2026-10-09T21:48:34Z",
+   "result": {
+    "markets": 2485,
+    "scored_units": 339,
+    "units": 410
+   },
+   "started_at": "2026-10-09T21:48:14Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-09T21:48:36Z",
+   "result": {
+    "events": 1028,
+    "markets": 3378,
+    "ok": true
+   },
+   "started_at": "2026-10-09T21:48:34Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 280,
+   "errors": [],
+   "finished_at": "2026-10-10T06:06:13Z",
+   "http_requests": 983,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 900,
+    "events_refreshed": 302,
+    "histories_updated": 419,
+    "markets_tracked": 3378,
+    "snapshots_written": 413
+   },
+   "started_at": "2026-10-10T06:01:33Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 11,
+   "finished_at": "2026-10-10T06:06:24Z",
+   "result": {
+    "markets": 2485,
+    "scored_units": 339,
+    "units": 410
+   },
+   "started_at": "2026-10-10T06:06:13Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 1,
+   "finished_at": "2026-10-10T06:06:25Z",
+   "result": {
+    "events": 1028,
+    "markets": 3378,
+    "ok": true
+   },
+   "started_at": "2026-10-10T06:06:24Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 261,
+   "errors": [],
+   "finished_at": "2026-10-10T12:46:30Z",
+   "http_requests": 980,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 900,
+    "events_refreshed": 302,
+    "histories_updated": 416,
+    "markets_tracked": 3378,
+    "snapshots_written": 410
+   },
+   "started_at": "2026-10-10T12:42:09Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 21,
+   "finished_at": "2026-10-10T12:46:51Z",
+   "result": {
+    "markets": 2485,
+    "scored_units": 339,
+    "units": 410
+   },
+   "started_at": "2026-10-10T12:46:30Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-10T12:46:53Z",
+   "result": {
+    "events": 1028,
+    "markets": 3378,
+    "ok": true
+   },
+   "started_at": "2026-10-10T12:46:51Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 1035,
+   "errors": [],
+   "finished_at": "2026-10-10T14:16:09Z",
+   "http_requests": 3474,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 277,
+    "events_frozen": 251,
+    "histories_fetched": 413
+   },
+   "started_at": "2026-10-10T13:58:54Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 81,
+   "errors": [],
+   "finished_at": "2026-10-10T14:17:30Z",
+   "http_requests": 271,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 93,
+    "queue": 93,
+    "remaining": 0
+   },
+   "started_at": "2026-10-10T14:16:09Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 21,
+   "finished_at": "2026-10-10T14:17:51Z",
+   "result": {
+    "markets": 2485,
+    "scored_units": 347,
+    "units": 410
+   },
+   "started_at": "2026-10-10T14:17:30Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-10T14:17:53Z",
+   "result": {
+    "events": 1028,
+    "markets": 3378,
+    "ok": true
+   },
+   "started_at": "2026-10-10T14:17:51Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 264,
+   "errors": [],
+   "finished_at": "2026-10-10T21:55:30Z",
+   "http_requests": 937,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 900,
+    "events_refreshed": 93,
+    "histories_updated": 416,
+    "markets_tracked": 3378,
+    "snapshots_written": 410
+   },
+   "started_at": "2026-10-10T21:51:06Z",
+   "status": "ok"
+  }
+ ],
+ "rules_version": "1.2.0",
+ "storage": {
+  "bytes": 94565850,
+  "files": 3388
+ }
+}

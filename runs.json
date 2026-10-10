@@ -1,0 +1,2894 @@
+{
+ "last_success": {
+  "analyze": "2026-10-10T21:55:47Z",
+  "backfill": "2026-10-10T14:17:30Z",
+  "check": "2026-10-10T21:55:49Z",
+  "discover": "2026-10-10T21:55:30Z",
+  "resolve": "2026-10-10T14:16:09Z"
+ },
+ "runs": [
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 387,
+   "errors": [
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=31533983657364405092415433751326682674533601540638988423139191240586955307958&startTs=1771609197&endTs=1774201197&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "1400258",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=17365858559759866185066837829096102636299767733086542595201300752800071581078&startTs=1771609198&endTs=1774201198&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "1400261",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=63407140572919560496764154946967793993007037295109022149962065427711670878078&startTs=1733963478&endTs=1736555478&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "515453",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=86397696856178858661145661106074359141932006150890973339262963982913258327424&startTs=1733963517&endTs=1736555517&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "515455",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=61169955136966391731580902029892929149552440070875694685590025129448406022766&startTs=1733963573&endTs=1736555573&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "515457",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=70894391723024504184734681621229664509933567806609206729213425950987961775125&startTs=1733963603&endTs=1736555603&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "515458",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=88828340023176219424717377944342771320042273571231470951893018643390629888873&startTs=1733963629&endTs=1736555629&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "515459",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=97535889187276528201430703952573760716362652794791901364092420156418803342584&startTs=1733963693&endTs=1736555693&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "515460",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=34398456772429790723130341364329488219787303972048906392412163811041695232428&startTs=1754064283&endTs=1756656283&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "570387",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=76181761435606967104064807658912580169889216278258540370130540643040670512417&startTs=1754414917&endTs=1757006917&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "572490",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=37141389910959467657164398415026683226815530914847879070130237529334473914141&startTs=1754414921&endTs=1757006921&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "572493",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=46391709883090436399800187914136191670968249668963436514622226022439262771550&startTs=1761922231&endTs=1764514231&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "658189",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=113430902543967068530191671900129325970850683180744242829041245137877405722821&startTs=1761922233&endTs=1764514233&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "658193",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=71289446763992111613691084348693242956300878457178095407290110697241649145079&startTs=1765478541&endTs=1768070541&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915358",
+     "where": "prices_history"
+    }
+   ],
+   "finished_at": "2026-10-09T19:41:28Z",
+   "http_requests": 1314,
+   "incomplete": [
+    {
+     "at": "2026-10-09T19:39:26Z",
+     "market_id": "1400258",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:39:27Z",
+     "market_id": "1400261",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:40:34Z",
+     "market_id": "515453",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:40:35Z",
+     "market_id": "515455",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:40:35Z",
+     "market_id": "515457",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:40:36Z",
+     "market_id": "515458",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:40:36Z",
+     "market_id": "515459",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:40:37Z",
+     "market_id": "515460",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:10Z",
+     "market_id": "570387",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:10Z",
+     "market_id": "572490",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:11Z",
+     "market_id": "572493",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:15Z",
+     "market_id": "658189",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:15Z",
+     "market_id": "658193",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:28Z",
+     "market_id": "915358",
+     "reason": "history_fetch_failed"
+    }
+   ],
+   "n_errors": 14,
+   "result": {
+    "candidate_events": 1026,
+    "events_refreshed": 1026,
+    "histories_updated": 564,
+    "markets_tracked": 3361,
+    "snapshots_written": 571
+   },
+   "started_at": "2026-10-09T19:35:01Z",
+   "status": "partial"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 1667,
+   "errors": [
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=58184635921701189247003093227299685506096071318949156071886025621417736753118&startTs=1765234137&endTs=1767225600&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "898157",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=97096867818443035903034754988462815062031529438411423419311569171727062403843&startTs=1765234138&endTs=1767826138&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "898158",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=80356668857441368118108132832730890073741532249823143975204879916422400139391&startTs=1765234137&endTs=1767826137&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "898160",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=66410765135160915376124046986241081497451635207255295727450487710647443755656&startTs=1765234135&endTs=1767826135&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "898162",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=36764945907811066327215635533184432572948986091337191322769360341276999457940&startTs=1767300899&endTs=1768721744&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "1083341",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=80008014025296677859920829476639341785820697424124805347618728999642819187991&startTs=1712168094&endTs=1714564800&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "500357",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=106069101498679413374977045562974413976756527245227090310649786199626426823943&startTs=1712168091&endTs=1714564800&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "500358",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=115747801363178125935864813183081177465824595640832734323974616842434316157020&startTs=1712168087&endTs=1714564800&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "500359",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=19667768821035752473896311318796357210685218881506909594946157304598352119125&startTs=1712168083&endTs=1714564800&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "500360",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=72907698574398759260431815899238676550888936370587241192708647482482617481574&startTs=1765307917&endTs=1767899917&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "902253",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=39294041408649228622519512077753603170881777376666450205420345684489133182896&startTs=1765307915&endTs=1767899915&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "902255",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=6510652978315860108097081410753117787005659098757142167154901287093973786429&startTs=1765307917&endTs=1767899917&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "902258",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=114389892276986777390169622876961681188287073097366356920997884668934368218912&startTs=1765307918&endTs=1767899918&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "902260",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=84611466579628440503621590191300313871167455766626696912207340296631600913685&startTs=1765307919&endTs=1767899919&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "902263",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=65176599937650721299696179144517618396201227982573075840784084320548883939839&startTs=1765307919&endTs=1767899919&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "902265",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=110884561568299698460551977852169332756450294345019257864587852438060900499251&startTs=1765403156&endTs=1767995156&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "906972",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=65193234666628291664907888364936366210889305490897648116746073820519263548476&startTs=1765403158&endTs=1767995158&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "906973",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=30767812841387255642892182147223249245545002662653079696958384408588201824258&startTs=1765403158&endTs=1767995158&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "906974",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=54688507565884542490190759171719899637342914252863057837926715255559077706253&startTs=1765403158&endTs=1767995158&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "906975",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=11019686559003253359318459636510036787281809199165975947920974072245914352862&startTs=1765403159&endTs=1767995159&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "906976",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=7199924557536673982836049841538041571403060582795466550710959952259572350257&startTs=1722827274&endTs=1725419274&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "500741",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=65274716106019413477699286898597114333839778130128946729895218330790368634313&startTs=1765478534&endTs=1768070534&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915352",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=107539202340877119230010175790002442498773430172567215078577650514491829704739&startTs=1765478541&endTs=1768070541&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915353",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=70330289910289482947500552329239631243217743405989566235363009559003186613185&startTs=1765478540&endTs=1768070540&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915354",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=88759231579811298230355316189804381120484418656658360515310785123085001585612&startTs=1765478539&endTs=1768070539&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915355",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=8799733384117270644308446836504786888077458680049108672041034422606772866692&startTs=1765478540&endTs=1768070540&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915356",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=73497428712381752316397316343508163824232370161920219559733101080600368627622&startTs=1765478538&endTs=1768070538&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915357",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=3993485953689119847892077779266048080001336174975184793891615959804633893598&startTs=1765478537&endTs=1768070537&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915359",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=17333608555525148610440248246008960181419650862484420147053406668551995476200&startTs=1765478537&endTs=1768070537&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915360",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=38627353865158916771246396301318018289882387507813520018568971784924051691204&startTs=1765478536&endTs=1768070536&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915361",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=26551857838106033209754434320738360616185143804560723280564657126292397390435&startTs=1765478541&endTs=1768070541&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915362",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=73478868706545332734890728556697922612475652037341291772964857055681237504414&startTs=1765478532&endTs=1768070532&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915363",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=107570815672572544432221760776796584235742149697940206543418246193749090047135&startTs=1765478533&endTs=1768070533&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915365",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=4967708257163681832448511864716346439221552679903650167604610921301534072085&startTs=1765478537&endTs=1768070537&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915366",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=41955250905616336079505580692418044494427044870370638704044691026769227681855&startTs=1765478540&endTs=1768070540&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915367",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=56793411412095439357142455872064748763875120848546174892494403125735293899689&startTs=1765478538&endTs=1768070538&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915368",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=62654250471469316786652005079288249381388557812858358424346614332813575512816&startTs=1765478775&endTs=1768070775&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915378",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=113369140136913812777925497644561662667789653912765877043929720445901767848122&startTs=1765499956&endTs=1768091956&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915373",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=75665317756971232401732022054678279748154632967705732846841215435558615055352&startTs=1765499957&endTs=1768091957&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915374",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=63149403073928211890844841868361708990331353150804831882114276975252031214656&startTs=1765499956&endTs=1768091956&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915375",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=111803189967461986329215432128898000701874058405628301712422758141213653452479&startTs=1765499958&endTs=1768091958&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915376",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=1582298976410585403069729422280265608038484032857579102122167925665102997608&startTs=1765499957&endTs=1768091957&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "915377",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=4710387347552575566338686261232494060372888688961038511801827850253280921100&startTs=1712795205&endTs=1715387205&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "500886",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=107044217179204375007391423171836736778333001654526073500109948457363605716489&startTs=1714067888&endTs=1716659888&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "501190",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=16160162678183802906926834431622542755005526732897653117362703552442922804175&startTs=1765848923&endTs=1768025712&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "933686",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=89750234381646931669416369937501332254736630734921313308756685151255125291752&startTs=1765848926&endTs=1768023638&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "933687",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=37335725030471502339387889812064885109825326173557583507883462841031015563308&startTs=1765848926&endTs=1768032152&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "933688",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=70026133604952923518512564183032108604494180230982792610397733580233231197012&startTs=1765848927&endTs=1768037806&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "933689",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=29889286704490854965091200559916354099798009984676569956800405738909181121986&startTs=1765848927&endTs=1768031614&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "933690",
+     "where": "prices_history"
+    },
+    {
+     "error": "400 https://clob.polymarket.com/prices-history?market=66222585166239054320720346633442531383866189204328948303317939590625533512213&startTs=1765848928&endTs=1768037928&fidelity=60: {\"error\":\"invalid filters: 'startTs' and 'endTs' interval is too long\"}\n",
+     "market_id": "933708",
+     "where": "prices_history"
+    }
+   ],
+   "finished_at": "2026-10-09T20:09:15Z",
+   "http_requests": 6287,
+   "incomplete": [
+    {
+     "at": "2026-10-09T19:41:29Z",
+     "market_id": "898157",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:29Z",
+     "market_id": "898158",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:30Z",
+     "market_id": "898160",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:30Z",
+     "market_id": "898162",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:31Z",
+     "market_id": "1083341",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:37Z",
+     "market_id": "500357",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:37Z",
+     "market_id": "500358",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:38Z",
+     "market_id": "500359",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:38Z",
+     "market_id": "500360",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:39Z",
+     "market_id": "902253",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:40Z",
+     "market_id": "902255",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:40Z",
+     "market_id": "902258",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:41Z",
+     "market_id": "902260",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:41Z",
+     "market_id": "902263",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:42Z",
+     "market_id": "902265",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:48Z",
+     "market_id": "906972",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:49Z",
+     "market_id": "906973",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:49Z",
+     "market_id": "906974",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:50Z",
+     "market_id": "906975",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:50Z",
+     "market_id": "906976",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:54Z",
+     "market_id": "500741",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:55Z",
+     "market_id": "915352",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:55Z",
+     "market_id": "915353",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:56Z",
+     "market_id": "915354",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:57Z",
+     "market_id": "915355",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:57Z",
+     "market_id": "915356",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:58Z",
+     "market_id": "915357",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:58Z",
+     "market_id": "915359",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:59Z",
+     "market_id": "915360",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:41:59Z",
+     "market_id": "915361",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:00Z",
+     "market_id": "915362",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:00Z",
+     "market_id": "915363",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:01Z",
+     "market_id": "915365",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:01Z",
+     "market_id": "915366",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:02Z",
+     "market_id": "915367",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:02Z",
+     "market_id": "915368",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:03Z",
+     "market_id": "915378",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:04Z",
+     "market_id": "915373",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:04Z",
+     "market_id": "915374",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:05Z",
+     "market_id": "915375",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:05Z",
+     "market_id": "915376",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:06Z",
+     "market_id": "915377",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:11Z",
+     "market_id": "500886",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:14Z",
+     "market_id": "501190",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:15Z",
+     "market_id": "933686",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:16Z",
+     "market_id": "933687",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:16Z",
+     "market_id": "933688",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:17Z",
+     "market_id": "933689",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:17Z",
+     "market_id": "933690",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:18Z",
+     "market_id": "933708",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:19Z",
+     "market_id": "933709",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:19Z",
+     "market_id": "933710",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:20Z",
+     "market_id": "933711",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:20Z",
+     "market_id": "933712",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:21Z",
+     "market_id": "501304",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:21Z",
+     "market_id": "501305",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:22Z",
+     "market_id": "501306",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:22Z",
+     "market_id": "501307",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:30Z",
+     "market_id": "501451",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:31Z",
+     "market_id": "944593",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:32Z",
+     "market_id": "944594",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:32Z",
+     "market_id": "944595",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:33Z",
+     "market_id": "944596",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:33Z",
+     "market_id": "944597",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:34Z",
+     "market_id": "944818",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:34Z",
+     "market_id": "944819",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:35Z",
+     "market_id": "944820",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:36Z",
+     "market_id": "944821",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:36Z",
+     "market_id": "944822",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:40Z",
+     "market_id": "948959",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:40Z",
+     "market_id": "948960",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:41Z",
+     "market_id": "948961",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:41Z",
+     "market_id": "948962",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:42Z",
+     "market_id": "948963",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:42Z",
+     "market_id": "948964",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:43Z",
+     "market_id": "948974",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:44Z",
+     "market_id": "948975",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:44Z",
+     "market_id": "948976",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:45Z",
+     "market_id": "948977",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:45Z",
+     "market_id": "948978",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:46Z",
+     "market_id": "948979",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:46Z",
+     "market_id": "948980",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:48Z",
+     "market_id": "949492",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:49Z",
+     "market_id": "949493",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:49Z",
+     "market_id": "949494",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:50Z",
+     "market_id": "949495",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:50Z",
+     "market_id": "1439536",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:51Z",
+     "market_id": "950061",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:52Z",
+     "market_id": "950062",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:52Z",
+     "market_id": "950063",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:53Z",
+     "market_id": "950064",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:53Z",
+     "market_id": "950065",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:54Z",
+     "market_id": "950066",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:54Z",
+     "market_id": "950067",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:55Z",
+     "market_id": "950068",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:55Z",
+     "market_id": "951184",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:56Z",
+     "market_id": "951185",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:42:59Z",
+     "market_id": "954704",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:00Z",
+     "market_id": "954705",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:00Z",
+     "market_id": "954706",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:01Z",
+     "market_id": "954707",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:01Z",
+     "market_id": "954708",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:02Z",
+     "market_id": "954709",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:03Z",
+     "market_id": "501790",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:04Z",
+     "market_id": "501849",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:05Z",
+     "market_id": "957793",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:06Z",
+     "market_id": "957794",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:06Z",
+     "market_id": "957795",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:07Z",
+     "market_id": "957796",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:08Z",
+     "market_id": "957797",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:08Z",
+     "market_id": "965244",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:09Z",
+     "market_id": "958240",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:09Z",
+     "market_id": "958245",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:10Z",
+     "market_id": "958247",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:10Z",
+     "market_id": "958251",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:11Z",
+     "market_id": "958253",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:11Z",
+     "market_id": "965257",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:12Z",
+     "market_id": "965259",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:13Z",
+     "market_id": "958458",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:13Z",
+     "market_id": "958459",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:14Z",
+     "market_id": "958460",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:14Z",
+     "market_id": "958461",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:15Z",
+     "market_id": "958462",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:15Z",
+     "market_id": "958463",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:16Z",
+     "market_id": "958476",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:17Z",
+     "market_id": "958477",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:17Z",
+     "market_id": "958478",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:18Z",
+     "market_id": "958479",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:18Z",
+     "market_id": "958480",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:24Z",
+     "market_id": "502384",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:24Z",
+     "market_id": "502385",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:25Z",
+     "market_id": "502386",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:25Z",
+     "market_id": "502387",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:26Z",
+     "market_id": "502388",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:28Z",
+     "market_id": "969645",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:28Z",
+     "market_id": "969646",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:29Z",
+     "market_id": "969647",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:29Z",
+     "market_id": "969648",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:30Z",
+     "market_id": "969649",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:31Z",
+     "market_id": "969660",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:31Z",
+     "market_id": "969661",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:32Z",
+     "market_id": "969662",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:32Z",
+     "market_id": "969663",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:33Z",
+     "market_id": "969664",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:37Z",
+     "market_id": "503047",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:41Z",
+     "market_id": "504069",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:41Z",
+     "market_id": "504070",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:42Z",
+     "market_id": "504071",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:42Z",
+     "market_id": "504072",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:44Z",
+     "market_id": "504270",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:46Z",
+     "market_id": "504465",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:47Z",
+     "market_id": "504490",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:47Z",
+     "market_id": "504491",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:48Z",
+     "market_id": "504492",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:48Z",
+     "market_id": "504493",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:49Z",
+     "market_id": "504494",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:50Z",
+     "market_id": "504553",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:50Z",
+     "market_id": "504561",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:51Z",
+     "market_id": "504563",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:52Z",
+     "market_id": "504571",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:53Z",
+     "market_id": "504584",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:53Z",
+     "market_id": "504585",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:54Z",
+     "market_id": "504586",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:54Z",
+     "market_id": "504587",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:55Z",
+     "market_id": "504588",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:55Z",
+     "market_id": "507419",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:58Z",
+     "market_id": "1003192",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:58Z",
+     "market_id": "1003193",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:59Z",
+     "market_id": "1003795",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:43:59Z",
+     "market_id": "1003797",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:00Z",
+     "market_id": "1004030",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:01Z",
+     "market_id": "1004031",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:02Z",
+     "market_id": "1004370",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:02Z",
+     "market_id": "1004371",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:03Z",
+     "market_id": "1006073",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:03Z",
+     "market_id": "1006074",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:04Z",
+     "market_id": "1006075",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:04Z",
+     "market_id": "1006076",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:05Z",
+     "market_id": "1006077",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:05Z",
+     "market_id": "1006078",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:06Z",
+     "market_id": "1006079",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:07Z",
+     "market_id": "505116",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:08Z",
+     "market_id": "505162",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:09Z",
+     "market_id": "505366",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:14Z",
+     "market_id": "506931",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:16Z",
+     "market_id": "507262",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:18Z",
+     "market_id": "508169",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:21Z",
+     "market_id": "509238",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:21Z",
+     "market_id": "509239",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:22Z",
+     "market_id": "509240",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:22Z",
+     "market_id": "509241",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:23Z",
+     "market_id": "509242",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:23Z",
+     "market_id": "509243",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:26Z",
+     "market_id": "509571",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:30Z",
+     "market_id": "1087498",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:38Z",
+     "market_id": "1089448",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:38Z",
+     "market_id": "1089449",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:39Z",
+     "market_id": "1089450",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:39Z",
+     "market_id": "1089451",
+     "reason": "history_fetch_failed"
+    },
+    {
+     "at": "2026-10-09T19:44:40Z",
+     "market_id": "1089452",
+     "reason": "history_fetch_failed"
+    }
+   ],
+   "n_errors": 1747,
+   "result": {
+    "events_checked": 954,
+    "events_frozen": 593,
+    "histories_fetched": 1036
+   },
+   "started_at": "2026-10-09T19:41:28Z",
+   "status": "partial"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 11,
+   "finished_at": "2026-10-09T20:09:26Z",
+   "result": {
+    "markets": 3361,
+    "scored_units": 577,
+    "units": 1021
+   },
+   "started_at": "2026-10-09T20:09:15Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 0,
+   "finished_at": "2026-10-09T20:09:26Z",
+   "result": {
+    "events": 1026,
+    "markets": 3361,
+    "ok": true
+   },
+   "started_at": "2026-10-09T20:09:26Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 1697,
+   "errors": [],
+   "finished_at": "2026-10-09T20:42:52Z",
+   "http_requests": 6699,
+   "incomplete": [
+    {
+     "at": "2026-10-09T20:28:52Z",
+     "market_id": "515453",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T20:28:59Z",
+     "market_id": "515455",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T20:29:07Z",
+     "market_id": "515457",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T20:29:14Z",
+     "market_id": "515458",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T20:29:21Z",
+     "market_id": "515459",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T20:29:28Z",
+     "market_id": "515460",
+     "reason": "empty_history"
+    }
+   ],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 900,
+    "events_refreshed": 370,
+    "histories_updated": 419,
+    "markets_tracked": 3378,
+    "snapshots_written": 413
+   },
+   "started_at": "2026-10-09T20:14:35Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 1103,
+   "errors": [],
+   "finished_at": "2026-10-09T21:01:15Z",
+   "http_requests": 4266,
+   "incomplete": [
+    {
+     "at": "2026-10-09T20:53:49Z",
+     "market_id": "515454",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T20:53:56Z",
+     "market_id": "515456",
+     "reason": "empty_history"
+    },
+    {
+     "market_id": "1185716",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1185717",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1185718",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1185719",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1185720",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1185721",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1185722",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1190133",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518326",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518327",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518328",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518329",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518330",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518331",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518357",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518358",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518359",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518360",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518699",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518792",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518793",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518796",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "518901",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "519322",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "519776",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "519777",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "519778",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "519784",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "520930",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521301",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521318",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521319",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521320",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521321",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521322",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521323",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521324",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521325",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521326",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521327",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521328",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521329",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521330",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521331",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521332",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521333",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521334",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1227346",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1227347",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1227348",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1227349",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1227350",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1227351",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1227352",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521834",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521835",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521836",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "521837",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522145",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522146",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522147",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522148",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522149",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522150",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522182",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522183",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522184",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522185",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522186",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522188",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522189",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522190",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522191",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522192",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522440",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522441",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522442",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522443",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522444",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522445",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522446",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522447",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522448",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522449",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "522450",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1269103",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1269104",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1269105",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1269106",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1269107",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1269108",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287650",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287651",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287652",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287653",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287654",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287655",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287656",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287863",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287864",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287865",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287866",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1287867",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1288243",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1288244",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1288245",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1288246",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1288247",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1288248",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1288249",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1288250",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1288251",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1293514",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1293515",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1299973",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1992898",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1300296",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1320806",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1300842",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1300843",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1300844",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1300845",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1300846",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1300847",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1300848",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1301006",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1301007",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1301011",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1301013",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1301014",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1301017",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1301019",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1301997",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "525219",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "525220",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "525221",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "525222",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "525223",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "525224",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "637896",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "637897",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "637898",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "637899",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1323418",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1323419",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1323420",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1323421",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1323422",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1323423",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1323424",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1329877",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1329878",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1329879",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1329880",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1329881",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1329882",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1329883",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1356892",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1356893",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1356894",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1356895",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1356896",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1356897",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1356898",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526831",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526832",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526833",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526834",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526835",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526836",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526837",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1359764",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1359765",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1359766",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1359767",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1359768",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1359769",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1359770",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360467",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360468",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360469",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360470",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360471",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360472",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360473",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360616",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360617",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1360618",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526911",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526936",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "526939",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1366274",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1366275",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1366276",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1366277",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1366278",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1366279",
+     "reason": "deferred_time_budget"
+    },
+    {
+     "market_id": "1366280",
+     "reason": "deferred_time_budget"
+    }
+   ],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 363,
+    "events_frozen": 88,
+    "histories_fetched": 350
+   },
+   "started_at": "2026-10-09T20:42:52Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 1,
+   "errors": [],
+   "finished_at": "2026-10-09T21:01:16Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 1345,
+    "remaining": 1345
+   },
+   "started_at": "2026-10-09T21:01:15Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 8,
+   "finished_at": "2026-10-09T21:01:24Z",
+   "result": {
+    "markets": 2485,
+    "scored_units": 141,
+    "units": 410
+   },
+   "started_at": "2026-10-09T21:01:16Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-09T21:01:26Z",
+   "result": {
+    "events": 1028,
+    "markets": 3378,
+    "ok": true
+   },
+   "started_at": "2026-10-09T21:01:24Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 2703,
+   "errors": [],
+   "finished_at": "2026-10-09T21:48:14Z",
+   "http_requests": 10694,
+   "incomplete": [
+    {
+     "at": "2026-10-09T21:14:13Z",
+     "market_id": "587219",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:20:16Z",
+     "market_id": "572495",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:20:24Z",
+     "market_id": "572496",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:20:31Z",
+     "market_id": "572497",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:20:39Z",
+     "market_id": "572498",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:20:47Z",
+     "market_id": "572499",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:20:55Z",
+     "market_id": "572500",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:21:02Z",
+     "market_id": "572501",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:21:11Z",
+     "market_id": "572502",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:21:18Z",
+     "market_id": "572503",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:21:26Z",
+     "market_id": "572504",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:21:34Z",
+     "market_id": "572505",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:21:50Z",
+     "market_id": "572507",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:24Z",
+     "market_id": "1500769",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:30Z",
+     "market_id": "1500771",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:32Z",
+     "market_id": "1500772",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:35Z",
+     "market_id": "1500773",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:38Z",
+     "market_id": "1500774",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:41Z",
+     "market_id": "1500775",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:43Z",
+     "market_id": "1500776",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:46Z",
+     "market_id": "1500777",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:49Z",
+     "market_id": "1500778",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:52Z",
+     "market_id": "1500779",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:54Z",
+     "market_id": "1500780",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:22:57Z",
+     "market_id": "1500781",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:00Z",
+     "market_id": "1500782",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:03Z",
+     "market_id": "1500783",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:05Z",
+     "market_id": "1500784",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:08Z",
+     "market_id": "1500785",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:11Z",
+     "market_id": "1500786",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:14Z",
+     "market_id": "1500787",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:17Z",
+     "market_id": "1500788",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:19Z",
+     "market_id": "1500789",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:22Z",
+     "market_id": "1500790",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:25Z",
+     "market_id": "1500791",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:28Z",
+     "market_id": "1500792",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:30Z",
+     "market_id": "1500793",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:33Z",
+     "market_id": "1500794",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:23:36Z",
+     "market_id": "1500795",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:27:43Z",
+     "market_id": "538305",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:27:52Z",
+     "market_id": "538306",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:28:01Z",
+     "market_id": "538307",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:36:44Z",
+     "market_id": "240900",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:36:45Z",
+     "market_id": "240901",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:36:46Z",
+     "market_id": "240902",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:43:45Z",
+     "market_id": "240402",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:43:46Z",
+     "market_id": "240403",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:43:47Z",
+     "market_id": "240404",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:43:48Z",
+     "market_id": "240405",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:43:49Z",
+     "market_id": "240406",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:46:56Z",
+     "market_id": "240411",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:47:00Z",
+     "market_id": "240410",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:47:04Z",
+     "market_id": "240409",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:47:08Z",
+     "market_id": "240408",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-09T21:47:12Z",
+     "market_id": "240407",
+     "reason": "empty_history"
+    }
+   ],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 1223,
+    "queue": 1345,
+    "remaining": 122
+   },
+   "started_at": "2026-10-09T21:03:11Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 20,
+   "finished_at": "2026-10-09T21:48:34Z",
+   "result": {
+    "markets": 2485,
+    "scored_units": 339,
+    "units": 410
+   },
+   "started_at": "2026-10-09T21:48:14Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-09T21:48:36Z",
+   "result": {
+    "events": 1028,
+    "markets": 3378,
+    "ok": true
+   },
+   "started_at": "2026-10-09T21:48:34Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 280,
+   "errors": [],
+   "finished_at": "2026-10-10T06:06:13Z",
+   "http_requests": 983,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 900,
+    "events_refreshed": 302,
+    "histories_updated": 419,
+    "markets_tracked": 3378,
+    "snapshots_written": 413
+   },
+   "started_at": "2026-10-10T06:01:33Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 11,
+   "finished_at": "2026-10-10T06:06:24Z",
+   "result": {
+    "markets": 2485,
+    "scored_units": 339,
+    "units": 410
+   },
+   "started_at": "2026-10-10T06:06:13Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 1,
+   "finished_at": "2026-10-10T06:06:25Z",
+   "result": {
+    "events": 1028,
+    "markets": 3378,
+    "ok": true
+   },
+   "started_at": "2026-10-10T06:06:24Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 261,
+   "errors": [],
+   "finished_at": "2026-10-10T12:46:30Z",
+   "http_requests": 980,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 900,
+    "events_refreshed": 302,
+    "histories_updated": 416,
+    "markets_tracked": 3378,
+    "snapshots_written": 410
+   },
+   "started_at": "2026-10-10T12:42:09Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 21,
+   "finished_at": "2026-10-10T12:46:51Z",
+   "result": {
+    "markets": 2485,
+    "scored_units": 339,
+    "units": 410
+   },
+   "started_at": "2026-10-10T12:46:30Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-10T12:46:53Z",
+   "result": {
+    "events": 1028,
+    "markets": 3378,
+    "ok": true
+   },
+   "started_at": "2026-10-10T12:46:51Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 1035,
+   "errors": [],
+   "finished_at": "2026-10-10T14:16:09Z",
+   "http_requests": 3474,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 277,
+    "events_frozen": 251,
+    "histories_fetched": 413
+   },
+   "started_at": "2026-10-10T13:58:54Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 81,
+   "errors": [],
+   "finished_at": "2026-10-10T14:17:30Z",
+   "http_requests": 271,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 93,
+    "queue": 93,
+    "remaining": 0
+   },
+   "started_at": "2026-10-10T14:16:09Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 21,
+   "finished_at": "2026-10-10T14:17:51Z",
+   "result": {
+    "markets": 2485,
+    "scored_units": 347,
+    "units": 410
+   },
+   "started_at": "2026-10-10T14:17:30Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-10T14:17:53Z",
+   "result": {
+    "events": 1028,
+    "markets": 3378,
+    "ok": true
+   },
+   "started_at": "2026-10-10T14:17:51Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 264,
+   "errors": [],
+   "finished_at": "2026-10-10T21:55:30Z",
+   "http_requests": 937,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 900,
+    "events_refreshed": 93,
+    "histories_updated": 416,
+    "markets_tracked": 3378,
+    "snapshots_written": 410
+   },
+   "started_at": "2026-10-10T21:51:06Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 17,
+   "finished_at": "2026-10-10T21:55:47Z",
+   "result": {
+    "markets": 2485,
+    "scored_units": 347,
+    "units": 410
+   },
+   "started_at": "2026-10-10T21:55:30Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-10T21:55:49Z",
+   "result": {
+    "events": 1028,
+    "markets": 3378,
+    "ok": true
+   },
+   "started_at": "2026-10-10T21:55:47Z",
+   "status": "ok"
+  }
+ ]
+}
