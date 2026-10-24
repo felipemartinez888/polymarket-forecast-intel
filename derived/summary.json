@@ -1,0 +1,2627 @@
+{
+ "awaiting_resolution": [
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.495,
+   "end_ts": 1792792800,
+   "event_id": "1229189",
+   "event_title": "Bitcoin ETF Flows on October 23?",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": null,
+   "market_id": "6009029",
+   "quality": null,
+   "question": "Bitcoin ETF Flows on October 23?",
+   "relevance": "low",
+   "status": "unresolved",
+   "subcategory": "etf_flows",
+   "url": "https://polymarket.com/event/bitcoin-etf-flows-on-october-23-2026",
+   "volume": 44.2,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.5,
+   "end_ts": 1792792800,
+   "event_id": "1229191",
+   "event_title": "Ethereum ETF Flows on October 23?",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": null,
+   "market_id": "6009031",
+   "quality": null,
+   "question": "Ethereum ETF Flows on October 23?",
+   "relevance": "low",
+   "status": "unresolved",
+   "subcategory": "etf_flows",
+   "url": "https://polymarket.com/event/ethereum-etf-flows-on-october-23-2026",
+   "volume": null,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.53,
+   "end_ts": 1774915200,
+   "event_id": "218007",
+   "event_title": "Judy Shelton Fed Chair Nomination Odds above ___  by March 31?",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": ">5%",
+   "market_id": "1400258",
+   "quality": null,
+   "question": "Judy Shelton Fed Chair Nomination Odds >5% by March 31?",
+   "relevance": "high",
+   "status": "unresolved",
+   "subcategory": "rate_path",
+   "url": "https://polymarket.com/event/judy-shelton-fed-chair-nomination-odds-above-by-march-31",
+   "volume": null,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.195,
+   "end_ts": 1774915200,
+   "event_id": "218007",
+   "event_title": "Judy Shelton Fed Chair Nomination Odds above ___  by March 31?",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": ">10%",
+   "market_id": "1400261",
+   "quality": null,
+   "question": "Judy Shelton Fed Chair Nomination Odds >10% by March 31?",
+   "relevance": "high",
+   "status": "unresolved",
+   "subcategory": "rate_path",
+   "url": "https://polymarket.com/event/judy-shelton-fed-chair-nomination-odds-above-by-march-31",
+   "volume": null,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1751284800,
+   "event_id": "15398",
+   "event_title": "Who will Trump announce as next Fed Chair before July?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path",
+    "no_price_history"
+   ],
+   "group_item_title": "Person A",
+   "market_id": "515453",
+   "quality": null,
+   "question": "Will Trump announce Person A as next Fed Chair?",
+   "relevance": "high",
+   "status": "unresolved",
+   "subcategory": "leadership",
+   "url": "https://polymarket.com/event/who-will-trump-announce-as-next-fed-chair-before-july",
+   "volume": 0.0,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1751284800,
+   "event_id": "15398",
+   "event_title": "Who will Trump announce as next Fed Chair before July?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path",
+    "no_price_history"
+   ],
+   "group_item_title": "Person C",
+   "market_id": "515455",
+   "quality": null,
+   "question": "Will Trump announce Person C as next Fed Chair?",
+   "relevance": "high",
+   "status": "unresolved",
+   "subcategory": "leadership",
+   "url": "https://polymarket.com/event/who-will-trump-announce-as-next-fed-chair-before-july",
+   "volume": 0.0,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1751284800,
+   "event_id": "15398",
+   "event_title": "Who will Trump announce as next Fed Chair before July?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path",
+    "no_price_history"
+   ],
+   "group_item_title": "Person E",
+   "market_id": "515457",
+   "quality": null,
+   "question": "Will Trump announce Person E as next Fed Chair?",
+   "relevance": "high",
+   "status": "unresolved",
+   "subcategory": "leadership",
+   "url": "https://polymarket.com/event/who-will-trump-announce-as-next-fed-chair-before-july",
+   "volume": 0.0,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1751284800,
+   "event_id": "15398",
+   "event_title": "Who will Trump announce as next Fed Chair before July?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path",
+    "no_price_history"
+   ],
+   "group_item_title": "Person F",
+   "market_id": "515458",
+   "quality": null,
+   "question": "Will Trump announce Person F as next Fed Chair?",
+   "relevance": "high",
+   "status": "unresolved",
+   "subcategory": "leadership",
+   "url": "https://polymarket.com/event/who-will-trump-announce-as-next-fed-chair-before-july",
+   "volume": 0.0,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1751284800,
+   "event_id": "15398",
+   "event_title": "Who will Trump announce as next Fed Chair before July?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path",
+    "no_price_history"
+   ],
+   "group_item_title": null,
+   "market_id": "515459",
+   "quality": null,
+   "question": "Will Trump announce Person G as next Fed Chair?",
+   "relevance": "high",
+   "status": "unresolved",
+   "subcategory": "leadership",
+   "url": "https://polymarket.com/event/who-will-trump-announce-as-next-fed-chair-before-july",
+   "volume": 0.0,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1751284800,
+   "event_id": "15398",
+   "event_title": "Who will Trump announce as next Fed Chair before July?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path",
+    "no_price_history"
+   ],
+   "group_item_title": "Other",
+   "market_id": "515460",
+   "quality": null,
+   "question": "Will Trump announce someone else as next Fed Chair?",
+   "relevance": "high",
+   "status": "unresolved",
+   "subcategory": "leadership",
+   "url": "https://polymarket.com/event/who-will-trump-announce-as-next-fed-chair-before-july",
+   "volume": 0.0,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1709596800,
+   "event_id": "903390",
+   "event_title": "How many Jobs added in February?",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "<200k",
+   "market_id": "254273",
+   "quality": null,
+   "question": "Will US gain less than 200k jobs in February?",
+   "relevance": "medium",
+   "status": "proposed",
+   "subcategory": "nonfarm_payrolls",
+   "url": "https://polymarket.com/event/how-many-jobs-added-in-february",
+   "volume": 18151.23,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1709596800,
+   "event_id": "903390",
+   "event_title": "How many Jobs added in February?",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "200k-250k",
+   "market_id": "254274",
+   "quality": null,
+   "question": "Will US gain 200k-250k jobs in February?",
+   "relevance": "medium",
+   "status": "proposed",
+   "subcategory": "nonfarm_payrolls",
+   "url": "https://polymarket.com/event/how-many-jobs-added-in-february",
+   "volume": 14648.41,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1709596800,
+   "event_id": "903390",
+   "event_title": "How many Jobs added in February?",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "250k-300k",
+   "market_id": "254275",
+   "quality": null,
+   "question": "Will US gain 250k-300k jobs in February?",
+   "relevance": "medium",
+   "status": "proposed",
+   "subcategory": "nonfarm_payrolls",
+   "url": "https://polymarket.com/event/how-many-jobs-added-in-february",
+   "volume": 10104.67,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1709596800,
+   "event_id": "903390",
+   "event_title": "How many Jobs added in February?",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "300k-353k",
+   "market_id": "254276",
+   "quality": null,
+   "question": "Will US gain 300k-353k jobs in February?",
+   "relevance": "medium",
+   "status": "proposed",
+   "subcategory": "nonfarm_payrolls",
+   "url": "https://polymarket.com/event/how-many-jobs-added-in-february",
+   "volume": 15173.16,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1709596800,
+   "event_id": "903390",
+   "event_title": "How many Jobs added in February?",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": ">353k (January #)",
+   "market_id": "254277",
+   "quality": null,
+   "question": "Will US gain more than 353k jobs in February?",
+   "relevance": "medium",
+   "status": "proposed",
+   "subcategory": "nonfarm_payrolls",
+   "url": "https://polymarket.com/event/how-many-jobs-added-in-february",
+   "volume": 24821.01,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1705622400,
+   "event_id": "903230",
+   "event_title": "Bitcoin ETFs first week combined AUM",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": "<$10b",
+   "market_id": "253778",
+   "quality": null,
+   "question": "BTC ETFs first week combined AUM under $10 billion?",
+   "relevance": "low",
+   "status": "proposed",
+   "subcategory": "price_direction",
+   "url": "https://polymarket.com/event/bitcoin-etfs-first-week-combined-aum",
+   "volume": 604171.53,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1705622400,
+   "event_id": "903230",
+   "event_title": "Bitcoin ETFs first week combined AUM",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": "$10-30b",
+   "market_id": "253779",
+   "quality": null,
+   "question": "BTC ETFs first week combined AUM between $10-30 billion?",
+   "relevance": "low",
+   "status": "proposed",
+   "subcategory": "price_direction",
+   "url": "https://polymarket.com/event/bitcoin-etfs-first-week-combined-aum",
+   "volume": 149306.39,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1705622400,
+   "event_id": "903230",
+   "event_title": "Bitcoin ETFs first week combined AUM",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": "$30-60b",
+   "market_id": "253782",
+   "quality": null,
+   "question": "BTC ETFs first week combined AUM between $30-60 billion?",
+   "relevance": "low",
+   "status": "proposed",
+   "subcategory": "price_direction",
+   "url": "https://polymarket.com/event/bitcoin-etfs-first-week-combined-aum",
+   "volume": 109277.68,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1705622400,
+   "event_id": "903230",
+   "event_title": "Bitcoin ETFs first week combined AUM",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": ">$60b",
+   "market_id": "253783",
+   "quality": null,
+   "question": "BTC ETFs first week combined AUM over $60 billion?",
+   "relevance": "low",
+   "status": "proposed",
+   "subcategory": "price_direction",
+   "url": "https://polymarket.com/event/bitcoin-etfs-first-week-combined-aum",
+   "volume": 154511.21,
+   "winner": null
+  }
+ ],
+ "by_category_final": {
+  "crypto_events": {
+   "binary_set": {
+    "bss_vs_base_rate": 0.9805458292500236,
+    "bss_vs_base_rate_ci95": [
+     0.964143065482676,
+     0.9932979426247721
+    ],
+    "bss_vs_uniform": 0.9776695833333333,
+    "bss_vs_uniform_ci95": [
+     0.9640595833333333,
+     0.9908731666666667
+    ],
+    "ci95": [
+     0.002290395833333334,
+     0.008985895833333334
+    ],
+    "mean_brier": 0.005582604166666667,
+    "mean_brier_base_rate": 0.2869618159732386,
+    "n_events": 12
+   },
+   "multiclass": {
+    "bss_vs_uniform": null,
+    "bss_vs_uniform_ci95": null,
+    "ci95": null,
+    "mean_brier": null,
+    "n_events": 0
+   },
+   "n_events": 12,
+   "pooled_bss_vs_uniform": 0.9776695833333333
+  },
+  "crypto_regulation": {
+   "binary_set": {
+    "bss_vs_base_rate": 0.9715402916649377,
+    "bss_vs_base_rate_ci95": [
+     0.9344812857439351,
+     0.9932281185805248
+    ],
+    "bss_vs_uniform": 0.9761048125,
+    "bss_vs_uniform_ci95": [
+     0.946620875,
+     0.9947259375
+    ],
+    "ci95": [
+     0.0013198854166666663,
+     0.013415494791666666
+    ],
+    "mean_brier": 0.0059737968749999995,
+    "mean_brier_base_rate": 0.209903657643613,
+    "n_events": 16
+   },
+   "multiclass": {
+    "bss_vs_uniform": null,
+    "bss_vs_uniform_ci95": null,
+    "ci95": null,
+    "mean_brier": null,
+    "n_events": 0
+   },
+   "n_events": 16,
+   "pooled_bss_vs_uniform": 0.9761048125
+  },
+  "fed": {
+   "binary_set": {
+    "bss_vs_base_rate": 0.8433336714905515,
+    "bss_vs_base_rate_ci95": [
+     0.6945234618658735,
+     0.9472039494914639
+    ],
+    "bss_vs_uniform": 0.8644803382157926,
+    "bss_vs_uniform_ci95": [
+     0.7389151672393008,
+     0.9568201255575648
+    ],
+    "ci95": [
+     0.01080660172543701,
+     0.06559972526371308
+    ],
+    "mean_brier": 0.03387991544605184,
+    "mean_brier_base_rate": 0.21625524621909128,
+    "n_events": 79
+   },
+   "multiclass": {
+    "bss_vs_uniform": 0.6815570988519936,
+    "bss_vs_uniform_ci95": [
+     0.5405923845976919,
+     0.8046407253923271
+    ],
+    "ci95": [
+     0.15755827139692608,
+     0.37220290526777317
+    ],
+    "mean_brier": 0.2565428891055612,
+    "n_events": 40
+   },
+   "n_events": 119,
+   "pooled_bss_vs_uniform": 0.7510666191409314
+  },
+  "macro": {
+   "binary_set": {
+    "bss_vs_base_rate": 0.6319534814108659,
+    "bss_vs_base_rate_ci95": [
+     0.5208773983294364,
+     0.7388738811239164
+    ],
+    "bss_vs_uniform": 0.6200749717579874,
+    "bss_vs_uniform_ci95": [
+     0.4854408092455865,
+     0.7394651272846078
+    ],
+    "ci95": [
+     0.06520836909650679,
+     0.12878138006365739
+    ],
+    "mean_brier": 0.09498125706050314,
+    "mean_brier_base_rate": 0.25806861976198925,
+    "n_events": 96
+   },
+   "multiclass": {
+    "bss_vs_uniform": 0.4153047332372638,
+    "bss_vs_uniform_ci95": [
+     0.32832913018102017,
+     0.49539137087888996
+    ],
+    "ci95": [
+     0.42438327461668807,
+     0.5624217776831494
+    ],
+    "mean_brier": 0.4909126424697082,
+    "n_events": 112
+   },
+   "n_events": 208,
+   "pooled_bss_vs_uniform": 0.45694032849961874
+  }
+ },
+ "calc_version": "1.0.0",
+ "counts": {
+  "active": 407,
+  "markets": 2562,
+  "scored_primary_events": 364,
+  "units": 414
+ },
+ "fomc_transcribed_at": "2026-10-09",
+ "freshness": {
+  "last_success": {
+   "analyze": "2026-10-24T11:19:03Z",
+   "backfill": "2026-10-24T12:14:27Z",
+   "check": "2026-10-24T11:19:06Z",
+   "discover": "2026-10-24T11:18:42Z",
+   "resolve": "2026-10-24T12:14:25Z"
+  },
+  "latest_observation_ts": 1792840699
+ },
+ "generated_at": "2026-10-24T12:14:27Z",
+ "headline": {
+  "14d": {
+   "binary_set": {
+    "bss_vs_base_rate": 0.6226807473147677,
+    "bss_vs_base_rate_ci95": [
+     0.5020124026674349,
+     0.7288985513201345
+    ],
+    "bss_vs_uniform": 0.6762675639851774,
+    "bss_vs_uniform_ci95": [
+     0.5779887077556023,
+     0.7684906643528244
+    ],
+    "ci95": [
+     0.05788636676879085,
+     0.10564513267609128
+    ],
+    "mean_brier": 0.08093310900370565,
+    "mean_brier_base_rate": 0.21449504213669632,
+    "n_events": 136
+   },
+   "multiclass": {
+    "bss_vs_uniform": 0.31322695749952045,
+    "bss_vs_uniform_ci95": [
+     0.24842445302602756,
+     0.38443662380563604
+    ],
+    "ci95": [
+     0.5096981792840641,
+     0.6264398705211869
+    ],
+    "mean_brier": 0.5709254742048906,
+    "n_events": 143
+   },
+   "n_events": 279,
+   "pooled_bss_vs_uniform": 0.3939669233976568
+  },
+  "24h": {
+   "binary_set": {
+    "bss_vs_base_rate": 0.6459106774286887,
+    "bss_vs_base_rate_ci95": [
+     0.5516274544438122,
+     0.7381030673297153
+    ],
+    "bss_vs_uniform": 0.6605456553947369,
+    "bss_vs_uniform_ci95": [
+     0.5598218723370927,
+     0.7536547835213032
+    ],
+    "ci95": [
+     0.061634387595551385,
+     0.11032354187186717
+    ],
+    "mean_brier": 0.0848635861513158,
+    "mean_brier_base_rate": 0.23966717080045477,
+    "n_events": 190
+   },
+   "multiclass": {
+    "bss_vs_uniform": 0.36126116760593696,
+    "bss_vs_uniform_ci95": [
+     0.2875389143810385,
+     0.42834497645421066
+    ],
+    "ci95": [
+     0.4748850220247544,
+     0.594238067963117
+    ],
+    "mean_brier": 0.5307045870126487,
+    "n_events": 151
+   },
+   "n_events": 341,
+   "pooled_bss_vs_uniform": 0.44345349545289614
+  },
+  "30d": {
+   "binary_set": {
+    "bss_vs_base_rate": 0.7155076143032721,
+    "bss_vs_base_rate_ci95": [
+     0.5626741782020664,
+     0.8364071470008532
+    ],
+    "bss_vs_uniform": 0.7706565131780918,
+    "bss_vs_uniform_ci95": [
+     0.648759614957265,
+     0.8709009596153846
+    ],
+    "ci95": [
+     0.0323727443397872,
+     0.08784235954670329
+    ],
+    "mean_brier": 0.05733587170547706,
+    "mean_brier_base_rate": 0.20153745614337026,
+    "n_events": 91
+   },
+   "multiclass": {
+    "bss_vs_uniform": 0.33556588519392516,
+    "bss_vs_uniform_ci95": [
+     0.2323418173921965,
+     0.4369147642140627
+    ],
+    "ci95": [
+     0.46217945332395177,
+     0.6370114241865066
+    ],
+    "mean_brier": 0.5483095335217226,
+    "n_events": 75
+   },
+   "n_events": 166,
+   "pooled_bss_vs_uniform": 0.452509027381261
+  },
+  "3d": {
+   "binary_set": {
+    "bss_vs_base_rate": 0.6268003214243775,
+    "bss_vs_base_rate_ci95": [
+     0.5378940751725643,
+     0.7088411571741582
+    ],
+    "bss_vs_uniform": 0.6443874145984299,
+    "bss_vs_uniform_ci95": [
+     0.5613849092391305,
+     0.7262198481280193
+    ],
+    "ci95": [
+     0.06846457957804952,
+     0.10965907238828503
+    ],
+    "mean_brier": 0.08890314635039252,
+    "mean_brier_base_rate": 0.2382187109316543,
+    "n_events": 184
+   },
+   "multiclass": {
+    "bss_vs_uniform": 0.3572544686542669,
+    "bss_vs_uniform_ci95": [
+     0.28526176607844567,
+     0.42565555112321674
+    ],
+    "ci95": [
+     0.4764866168964444,
+     0.5943226504068755
+    ],
+    "mean_brier": 0.5339411054850594,
+    "n_events": 148
+   },
+   "n_events": 332,
+   "pooled_bss_vs_uniform": 0.435433768877339
+  },
+  "7d": {
+   "binary_set": {
+    "bss_vs_base_rate": 0.6027172675916064,
+    "bss_vs_base_rate_ci95": [
+     0.48636198648104745,
+     0.7075834792392383
+    ],
+    "bss_vs_uniform": 0.629213865865235,
+    "bss_vs_uniform_ci95": [
+     0.5195945220432617,
+     0.7298150822855067
+    ],
+    "ci95": [
+     0.06769135989664385,
+     0.12012344951174915
+    ],
+    "mean_brier": 0.09269653353369126,
+    "mean_brier_base_rate": 0.2333263592196659,
+    "n_events": 153
+   },
+   "multiclass": {
+    "bss_vs_uniform": 0.32387291926588724,
+    "bss_vs_uniform_ci95": [
+     0.25378692098430655,
+     0.3936376713074543
+    ],
+    "ci95": [
+     0.5031593062429495,
+     0.6208670875832494
+    ],
+    "mean_brier": 0.5618168315861161,
+    "n_events": 148
+   },
+   "n_events": 301,
+   "pooled_bss_vs_uniform": 0.3963124257416779
+  },
+  "final": {
+   "binary_set": {
+    "bss_vs_base_rate": 0.7542724795219218,
+    "bss_vs_base_rate_ci95": [
+     0.6735861319796026,
+     0.829029930308279
+    ],
+    "bss_vs_uniform": 0.764388453240465,
+    "bss_vs_uniform_ci95": [
+     0.6841623978772322,
+     0.8359386410033863
+    ],
+    "ci95": [
+     0.04106440840660092,
+     0.07899194551729401
+    ],
+    "mean_brier": 0.058902886689883735,
+    "mean_brier_base_rate": 0.23970813922382192,
+    "n_events": 203
+   },
+   "multiclass": {
+    "bss_vs_uniform": 0.4832587155841036,
+    "bss_vs_uniform_ci95": [
+     0.4073861057084507,
+     0.554062730207018
+    ],
+    "ci95": [
+     0.3710761210679178,
+     0.49181273718155366
+    ],
+    "mean_brier": 0.42923639158440635,
+    "n_events": 152
+   },
+   "n_events": 355,
+   "pooled_bss_vs_uniform": 0.5638604137095782
+  }
+ },
+ "movers_24h": [
+  {
+   "category": "macro",
+   "current_p": 0.191,
+   "current_ts": 1792844058,
+   "d24h": {
+    "past_p": 0.4205,
+    "past_ts": 1792756852,
+    "pp_change": -22.95,
+    "relative_change_pct": -54.58
+   },
+   "d7d": {
+    "past_p": 0.046,
+    "past_ts": 1792238453,
+    "pp_change": 14.5,
+    "relative_change_pct": 315.22
+   },
+   "end_ts": 1793505540,
+   "event_id": "1116490",
+   "event_title": "How low will 10-year Treasury yield get in October?",
+   "flag_24h": true,
+   "flag_7d": false,
+   "label": "Below 4.85%",
+   "liquidity": 160.72386,
+   "market_id": "5194816",
+   "question": "Will the 10-year Treasury yield dip below 4.85% in October?",
+   "relevance": "low",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-10-year-treasury-yield-get-in-october",
+   "volume": 2334.1653499999998,
+   "volume_24h": 186.77
+  },
+  {
+   "category": "macro",
+   "current_p": 0.62,
+   "current_ts": 1792844058,
+   "d24h": {
+    "past_p": 0.455,
+    "past_ts": 1792756825,
+    "pp_change": 16.5,
+    "relative_change_pct": 36.26
+   },
+   "d7d": {
+    "past_p": 0.345,
+    "past_ts": 1792238420,
+    "pp_change": 27.5,
+    "relative_change_pct": 79.71
+   },
+   "end_ts": 1793505540,
+   "event_id": "1116490",
+   "event_title": "How low will 10-year Treasury yield get in October?",
+   "flag_24h": true,
+   "flag_7d": true,
+   "label": "Below 4.95%",
+   "liquidity": 395.9637,
+   "market_id": "5194814",
+   "question": "Will the 10-year Treasury yield dip below 4.95% in October?",
+   "relevance": "low",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-10-year-treasury-yield-get-in-october",
+   "volume": 2896.5685730000005,
+   "volume_24h": 329.86956599999996
+  },
+  {
+   "category": "macro",
+   "current_p": 0.205,
+   "current_ts": 1792844059,
+   "d24h": {
+    "past_p": 0.04,
+    "past_ts": 1792756839,
+    "pp_change": 16.5,
+    "relative_change_pct": 412.5
+   },
+   "d7d": {
+    "past_p": 0.095,
+    "past_ts": 1792238438,
+    "pp_change": 11.0,
+    "relative_change_pct": 115.79
+   },
+   "end_ts": 1798779540,
+   "event_id": "1116515",
+   "event_title": "How low will 2-year Treasury yield get before 2027?",
+   "flag_24h": true,
+   "flag_7d": false,
+   "label": "Below 4.10%",
+   "liquidity": 731.9539,
+   "market_id": "5194902",
+   "question": "Will the 2-year Treasury yield dip below 4.10% before 2027?",
+   "relevance": "low",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-2-year-treasury-yield-get-before-2027",
+   "volume": 2086.440257,
+   "volume_24h": 348.0
+  },
+  {
+   "category": "fed",
+   "current_p": 0.3,
+   "current_ts": 1792840531,
+   "d24h": {
+    "past_p": 0.465,
+    "past_ts": 1792753227,
+    "pp_change": -16.5,
+    "relative_change_pct": -35.48
+   },
+   "d7d": {
+    "past_p": 0.324,
+    "past_ts": 1792234839,
+    "pp_change": -2.4,
+    "relative_change_pct": -7.41
+   },
+   "end_ts": 1796878740,
+   "event_id": "770454",
+   "event_title": "How many dissent at the December Fed meeting?",
+   "flag_24h": true,
+   "flag_7d": false,
+   "label": "1",
+   "liquidity": 2387.22426,
+   "market_id": "3215055",
+   "question": "Will one person dissent the December Fed decision?",
+   "relevance": "high",
+   "subcategory": "rate_path",
+   "url": "https://polymarket.com/event/how-many-dissent-at-the-december-fed-meeting-20260730000304473",
+   "volume": 7597.093751,
+   "volume_24h": 1548.082274
+  },
+  {
+   "category": "fed",
+   "current_p": 0.1475,
+   "current_ts": 1792840531,
+   "d24h": {
+    "past_p": 0.0065,
+    "past_ts": 1792753229,
+    "pp_change": 14.1,
+    "relative_change_pct": null
+   },
+   "d7d": {
+    "past_p": 0.0495,
+    "past_ts": 1792234844,
+    "pp_change": 9.8,
+    "relative_change_pct": 197.98
+   },
+   "end_ts": 1830315540,
+   "event_id": "1071611",
+   "event_title": "What will the Fed rate be at the end of 2027?",
+   "flag_24h": true,
+   "flag_7d": false,
+   "label": "\u22642.5%",
+   "liquidity": 1036.95409,
+   "market_id": "4895201",
+   "question": "Will the upper bound of the target federal funds rate be \u22642.5% at the end of 2027?",
+   "relevance": "high",
+   "subcategory": "rate_path",
+   "url": "https://polymarket.com/event/what-will-the-fed-rate-be-at-the-end-of-2027",
+   "volume": 1075.07861,
+   "volume_24h": 16.89
+  },
+  {
+   "category": "macro",
+   "current_p": 0.47,
+   "current_ts": 1792844059,
+   "d24h": {
+    "past_p": 0.605,
+    "past_ts": 1792756829,
+    "pp_change": -13.5,
+    "relative_change_pct": -22.31
+   },
+   "d7d": {
+    "past_p": 0.28,
+    "past_ts": 1792238426,
+    "pp_change": 19.0,
+    "relative_change_pct": 67.86
+   },
+   "end_ts": 1793505540,
+   "event_id": "1116495",
+   "event_title": "How low will 5-year Treasury yield get in October?",
+   "flag_24h": true,
+   "flag_7d": true,
+   "label": "Below 4.75%",
+   "liquidity": 21.2205,
+   "market_id": "5194851",
+   "question": "Will the 5-year Treasury yield dip below 4.75% in October?",
+   "relevance": "low",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-5-year-treasury-yield-get-in-october",
+   "volume": 2530.750574,
+   "volume_24h": 5.0
+  },
+  {
+   "category": "macro",
+   "current_p": 0.415,
+   "current_ts": 1792844059,
+   "d24h": {
+    "past_p": 0.28,
+    "past_ts": 1792756843,
+    "pp_change": 13.5,
+    "relative_change_pct": 48.21
+   },
+   "d7d": {
+    "past_p": 0.35,
+    "past_ts": 1792238443,
+    "pp_change": 6.5,
+    "relative_change_pct": 18.57
+   },
+   "end_ts": 1798779540,
+   "event_id": "1116515",
+   "event_title": "How low will 2-year Treasury yield get before 2027?",
+   "flag_24h": true,
+   "flag_7d": false,
+   "label": "Below 4.40%",
+   "liquidity": 479.749,
+   "market_id": "5194899",
+   "question": "Will the 2-year Treasury yield dip below 4.40% before 2027?",
+   "relevance": "low",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-2-year-treasury-yield-get-before-2027",
+   "volume": 2521.2152709999996,
+   "volume_24h": 267.535575
+  },
+  {
+   "category": "macro",
+   "current_p": 0.61,
+   "current_ts": 1792840644,
+   "d24h": {
+    "past_p": 0.48,
+    "past_ts": 1792753224,
+    "pp_change": 13.0,
+    "relative_change_pct": 27.08
+   },
+   "d7d": {
+    "past_p": 0.66,
+    "past_ts": 1792234834,
+    "pp_change": -5.0,
+    "relative_change_pct": -7.58
+   },
+   "end_ts": 1798779540,
+   "event_id": "1116514",
+   "event_title": "How high will 2-year Treasury yield go before 2027?",
+   "flag_24h": true,
+   "flag_7d": false,
+   "label": "4.90%",
+   "liquidity": 273.2536,
+   "market_id": "5194888",
+   "question": "Will the 2-year Treasury yield hit 4.90% before 2027?",
+   "relevance": "low",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-high-will-2-year-treasury-yield-go-before-2027",
+   "volume": 4382.484328000001,
+   "volume_24h": 161.72561000000002
+  },
+  {
+   "category": "macro",
+   "current_p": 0.905,
+   "current_ts": 1792840644,
+   "d24h": {
+    "past_p": 0.78,
+    "past_ts": 1792753223,
+    "pp_change": 12.5,
+    "relative_change_pct": 16.03
+   },
+   "d7d": {
+    "past_p": 0.67,
+    "past_ts": 1792234832,
+    "pp_change": 23.5,
+    "relative_change_pct": 35.07
+   },
+   "end_ts": 1794373140,
+   "event_id": "1189689",
+   "event_title": "Core CPI YoY - October 2026",
+   "flag_24h": true,
+   "flag_7d": true,
+   "label": "2.6%",
+   "liquidity": 933.3377,
+   "market_id": "5699280",
+   "question": "Will Core CPI YoY be 2.6% in October?",
+   "relevance": "medium",
+   "subcategory": "core_cpi",
+   "url": "https://polymarket.com/event/core-cpi-yoy-october-2026",
+   "volume": 4227.054028,
+   "volume_24h": 727.2
+  },
+  {
+   "category": "macro",
+   "current_p": 0.994,
+   "current_ts": 1792844065,
+   "d24h": {
+    "past_p": 0.887,
+    "past_ts": 1792756852,
+    "pp_change": 10.7,
+    "relative_change_pct": 12.06
+   },
+   "d7d": null,
+   "end_ts": 1798779540,
+   "event_id": "956931",
+   "event_title": "How high will 5-year Treasury yield go before 2027?",
+   "flag_24h": true,
+   "flag_7d": false,
+   "label": "4.80%",
+   "liquidity": 1207.76065,
+   "market_id": "6071560",
+   "question": "Will the 5-year Treasury yield hit 4.80% before 2027?",
+   "relevance": "low",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-high-will-5-year-treasury-yield-go-before-2027",
+   "volume": 7716.586,
+   "volume_24h": 1282.640666
+  }
+ ],
+ "movers_7d": [
+  {
+   "category": "macro",
+   "current_p": 0.5875,
+   "current_ts": 1792840531,
+   "d24h": {
+    "past_p": 0.5915,
+    "past_ts": 1792753226,
+    "pp_change": -0.4,
+    "relative_change_pct": -0.68
+   },
+   "d7d": {
+    "past_p": 0.2955,
+    "past_ts": 1792234838,
+    "pp_change": 29.2,
+    "relative_change_pct": 98.82
+   },
+   "end_ts": 1799971200,
+   "event_id": "182146",
+   "event_title": "2026 World GDP Growth",
+   "flag_24h": false,
+   "flag_7d": true,
+   "label": "3.1%",
+   "liquidity": 1576.70057,
+   "market_id": "1245863",
+   "question": "Will world GDP growth be 3.1% in 2026?",
+   "relevance": "medium",
+   "subcategory": "gdp",
+   "url": "https://polymarket.com/event/2026-world-gdp-growth",
+   "volume": 23681.809845000003,
+   "volume_24h": 1201.87
+  },
+  {
+   "category": "macro",
+   "current_p": 0.62,
+   "current_ts": 1792844058,
+   "d24h": {
+    "past_p": 0.455,
+    "past_ts": 1792756825,
+    "pp_change": 16.5,
+    "relative_change_pct": 36.26
+   },
+   "d7d": {
+    "past_p": 0.345,
+    "past_ts": 1792238420,
+    "pp_change": 27.5,
+    "relative_change_pct": 79.71
+   },
+   "end_ts": 1793505540,
+   "event_id": "1116490",
+   "event_title": "How low will 10-year Treasury yield get in October?",
+   "flag_24h": true,
+   "flag_7d": true,
+   "label": "Below 4.95%",
+   "liquidity": 395.9637,
+   "market_id": "5194814",
+   "question": "Will the 10-year Treasury yield dip below 4.95% in October?",
+   "relevance": "low",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-10-year-treasury-yield-get-in-october",
+   "volume": 2896.5685730000005,
+   "volume_24h": 329.86956599999996
+  },
+  {
+   "category": "macro",
+   "current_p": 0.61,
+   "current_ts": 1792844059,
+   "d24h": {
+    "past_p": 0.58,
+    "past_ts": 1792756829,
+    "pp_change": 3.0,
+    "relative_change_pct": 5.17
+   },
+   "d7d": {
+    "past_p": 0.335,
+    "past_ts": 1792238427,
+    "pp_change": 27.5,
+    "relative_change_pct": 82.09
+   },
+   "end_ts": 1793505540,
+   "event_id": "1116497",
+   "event_title": "How low will 2-year Treasury yield get in October?",
+   "flag_24h": false,
+   "flag_7d": true,
+   "label": "Below 4.64%",
+   "liquidity": 42.4453,
+   "market_id": "5194866",
+   "question": "Will the 2-year Treasury yield dip below 4.64% in October?",
+   "relevance": "low",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-2-year-treasury-yield-get-in-october",
+   "volume": 2593.899849,
+   "volume_24h": 5.0
+  },
+  {
+   "category": "macro",
+   "current_p": 0.4,
+   "current_ts": 1792844058,
+   "d24h": {
+    "past_p": 0.47,
+    "past_ts": 1792756840,
+    "pp_change": -7.0,
+    "relative_change_pct": -14.89
+   },
+   "d7d": {
+    "past_p": 0.13,
+    "past_ts": 1792238439,
+    "pp_change": 27.0,
+    "relative_change_pct": 207.69
+   },
+   "end_ts": 1793505540,
+   "event_id": "1116492",
+   "event_title": "How low will 30-year Treasury yield get in October?",
+   "flag_24h": false,
+   "flag_7d": true,
+   "label": "Below 5.25%",
+   "liquidity": 370.8746,
+   "market_id": "5194834",
+   "question": "Will the 30-year Treasury yield dip below 5.25% in October?",
+   "relevance": "low",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-30-year-treasury-yield-get-in-october",
+   "volume": 1534.7286519999998,
+   "volume_24h": 31.852257
+  },
+  {
+   "category": "macro",
+   "current_p": 0.041,
+   "current_ts": 1792840619,
+   "d24h": {
+    "past_p": 0.05,
+    "past_ts": 1792753227,
+    "pp_change": -0.9,
+    "relative_change_pct": -18.0
+   },
+   "d7d": {
+    "past_p": 0.31,
+    "past_ts": 1792234840,
+    "pp_change": -26.9,
+    "relative_change_pct": -86.77
+   },
+   "end_ts": 1793505540,
+   "event_id": "1116494",
+   "event_title": "How high will 5-year Treasury yield go in October?",
+   "flag_24h": false,
+   "flag_7d": true,
+   "label": "5.14%",
+   "liquidity": 269.96847,
+   "market_id": "5194838",
+   "question": "Will the 5-year Treasury yield hit 5.14% in October?",
+   "relevance": "low",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-high-will-5-year-treasury-yield-go-in-october",
+   "volume": 2668.939171,
+   "volume_24h": 5.0
+  },
+  {
+   "category": "macro",
+   "current_p": 0.905,
+   "current_ts": 1792840644,
+   "d24h": {
+    "past_p": 0.78,
+    "past_ts": 1792753223,
+    "pp_change": 12.5,
+    "relative_change_pct": 16.03
+   },
+   "d7d": {
+    "past_p": 0.67,
+    "past_ts": 1792234832,
+    "pp_change": 23.5,
+    "relative_change_pct": 35.07
+   },
+   "end_ts": 1794373140,
+   "event_id": "1189689",
+   "event_title": "Core CPI YoY - October 2026",
+   "flag_24h": true,
+   "flag_7d": true,
+   "label": "2.6%",
+   "liquidity": 933.3377,
+   "market_id": "5699280",
+   "question": "Will Core CPI YoY be 2.6% in October?",
+   "relevance": "medium",
+   "subcategory": "core_cpi",
+   "url": "https://polymarket.com/event/core-cpi-yoy-october-2026",
+   "volume": 4227.054028,
+   "volume_24h": 727.2
+  },
+  {
+   "category": "macro",
+   "current_p": 0.0295,
+   "current_ts": 1792840531,
+   "d24h": {
+    "past_p": 0.031,
+    "past_ts": 1792753224,
+    "pp_change": -0.15,
+    "relative_change_pct": -4.84
+   },
+   "d7d": {
+    "past_p": 0.256,
+    "past_ts": 1792234833,
+    "pp_change": -22.65,
+    "relative_change_pct": -88.48
+   },
+   "end_ts": 1799971200,
+   "event_id": "182146",
+   "event_title": "2026 World GDP Growth",
+   "flag_24h": false,
+   "flag_7d": true,
+   "label": "\u22642.9%",
+   "liquidity": 1492.9077,
+   "market_id": "1245861",
+   "question": "Will world GDP growth be \u22642.9% in 2026?",
+   "relevance": "medium",
+   "subcategory": "gdp",
+   "url": "https://polymarket.com/event/2026-world-gdp-growth",
+   "volume": 22073.227617999994,
+   "volume_24h": null
+  },
+  {
+   "category": "macro",
+   "current_p": 0.039,
+   "current_ts": 1792840645,
+   "d24h": {
+    "past_p": 0.05,
+    "past_ts": 1792753227,
+    "pp_change": -1.1,
+    "relative_change_pct": -22.0
+   },
+   "d7d": {
+    "past_p": 0.255,
+    "past_ts": 1792234839,
+    "pp_change": -21.6,
+    "relative_change_pct": -84.71
+   },
+   "end_ts": 1793505540,
+   "event_id": "1116494",
+   "event_title": "How high will 5-year Treasury yield go in October?",
+   "flag_24h": false,
+   "flag_7d": true,
+   "label": "5.20%",
+   "liquidity": 406.58043,
+   "market_id": "5194840",
+   "question": "Will the 5-year Treasury yield hit 5.20% in October?",
+   "relevance": "low",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-high-will-5-year-treasury-yield-go-in-october",
+   "volume": 3617.9483620000005,
+   "volume_24h": 20.469857
+  },
+  {
+   "category": "macro",
+   "current_p": 0.4755,
+   "current_ts": 1792844065,
+   "d24h": {
+    "past_p": 0.42,
+    "past_ts": 1792756825,
+    "pp_change": 5.55,
+    "relative_change_pct": 13.21
+   },
+   "d7d": {
+    "past_p": 0.677,
+    "past_ts": 1792238420,
+    "pp_change": -20.15,
+    "relative_change_pct": -29.76
+   },
+   "end_ts": 1798675200,
+   "event_id": "956931",
+   "event_title": "How high will 5-year Treasury yield go before 2027?",
+   "flag_24h": false,
+   "flag_7d": true,
+   "label": "5.10%",
+   "liquidity": 1997.13084,
+   "market_id": "4178748",
+   "question": "Will the 5-year Treasury yield hit 5.10% before 2027?",
+   "relevance": "low",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-high-will-5-year-treasury-yield-go-before-2027",
+   "volume": 69679.94628300001,
+   "volume_24h": 331.926819
+  },
+  {
+   "category": "macro",
+   "current_p": 0.47,
+   "current_ts": 1792844059,
+   "d24h": {
+    "past_p": 0.605,
+    "past_ts": 1792756829,
+    "pp_change": -13.5,
+    "relative_change_pct": -22.31
+   },
+   "d7d": {
+    "past_p": 0.28,
+    "past_ts": 1792238426,
+    "pp_change": 19.0,
+    "relative_change_pct": 67.86
+   },
+   "end_ts": 1793505540,
+   "event_id": "1116495",
+   "event_title": "How low will 5-year Treasury yield get in October?",
+   "flag_24h": true,
+   "flag_7d": true,
+   "label": "Below 4.75%",
+   "liquidity": 21.2205,
+   "market_id": "5194851",
+   "question": "Will the 5-year Treasury yield dip below 4.75% in October?",
+   "relevance": "low",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-5-year-treasury-yield-get-in-october",
+   "volume": 2530.750574,
+   "volume_24h": 5.0
+  }
+ ],
+ "recently_resolved": [
+  {
+   "brier": {
+    "14d": 0.8648999999999999,
+    "24h": 0.6806249999999999,
+    "3d": 0.6724000000000001,
+    "7d": 0.6480249999999999,
+    "final": 0.09302500000000002
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116492",
+   "event_title": "How low will 30-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 5.30%",
+   "market_id": "5194833",
+   "quality": "B",
+   "question": "Will the 30-year Treasury yield dip below 5.30% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-30-year-treasury-yield-get-in-october",
+   "volume": 2609.766477,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "14d": 0.36,
+    "24h": 0.235225,
+    "3d": 0.20249999999999996,
+    "7d": 0.1296,
+    "final": 0.0037210000000000064
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116495",
+   "event_title": "How low will 5-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 4.86%",
+   "market_id": "5194848",
+   "quality": "B",
+   "question": "Will the 5-year Treasury yield dip below 4.86% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-5-year-treasury-yield-get-in-october",
+   "volume": 1939.011234,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "14d": 0.4830250000000001,
+    "24h": 0.390625,
+    "3d": 0.3481000000000001,
+    "7d": 0.21622499999999997,
+    "final": 0.0036000000000000064
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116495",
+   "event_title": "How low will 5-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 4.83%",
+   "market_id": "5194849",
+   "quality": "B",
+   "question": "Will the 5-year Treasury yield dip below 4.83% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-5-year-treasury-yield-get-in-october",
+   "volume": 3590.1125159999997,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "14d": 0.016900000000000002,
+    "24h": 0.21159999999999995,
+    "3d": 0.1369,
+    "7d": 0.04839999999999999,
+    "final": 0.0036000000000000064
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116497",
+   "event_title": "How low will 2-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 4.73%",
+   "market_id": "5194863",
+   "quality": "B",
+   "question": "Will the 2-year Treasury yield dip below 4.73% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-2-year-treasury-yield-get-in-october",
+   "volume": 2559.649584,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "14d": 0.235225,
+    "24h": 0.28090000000000004,
+    "3d": 0.20702499999999996,
+    "7d": 0.126025,
+    "final": 0.008099999999999994
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116497",
+   "event_title": "How low will 2-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 4.70%",
+   "market_id": "5194864",
+   "quality": "B",
+   "question": "Will the 2-year Treasury yield dip below 4.70% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-2-year-treasury-yield-get-in-october",
+   "volume": 2649.218425,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "14d": 0.378225,
+    "24h": 0.39690000000000003,
+    "3d": 0.403225,
+    "7d": 0.225625,
+    "final": 0.028900000000000012
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116497",
+   "event_title": "How low will 2-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 4.67%",
+   "market_id": "5194865",
+   "quality": "B",
+   "question": "Will the 2-year Treasury yield dip below 4.67% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-2-year-treasury-yield-get-in-october",
+   "volume": 2632.6054860000004,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "14d": 0.06760000000000001,
+    "24h": 0.030625000000000017,
+    "3d": 0.013224999999999997,
+    "7d": 0.011024999999999997,
+    "final": 0.007224999999999994
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1798779540,
+   "event_id": "1116515",
+   "event_title": "How low will 2-year Treasury yield get before 2027?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 4.70%",
+   "market_id": "5194896",
+   "quality": "B",
+   "question": "Will the 2-year Treasury yield dip below 4.70% before 2027?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-2-year-treasury-yield-get-before-2027",
+   "volume": 5722.497313999999,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "14d": 0.45562500000000006,
+    "24h": 0.7569,
+    "3d": 0.5041,
+    "7d": 0.25,
+    "final": 0.09302500000000002
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116490",
+   "event_title": "How low will 10-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 5.00%",
+   "market_id": "5194813",
+   "quality": "B",
+   "question": "Will the 10-year Treasury yield dip below 5.00% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-10-year-treasury-yield-get-in-october",
+   "volume": 4953.753634,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "14d": 0.6006250000000001,
+    "24h": 0.4970250000000001,
+    "3d": 0.525625,
+    "7d": 0.33062499999999995,
+    "final": 0.030625000000000017
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116492",
+   "event_title": "How low will 30-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 5.35%",
+   "market_id": "5194832",
+   "quality": "B",
+   "question": "Will the 30-year Treasury yield dip below 5.35% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-30-year-treasury-yield-get-in-october",
+   "volume": 3726.745338,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "14d": 0.33062499999999995,
+    "24h": 0.17640000000000003,
+    "3d": 0.09922499999999997,
+    "7d": 0.10239999999999996,
+    "final": 0.018225
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116495",
+   "event_title": "How low will 5-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 4.89%",
+   "market_id": "5194847",
+   "quality": "B",
+   "question": "Will the 5-year Treasury yield dip below 4.89% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-5-year-treasury-yield-get-in-october",
+   "volume": 1925.347887,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "14d": 0.6806249999999999,
+    "24h": 0.5625,
+    "3d": 0.3844,
+    "7d": 0.3721,
+    "final": 0.030625000000000017
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116495",
+   "event_title": "How low will 5-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 4.80%",
+   "market_id": "5194850",
+   "quality": "B",
+   "question": "Will the 5-year Treasury yield dip below 4.80% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-5-year-treasury-yield-get-in-october",
+   "volume": 2554.013898,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "14d": 0.5112250000000002,
+    "24h": 0.08410000000000002,
+    "3d": 0.09302500000000002,
+    "7d": 0.004899999999999993,
+    "final": 0.008099999999999994
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116490",
+   "event_title": "How low will 10-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 5.09%",
+   "market_id": "5194811",
+   "quality": "B",
+   "question": "Will the 10-year Treasury yield dip below 5.09% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-10-year-treasury-yield-get-in-october",
+   "volume": 4391.217885,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "14d": 0.48999999999999994,
+    "24h": 0.2916,
+    "3d": 0.31360000000000005,
+    "7d": 0.11222499999999998,
+    "final": 0.012099999999999998
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116490",
+   "event_title": "How low will 10-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 5.05%",
+   "market_id": "5194812",
+   "quality": "B",
+   "question": "Will the 10-year Treasury yield dip below 5.05% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-10-year-treasury-yield-get-in-october",
+   "volume": 4040.0194530000003,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "14d": 0.6400000000000001,
+    "24h": 0.10562499999999997,
+    "3d": 0.21159999999999995,
+    "7d": 0.18490000000000004,
+    "final": 0.004899999999999993
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116492",
+   "event_title": "How low will 30-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 5.40%",
+   "market_id": "5194831",
+   "quality": "B",
+   "question": "Will the 30-year Treasury yield dip below 5.40% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-30-year-treasury-yield-get-in-october",
+   "volume": 2922.69533,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "14d": 0.3844,
+    "24h": 0.17640000000000003,
+    "3d": 0.03802499999999998,
+    "7d": 0.697225,
+    "final": 0.1369
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116492",
+   "event_title": "How low will 30-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 5.43%",
+   "market_id": "5194830",
+   "quality": "B",
+   "question": "Will the 30-year Treasury yield dip below 5.43% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-30-year-treasury-yield-get-in-october",
+   "volume": 1956.994748,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "24h": 0.265225,
+    "3d": 0.16402500000000003,
+    "7d": 0.13322499999999998,
+    "final": 0.19936225000000002
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116495",
+   "event_title": "How low will 5-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 4.95%",
+   "market_id": "5194845",
+   "quality": "B",
+   "question": "Will the 5-year Treasury yield dip below 4.95% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-5-year-treasury-yield-get-in-october",
+   "volume": 1483.340201,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "24h": 0.2601,
+    "3d": 0.20702499999999996,
+    "7d": 0.16402500000000003,
+    "final": 0.065025
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116495",
+   "event_title": "How low will 5-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 4.92%",
+   "market_id": "5194846",
+   "quality": "B",
+   "question": "Will the 5-year Treasury yield dip below 4.92% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-5-year-treasury-yield-get-in-october",
+   "volume": 1264.6513989999999,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "24h": 0.354025,
+    "3d": 0.10239999999999996,
+    "7d": 0.22089999999999999,
+    "final": 0.16000000000000003
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116490",
+   "event_title": "How low will 10-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 5.18%",
+   "market_id": "5194808",
+   "quality": "B",
+   "question": "Will the 10-year Treasury yield dip below 5.18% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-10-year-treasury-yield-get-in-october",
+   "volume": 2897.4281459999997,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "24h": 0.22089999999999999,
+    "3d": 0.17222500000000002,
+    "7d": 0.366025,
+    "final": 0.03999999999999998
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116490",
+   "event_title": "How low will 10-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 5.15%",
+   "market_id": "5194809",
+   "quality": "B",
+   "question": "Will the 10-year Treasury yield dip below 5.15% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-10-year-treasury-yield-get-in-october",
+   "volume": 3519.0280620000003,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "24h": 0.3192249999999999,
+    "3d": 0.3844,
+    "7d": 0.378225,
+    "final": 0.004899999999999993
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116490",
+   "event_title": "How low will 10-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 5.12%",
+   "market_id": "5194810",
+   "quality": "B",
+   "question": "Will the 10-year Treasury yield dip below 5.12% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-10-year-treasury-yield-get-in-october",
+   "volume": 3872.243207,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "24h": 0.16810000000000003,
+    "3d": 0.2601,
+    "7d": 0.17222500000000002,
+    "final": 0.005624999999999994
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116492",
+   "event_title": "How low will 30-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 5.52%",
+   "market_id": "5194827",
+   "quality": "B",
+   "question": "Will the 30-year Treasury yield dip below 5.52% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-30-year-treasury-yield-get-in-october",
+   "volume": 2720.6696029999994,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "24h": 0.2601,
+    "3d": 0.30250000000000005,
+    "7d": 0.4970250000000001,
+    "final": 0.005624999999999994
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116492",
+   "event_title": "How low will 30-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 5.49%",
+   "market_id": "5194828",
+   "quality": "B",
+   "question": "Will the 30-year Treasury yield dip below 5.49% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-30-year-treasury-yield-get-in-october",
+   "volume": 4605.432928,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "24h": 0.403225,
+    "3d": 0.390625,
+    "7d": 0.5929,
+    "final": 0.05062499999999999
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116492",
+   "event_title": "How low will 30-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 5.46%",
+   "market_id": "5194829",
+   "quality": "B",
+   "question": "Will the 30-year Treasury yield dip below 5.46% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-30-year-treasury-yield-get-in-october",
+   "volume": 3781.843249,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "24h": 0.0625,
+    "3d": 0.11902499999999998,
+    "7d": 0.24009999999999998,
+    "final": 0.08702500000000002
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1793505540,
+   "event_id": "1116492",
+   "event_title": "How low will 30-year Treasury yield get in October?",
+   "external_source": null,
+   "flags": [
+    "reference_time_estimated_from_price_path"
+   ],
+   "group_item_title": "Below 5.55%",
+   "market_id": "5194826",
+   "quality": "B",
+   "question": "Will the 30-year Treasury yield dip below 5.55% in October?",
+   "relevance": "low",
+   "status": "final",
+   "subcategory": "treasury_liquidity",
+   "url": "https://polymarket.com/event/how-low-will-30-year-treasury-yield-get-in-october",
+   "volume": 2108.159088,
+   "winner": "Yes"
+  },
+  {
+   "brier": {
+    "14d": 6.25e-06,
+    "24h": 2.5e-07,
+    "30d": 0.0024010000000000004,
+    "3d": 1e-06,
+    "7d": 2.5e-07,
+    "final": 2.5e-07
+   },
+   "clarity_milestone": null,
+   "current_p": null,
+   "end_ts": 1792036740,
+   "event_id": "1005015",
+   "event_title": "Core CPI MoM - September 2026",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": "0.6%+",
+   "market_id": "4469526",
+   "quality": "B",
+   "question": "Will Core CPI MoM be 0.6% or more in September?",
+   "relevance": "medium",
+   "status": "final",
+   "subcategory": "core_cpi",
+   "url": "https://polymarket.com/event/core-cpi-mom-september-2026",
+   "volume": 2671.4,
+   "winner": "No"
+  }
+ ],
+ "rules_version": "1.2.0",
+ "upcoming": [
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.26,
+   "end_ts": 1793203140,
+   "event_id": "990713",
+   "event_title": "How many dissent at the October Fed meeting?",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": "0",
+   "market_id": "4386085",
+   "quality": null,
+   "question": "Will no one dissent the October Fed decision?",
+   "relevance": "high",
+   "status": "unresolved",
+   "subcategory": "rate_path",
+   "url": "https://polymarket.com/event/how-many-dissent-at-the-october-fed-meeting",
+   "volume": 16637.860696000003,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.125,
+   "end_ts": 1793203140,
+   "event_id": "990713",
+   "event_title": "How many dissent at the October Fed meeting?",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": "1",
+   "market_id": "4386086",
+   "quality": null,
+   "question": "Will one person dissent the October Fed decision?",
+   "relevance": "high",
+   "status": "unresolved",
+   "subcategory": "rate_path",
+   "url": "https://polymarket.com/event/how-many-dissent-at-the-october-fed-meeting",
+   "volume": 5711.099958999999,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.3,
+   "end_ts": 1793203140,
+   "event_id": "990713",
+   "event_title": "How many dissent at the October Fed meeting?",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": "2",
+   "market_id": "4386087",
+   "quality": null,
+   "question": "Will two people dissent the October Fed decision?",
+   "relevance": "high",
+   "status": "unresolved",
+   "subcategory": "rate_path",
+   "url": "https://polymarket.com/event/how-many-dissent-at-the-october-fed-meeting",
+   "volume": 4812.414285000001,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.215,
+   "end_ts": 1793203140,
+   "event_id": "990713",
+   "event_title": "How many dissent at the October Fed meeting?",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": "3",
+   "market_id": "4386088",
+   "quality": null,
+   "question": "Will three people dissent the October Fed decision?",
+   "relevance": "high",
+   "status": "unresolved",
+   "subcategory": "rate_path",
+   "url": "https://polymarket.com/event/how-many-dissent-at-the-october-fed-meeting",
+   "volume": 5443.5201,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.0875,
+   "end_ts": 1793203140,
+   "event_id": "990713",
+   "event_title": "How many dissent at the October Fed meeting?",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": "4+",
+   "market_id": "4386089",
+   "quality": null,
+   "question": "Will four or more people dissent the October Fed decision?",
+   "relevance": "high",
+   "status": "unresolved",
+   "subcategory": "rate_path",
+   "url": "https://polymarket.com/event/how-many-dissent-at-the-october-fed-meeting",
+   "volume": 2206.5700429999997,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.0005,
+   "end_ts": 1793246340,
+   "event_id": "606422",
+   "event_title": "Fed Decision in October?",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": "50+ bps decrease",
+   "market_id": "2589810",
+   "quality": null,
+   "question": "Will the Fed decrease interest rates by 50+ bps after the October 2026 meeting?",
+   "relevance": "high",
+   "status": "unresolved",
+   "subcategory": "fomc_decision",
+   "url": "https://polymarket.com/event/fed-decision-in-october-20260617190323537",
+   "volume": 9566568.764547,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.0015,
+   "end_ts": 1793246340,
+   "event_id": "606422",
+   "event_title": "Fed Decision in October?",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": "25 bps decrease",
+   "market_id": "2589811",
+   "quality": null,
+   "question": "Will the Fed decrease interest rates by 25 bps after the October 2026 meeting?",
+   "relevance": "high",
+   "status": "unresolved",
+   "subcategory": "fomc_decision",
+   "url": "https://polymarket.com/event/fed-decision-in-october-20260617190323537",
+   "volume": 10561689.013278997,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.935,
+   "end_ts": 1793246340,
+   "event_id": "606422",
+   "event_title": "Fed Decision in October?",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": "No change",
+   "market_id": "2589812",
+   "quality": null,
+   "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+   "relevance": "high",
+   "status": "unresolved",
+   "subcategory": "fomc_decision",
+   "url": "https://polymarket.com/event/fed-decision-in-october-20260617190323537",
+   "volume": 18113421.955632,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.065,
+   "end_ts": 1793246340,
+   "event_id": "606422",
+   "event_title": "Fed Decision in October?",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": "25 bps increase",
+   "market_id": "2589813",
+   "quality": null,
+   "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+   "relevance": "high",
+   "status": "unresolved",
+   "subcategory": "fomc_decision",
+   "url": "https://polymarket.com/event/fed-decision-in-october-20260617190323537",
+   "volume": 14078705.152879998,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.0025,
+   "end_ts": 1793246340,
+   "event_id": "606422",
+   "event_title": "Fed Decision in October?",
+   "external_source": null,
+   "flags": [],
+   "group_item_title": "50+ bps increase",
+   "market_id": "2589814",
+   "quality": null,
+   "question": "Will the Fed increase interest rates by 50+ bps after the October 2026 meeting?",
+   "relevance": "high",
+   "status": "unresolved",
+   "subcategory": "fomc_decision",
+   "url": "https://polymarket.com/event/fed-decision-in-october-20260617190323537",
+   "volume": 9191328.208660996,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.006,
+   "end_ts": 1793280600,
+   "event_id": "1116432",
+   "event_title": "Core PCE MoM - September 2026",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "\u2264-0.1%",
+   "market_id": "5194673",
+   "quality": null,
+   "question": "Will Core PCE MoM be -0.1% or less in September?",
+   "relevance": "medium",
+   "status": "unresolved",
+   "subcategory": "pce",
+   "url": "https://polymarket.com/event/core-pce-mom-september-2026",
+   "volume": 1013.7571109999999,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.007,
+   "end_ts": 1793280600,
+   "event_id": "1116432",
+   "event_title": "Core PCE MoM - September 2026",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "0.0%",
+   "market_id": "5194674",
+   "quality": null,
+   "question": "Will Core PCE MoM be 0.0% in September?",
+   "relevance": "medium",
+   "status": "unresolved",
+   "subcategory": "pce",
+   "url": "https://polymarket.com/event/core-pce-mom-september-2026",
+   "volume": 1392.0536769999999,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.018,
+   "end_ts": 1793280600,
+   "event_id": "1116432",
+   "event_title": "Core PCE MoM - September 2026",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "0.1%",
+   "market_id": "5194675",
+   "quality": null,
+   "question": "Will Core PCE MoM be 0.1% in September?",
+   "relevance": "medium",
+   "status": "unresolved",
+   "subcategory": "pce",
+   "url": "https://polymarket.com/event/core-pce-mom-september-2026",
+   "volume": 3689.60136,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.0925,
+   "end_ts": 1793280600,
+   "event_id": "1116432",
+   "event_title": "Core PCE MoM - September 2026",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "0.2%",
+   "market_id": "5194676",
+   "quality": null,
+   "question": "Will Core PCE MoM be 0.2% in September?",
+   "relevance": "medium",
+   "status": "unresolved",
+   "subcategory": "pce",
+   "url": "https://polymarket.com/event/core-pce-mom-september-2026",
+   "volume": 5698.376641000001,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.605,
+   "end_ts": 1793280600,
+   "event_id": "1116432",
+   "event_title": "Core PCE MoM - September 2026",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "0.3%",
+   "market_id": "5194677",
+   "quality": null,
+   "question": "Will Core PCE MoM be 0.3% in September?",
+   "relevance": "medium",
+   "status": "unresolved",
+   "subcategory": "pce",
+   "url": "https://polymarket.com/event/core-pce-mom-september-2026",
+   "volume": 15147.890707999999,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.21,
+   "end_ts": 1793280600,
+   "event_id": "1116432",
+   "event_title": "Core PCE MoM - September 2026",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "0.4%",
+   "market_id": "5194678",
+   "quality": null,
+   "question": "Will Core PCE MoM be 0.4% in September?",
+   "relevance": "medium",
+   "status": "unresolved",
+   "subcategory": "pce",
+   "url": "https://polymarket.com/event/core-pce-mom-september-2026",
+   "volume": 8504.652155,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.0485,
+   "end_ts": 1793280600,
+   "event_id": "1116432",
+   "event_title": "Core PCE MoM - September 2026",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "0.5%+",
+   "market_id": "5194679",
+   "quality": null,
+   "question": "Will Core PCE MoM be 0.5% or more in September?",
+   "relevance": "medium",
+   "status": "unresolved",
+   "subcategory": "pce",
+   "url": "https://polymarket.com/event/core-pce-mom-september-2026",
+   "volume": 1512.7874789999998,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.0065,
+   "end_ts": 1793280600,
+   "event_id": "1116436",
+   "event_title": "Core PCE YoY - September 2026",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "\u22642.7%",
+   "market_id": "5194701",
+   "quality": null,
+   "question": "Will Core PCE YoY be 2.7% or less in September?",
+   "relevance": "medium",
+   "status": "unresolved",
+   "subcategory": "pce",
+   "url": "https://polymarket.com/event/core-pce-yoy-september-2026",
+   "volume": 2620.360621,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.0005,
+   "end_ts": 1793280600,
+   "event_id": "1116436",
+   "event_title": "Core PCE YoY - September 2026",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "2.8%",
+   "market_id": "5194702",
+   "quality": null,
+   "question": "Will Core PCE YoY be 2.8% in September?",
+   "relevance": "medium",
+   "status": "unresolved",
+   "subcategory": "pce",
+   "url": "https://polymarket.com/event/core-pce-yoy-september-2026",
+   "volume": 546.972377,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.002,
+   "end_ts": 1793280600,
+   "event_id": "1116436",
+   "event_title": "Core PCE YoY - September 2026",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "2.9%",
+   "market_id": "5194703",
+   "quality": null,
+   "question": "Will Core PCE YoY be 2.9% in September?",
+   "relevance": "medium",
+   "status": "unresolved",
+   "subcategory": "pce",
+   "url": "https://polymarket.com/event/core-pce-yoy-september-2026",
+   "volume": 2719.987146,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.305,
+   "end_ts": 1793280600,
+   "event_id": "1116436",
+   "event_title": "Core PCE YoY - September 2026",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "3.0%",
+   "market_id": "5194704",
+   "quality": null,
+   "question": "Will Core PCE YoY be 3.0% in September?",
+   "relevance": "medium",
+   "status": "unresolved",
+   "subcategory": "pce",
+   "url": "https://polymarket.com/event/core-pce-yoy-september-2026",
+   "volume": 13380.185222,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.465,
+   "end_ts": 1793280600,
+   "event_id": "1116436",
+   "event_title": "Core PCE YoY - September 2026",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "3.1%",
+   "market_id": "5194705",
+   "quality": null,
+   "question": "Will Core PCE YoY be 3.1% in September?",
+   "relevance": "medium",
+   "status": "unresolved",
+   "subcategory": "pce",
+   "url": "https://polymarket.com/event/core-pce-yoy-september-2026",
+   "volume": 7424.768882000001,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.126,
+   "end_ts": 1793280600,
+   "event_id": "1116436",
+   "event_title": "Core PCE YoY - September 2026",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "3.2%",
+   "market_id": "5194706",
+   "quality": null,
+   "question": "Will Core PCE YoY be 3.2% in September?",
+   "relevance": "medium",
+   "status": "unresolved",
+   "subcategory": "pce",
+   "url": "https://polymarket.com/event/core-pce-yoy-september-2026",
+   "volume": 2090.7687170000004,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.0725,
+   "end_ts": 1793280600,
+   "event_id": "1116436",
+   "event_title": "Core PCE YoY - September 2026",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "3.3%+",
+   "market_id": "5194707",
+   "quality": null,
+   "question": "Will Core PCE YoY be 3.3% or more in September?",
+   "relevance": "medium",
+   "status": "unresolved",
+   "subcategory": "pce",
+   "url": "https://polymarket.com/event/core-pce-yoy-september-2026",
+   "volume": 1237.349215,
+   "winner": null
+  },
+  {
+   "brier": {},
+   "clarity_milestone": null,
+   "current_p": 0.006,
+   "end_ts": 1793332740,
+   "event_id": "778705",
+   "event_title": "US GDP growth in Q3 2026?",
+   "external_source": null,
+   "flags": [
+    "reference_time_is_market_end_date"
+   ],
+   "group_item_title": "<0.5%",
+   "market_id": "3247812",
+   "quality": null,
+   "question": "Will US GDP growth in Q3 2026 be less than 0.5%?",
+   "relevance": "medium",
+   "status": "unresolved",
+   "subcategory": "gdp",
+   "url": "https://polymarket.com/event/us-gdp-growth-in-q3-2026-20260730144539767",
+   "volume": 1742.9873,
+   "winner": null
+  }
+ ]
+}
