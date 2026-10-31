@@ -1,0 +1,330 @@
+{
+ "calc_version": "1.0.0",
+ "categories": {
+  "crypto_events": 12,
+  "crypto_price": 522,
+  "crypto_regulation": 46,
+  "fed": 724,
+  "macro": 1300
+ },
+ "fomc_transcribed_at": "2026-10-09",
+ "generated_at": "2026-10-31T13:55:39Z",
+ "last_success": {
+  "analyze": "2026-10-31T12:50:31Z",
+  "backfill": "2026-10-31T13:55:39Z",
+  "check": "2026-10-31T12:50:34Z",
+  "discover": "2026-10-31T12:50:11Z",
+  "resolve": "2026-10-31T13:55:37Z"
+ },
+ "latest_observation_ts": 1793450967,
+ "markets_without_history": 67,
+ "n_events": 1068,
+ "n_markets": 2604,
+ "recent_runs": [
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-10-30T06:04:02Z",
+   "result": {
+    "markets": 2601,
+    "scored_units": 361,
+    "units": 419
+   },
+   "started_at": "2026-10-30T06:03:40Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-30T06:04:05Z",
+   "result": {
+    "events": 1065,
+    "markets": 3494,
+    "ok": true
+   },
+   "started_at": "2026-10-30T06:04:02Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 298,
+   "errors": [],
+   "finished_at": "2026-10-30T13:14:11Z",
+   "http_requests": 943,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 915,
+    "events_refreshed": 96,
+    "histories_updated": 405,
+    "markets_tracked": 3496,
+    "snapshots_written": 399
+   },
+   "started_at": "2026-10-30T13:09:13Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-10-30T13:14:33Z",
+   "result": {
+    "markets": 2603,
+    "scored_units": 361,
+    "units": 419
+   },
+   "started_at": "2026-10-30T13:14:11Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-30T13:14:35Z",
+   "result": {
+    "events": 1067,
+    "markets": 3496,
+    "ok": true
+   },
+   "started_at": "2026-10-30T13:14:33Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 12,
+   "errors": [],
+   "finished_at": "2026-10-30T14:32:19Z",
+   "http_requests": 46,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 39,
+    "events_frozen": 2,
+    "histories_fetched": 3
+   },
+   "started_at": "2026-10-30T14:32:07Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 0,
+   "errors": [],
+   "finished_at": "2026-10-30T14:32:19Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-10-30T14:32:19Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 13,
+   "finished_at": "2026-10-30T14:32:33Z",
+   "result": {
+    "markets": 2603,
+    "scored_units": 361,
+    "units": 419
+   },
+   "started_at": "2026-10-30T14:32:20Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 1,
+   "finished_at": "2026-10-30T14:32:34Z",
+   "result": {
+    "events": 1067,
+    "markets": 3496,
+    "ok": true
+   },
+   "started_at": "2026-10-30T14:32:33Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 280,
+   "errors": [],
+   "finished_at": "2026-10-30T22:32:35Z",
+   "http_requests": 895,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 916,
+    "events_refreshed": 95,
+    "histories_updated": 358,
+    "markets_tracked": 3497,
+    "snapshots_written": 352
+   },
+   "started_at": "2026-10-30T22:27:55Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-10-30T22:32:57Z",
+   "result": {
+    "markets": 2604,
+    "scored_units": 363,
+    "units": 420
+   },
+   "started_at": "2026-10-30T22:32:35Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-30T22:33:00Z",
+   "result": {
+    "events": 1068,
+    "markets": 3497,
+    "ok": true
+   },
+   "started_at": "2026-10-30T22:32:57Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 281,
+   "errors": [],
+   "finished_at": "2026-10-31T05:59:52Z",
+   "http_requests": 894,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 916,
+    "events_refreshed": 95,
+    "histories_updated": 356,
+    "markets_tracked": 3497,
+    "snapshots_written": 350
+   },
+   "started_at": "2026-10-31T05:55:11Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-10-31T06:00:14Z",
+   "result": {
+    "markets": 2604,
+    "scored_units": 363,
+    "units": 420
+   },
+   "started_at": "2026-10-31T05:59:52Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-31T06:00:17Z",
+   "result": {
+    "events": 1068,
+    "markets": 3497,
+    "ok": true
+   },
+   "started_at": "2026-10-31T06:00:14Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 284,
+   "errors": [],
+   "finished_at": "2026-10-31T12:50:11Z",
+   "http_requests": 893,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 916,
+    "events_refreshed": 95,
+    "histories_updated": 356,
+    "markets_tracked": 3497,
+    "snapshots_written": 350
+   },
+   "started_at": "2026-10-31T12:45:27Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 19,
+   "finished_at": "2026-10-31T12:50:31Z",
+   "result": {
+    "markets": 2604,
+    "scored_units": 363,
+    "units": 420
+   },
+   "started_at": "2026-10-31T12:50:12Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-31T12:50:34Z",
+   "result": {
+    "events": 1068,
+    "markets": 3497,
+    "ok": true
+   },
+   "started_at": "2026-10-31T12:50:31Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 72,
+   "errors": [],
+   "finished_at": "2026-10-31T13:55:37Z",
+   "http_requests": 280,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 41,
+    "events_frozen": 10,
+    "histories_fetched": 50
+   },
+   "started_at": "2026-10-31T13:54:25Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 2,
+   "errors": [],
+   "finished_at": "2026-10-31T13:55:39Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-10-31T13:55:37Z",
+   "status": "ok"
+  }
+ ],
+ "rules_version": "1.2.0",
+ "storage": {
+  "bytes": 104651749,
+  "files": 3507
+ }
+}
