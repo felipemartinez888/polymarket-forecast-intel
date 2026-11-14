@@ -1,0 +1,4945 @@
+{
+ "last_success": {
+  "analyze": "2026-11-14T18:20:35Z",
+  "backfill": "2026-11-14T14:32:50Z",
+  "check": "2026-11-14T18:20:38Z",
+  "discover": "2026-11-14T18:20:18Z",
+  "resolve": "2026-11-14T14:32:48Z"
+ },
+ "runs": [
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 2,
+   "errors": [],
+   "finished_at": "2026-10-21T13:15:34Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-10-21T13:15:32Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 20,
+   "finished_at": "2026-10-21T13:15:54Z",
+   "result": {
+    "markets": 2539,
+    "scored_units": 354,
+    "units": 414
+   },
+   "started_at": "2026-10-21T13:15:34Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-21T13:15:57Z",
+   "result": {
+    "events": 1048,
+    "markets": 3432,
+    "ok": true
+   },
+   "started_at": "2026-10-21T13:15:54Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 280,
+   "errors": [],
+   "finished_at": "2026-10-21T17:25:36Z",
+   "http_requests": 941,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 96,
+    "histories_updated": 410,
+    "markets_tracked": 3432,
+    "snapshots_written": 404
+   },
+   "started_at": "2026-10-21T17:20:56Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 12,
+   "finished_at": "2026-10-21T17:25:49Z",
+   "result": {
+    "markets": 2539,
+    "scored_units": 354,
+    "units": 414
+   },
+   "started_at": "2026-10-21T17:25:37Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-21T17:25:51Z",
+   "result": {
+    "events": 1048,
+    "markets": 3432,
+    "ok": true
+   },
+   "started_at": "2026-10-21T17:25:49Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 307,
+   "errors": [],
+   "finished_at": "2026-10-21T21:54:14Z",
+   "http_requests": 939,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 96,
+    "histories_updated": 408,
+    "markets_tracked": 3432,
+    "snapshots_written": 402
+   },
+   "started_at": "2026-10-21T21:49:07Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 21,
+   "finished_at": "2026-10-21T21:54:35Z",
+   "result": {
+    "markets": 2539,
+    "scored_units": 354,
+    "units": 414
+   },
+   "started_at": "2026-10-21T21:54:14Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-21T21:54:38Z",
+   "result": {
+    "events": 1048,
+    "markets": 3432,
+    "ok": true
+   },
+   "started_at": "2026-10-21T21:54:36Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 343,
+   "errors": [],
+   "finished_at": "2026-10-22T05:06:10Z",
+   "http_requests": 940,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 96,
+    "histories_updated": 408,
+    "markets_tracked": 3432,
+    "snapshots_written": 402
+   },
+   "started_at": "2026-10-22T05:00:27Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 21,
+   "finished_at": "2026-10-22T05:06:31Z",
+   "result": {
+    "markets": 2539,
+    "scored_units": 354,
+    "units": 414
+   },
+   "started_at": "2026-10-22T05:06:10Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-22T05:06:33Z",
+   "result": {
+    "events": 1048,
+    "markets": 3432,
+    "ok": true
+   },
+   "started_at": "2026-10-22T05:06:31Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 307,
+   "errors": [],
+   "finished_at": "2026-10-22T12:09:00Z",
+   "http_requests": 941,
+   "incomplete": [
+    {
+     "at": "2026-10-22T12:08:45Z",
+     "market_id": "6040601",
+     "reason": "empty_history"
+    },
+    {
+     "at": "2026-10-22T12:08:45Z",
+     "market_id": "6040603",
+     "reason": "empty_history"
+    }
+   ],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 98,
+    "histories_updated": 408,
+    "markets_tracked": 3434,
+    "snapshots_written": 402
+   },
+   "started_at": "2026-10-22T12:03:53Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 21,
+   "finished_at": "2026-10-22T12:09:21Z",
+   "result": {
+    "markets": 2541,
+    "scored_units": 354,
+    "units": 414
+   },
+   "started_at": "2026-10-22T12:09:00Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-22T12:09:24Z",
+   "result": {
+    "events": 1050,
+    "markets": 3434,
+    "ok": true
+   },
+   "started_at": "2026-10-22T12:09:21Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 10,
+   "errors": [],
+   "finished_at": "2026-10-22T13:13:26Z",
+   "http_requests": 40,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 36,
+    "events_frozen": 4,
+    "histories_fetched": 4
+   },
+   "started_at": "2026-10-22T13:13:16Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 1,
+   "errors": [],
+   "finished_at": "2026-10-22T13:13:28Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-10-22T13:13:27Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 16,
+   "finished_at": "2026-10-22T13:13:44Z",
+   "result": {
+    "markets": 2541,
+    "scored_units": 354,
+    "units": 414
+   },
+   "started_at": "2026-10-22T13:13:28Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-22T13:13:46Z",
+   "result": {
+    "events": 1050,
+    "markets": 3434,
+    "ok": true
+   },
+   "started_at": "2026-10-22T13:13:44Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 275,
+   "errors": [],
+   "finished_at": "2026-10-22T17:22:56Z",
+   "http_requests": 938,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 94,
+    "histories_updated": 408,
+    "markets_tracked": 3434,
+    "snapshots_written": 402
+   },
+   "started_at": "2026-10-22T17:18:21Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 14,
+   "finished_at": "2026-10-22T17:23:10Z",
+   "result": {
+    "markets": 2541,
+    "scored_units": 354,
+    "units": 414
+   },
+   "started_at": "2026-10-22T17:22:56Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-22T17:23:12Z",
+   "result": {
+    "events": 1050,
+    "markets": 3434,
+    "ok": true
+   },
+   "started_at": "2026-10-22T17:23:10Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 280,
+   "errors": [],
+   "finished_at": "2026-10-22T21:48:27Z",
+   "http_requests": 938,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 94,
+    "histories_updated": 408,
+    "markets_tracked": 3434,
+    "snapshots_written": 402
+   },
+   "started_at": "2026-10-22T21:43:47Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 12,
+   "finished_at": "2026-10-22T21:48:39Z",
+   "result": {
+    "markets": 2541,
+    "scored_units": 354,
+    "units": 414
+   },
+   "started_at": "2026-10-22T21:48:27Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-22T21:48:41Z",
+   "result": {
+    "events": 1050,
+    "markets": 3434,
+    "ok": true
+   },
+   "started_at": "2026-10-22T21:48:39Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 352,
+   "errors": [],
+   "finished_at": "2026-10-23T05:07:30Z",
+   "http_requests": 944,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 94,
+    "histories_updated": 413,
+    "markets_tracked": 3453,
+    "snapshots_written": 407
+   },
+   "started_at": "2026-10-23T05:01:38Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 19,
+   "finished_at": "2026-10-23T05:07:49Z",
+   "result": {
+    "markets": 2560,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-23T05:07:30Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-23T05:07:51Z",
+   "result": {
+    "events": 1050,
+    "markets": 3453,
+    "ok": true
+   },
+   "started_at": "2026-10-23T05:07:49Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 311,
+   "errors": [],
+   "finished_at": "2026-10-23T11:54:07Z",
+   "http_requests": 941,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 94,
+    "histories_updated": 411,
+    "markets_tracked": 3453,
+    "snapshots_written": 405
+   },
+   "started_at": "2026-10-23T11:48:56Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 16,
+   "finished_at": "2026-10-23T11:54:23Z",
+   "result": {
+    "markets": 2560,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-23T11:54:07Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-23T11:54:25Z",
+   "result": {
+    "events": 1050,
+    "markets": 3453,
+    "ok": true
+   },
+   "started_at": "2026-10-23T11:54:23Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 23,
+   "errors": [],
+   "finished_at": "2026-10-23T12:52:55Z",
+   "http_requests": 94,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 36,
+    "events_frozen": 2,
+    "histories_fetched": 16
+   },
+   "started_at": "2026-10-23T12:52:32Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 2,
+   "errors": [],
+   "finished_at": "2026-10-23T12:52:57Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-10-23T12:52:55Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 21,
+   "finished_at": "2026-10-23T12:53:18Z",
+   "result": {
+    "markets": 2560,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-23T12:52:57Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-23T12:53:21Z",
+   "result": {
+    "events": 1050,
+    "markets": 3453,
+    "ok": true
+   },
+   "started_at": "2026-10-23T12:53:18Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 306,
+   "errors": [],
+   "finished_at": "2026-10-23T17:21:01Z",
+   "http_requests": 943,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 94,
+    "histories_updated": 413,
+    "markets_tracked": 3455,
+    "snapshots_written": 407
+   },
+   "started_at": "2026-10-23T17:15:55Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 14,
+   "finished_at": "2026-10-23T17:21:15Z",
+   "result": {
+    "markets": 2562,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-23T17:21:01Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 1,
+   "finished_at": "2026-10-23T17:21:16Z",
+   "result": {
+    "events": 1052,
+    "markets": 3455,
+    "ok": true
+   },
+   "started_at": "2026-10-23T17:21:15Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 283,
+   "errors": [],
+   "finished_at": "2026-10-23T21:35:01Z",
+   "http_requests": 943,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 94,
+    "histories_updated": 413,
+    "markets_tracked": 3455,
+    "snapshots_written": 407
+   },
+   "started_at": "2026-10-23T21:30:18Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 21,
+   "finished_at": "2026-10-23T21:35:22Z",
+   "result": {
+    "markets": 2562,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-23T21:35:01Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-23T21:35:25Z",
+   "result": {
+    "events": 1052,
+    "markets": 3455,
+    "ok": true
+   },
+   "started_at": "2026-10-23T21:35:23Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 339,
+   "errors": [],
+   "finished_at": "2026-10-24T04:52:10Z",
+   "http_requests": 945,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 94,
+    "histories_updated": 413,
+    "markets_tracked": 3455,
+    "snapshots_written": 407
+   },
+   "started_at": "2026-10-24T04:46:31Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 21,
+   "finished_at": "2026-10-24T04:52:31Z",
+   "result": {
+    "markets": 2562,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-24T04:52:10Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-24T04:52:34Z",
+   "result": {
+    "events": 1052,
+    "markets": 3455,
+    "ok": true
+   },
+   "started_at": "2026-10-24T04:52:32Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 267,
+   "errors": [],
+   "finished_at": "2026-10-24T11:18:42Z",
+   "http_requests": 945,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 94,
+    "histories_updated": 413,
+    "markets_tracked": 3455,
+    "snapshots_written": 407
+   },
+   "started_at": "2026-10-24T11:14:15Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 21,
+   "finished_at": "2026-10-24T11:19:03Z",
+   "result": {
+    "markets": 2562,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-24T11:18:42Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-24T11:19:06Z",
+   "result": {
+    "events": 1052,
+    "markets": 3455,
+    "ok": true
+   },
+   "started_at": "2026-10-24T11:19:04Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 9,
+   "errors": [],
+   "finished_at": "2026-10-24T12:14:25Z",
+   "http_requests": 36,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 36,
+    "events_frozen": 0,
+    "histories_fetched": 0
+   },
+   "started_at": "2026-10-24T12:14:16Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 2,
+   "errors": [],
+   "finished_at": "2026-10-24T12:14:27Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-10-24T12:14:25Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 21,
+   "finished_at": "2026-10-24T12:14:48Z",
+   "result": {
+    "markets": 2562,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-24T12:14:27Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-24T12:14:51Z",
+   "result": {
+    "events": 1052,
+    "markets": 3455,
+    "ok": true
+   },
+   "started_at": "2026-10-24T12:14:49Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 281,
+   "errors": [],
+   "finished_at": "2026-10-24T16:08:09Z",
+   "http_requests": 945,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 94,
+    "histories_updated": 413,
+    "markets_tracked": 3455,
+    "snapshots_written": 407
+   },
+   "started_at": "2026-10-24T16:03:28Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 21,
+   "finished_at": "2026-10-24T16:08:30Z",
+   "result": {
+    "markets": 2562,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-24T16:08:09Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-24T16:08:33Z",
+   "result": {
+    "events": 1052,
+    "markets": 3455,
+    "ok": true
+   },
+   "started_at": "2026-10-24T16:08:30Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 264,
+   "errors": [],
+   "finished_at": "2026-10-24T21:01:42Z",
+   "http_requests": 945,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 94,
+    "histories_updated": 413,
+    "markets_tracked": 3455,
+    "snapshots_written": 407
+   },
+   "started_at": "2026-10-24T20:57:18Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 21,
+   "finished_at": "2026-10-24T21:02:03Z",
+   "result": {
+    "markets": 2562,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-24T21:01:42Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-24T21:02:06Z",
+   "result": {
+    "events": 1052,
+    "markets": 3455,
+    "ok": true
+   },
+   "started_at": "2026-10-24T21:02:03Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 284,
+   "errors": [],
+   "finished_at": "2026-10-25T04:58:31Z",
+   "http_requests": 945,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 94,
+    "histories_updated": 413,
+    "markets_tracked": 3455,
+    "snapshots_written": 407
+   },
+   "started_at": "2026-10-25T04:53:47Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 16,
+   "finished_at": "2026-10-25T04:58:47Z",
+   "result": {
+    "markets": 2562,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-25T04:58:31Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-25T04:58:50Z",
+   "result": {
+    "events": 1052,
+    "markets": 3455,
+    "ok": true
+   },
+   "started_at": "2026-10-25T04:58:48Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 327,
+   "errors": [],
+   "finished_at": "2026-10-25T11:49:55Z",
+   "http_requests": 945,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 94,
+    "histories_updated": 413,
+    "markets_tracked": 3455,
+    "snapshots_written": 407
+   },
+   "started_at": "2026-10-25T11:44:28Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 19,
+   "finished_at": "2026-10-25T11:50:14Z",
+   "result": {
+    "markets": 2562,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-25T11:49:55Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-25T11:50:16Z",
+   "result": {
+    "events": 1052,
+    "markets": 3455,
+    "ok": true
+   },
+   "started_at": "2026-10-25T11:50:14Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 11,
+   "errors": [],
+   "finished_at": "2026-10-25T12:46:55Z",
+   "http_requests": 36,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 36,
+    "events_frozen": 0,
+    "histories_fetched": 0
+   },
+   "started_at": "2026-10-25T12:46:44Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 1,
+   "errors": [],
+   "finished_at": "2026-10-25T12:46:56Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-10-25T12:46:55Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 17,
+   "finished_at": "2026-10-25T12:47:13Z",
+   "result": {
+    "markets": 2562,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-25T12:46:56Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-25T12:47:15Z",
+   "result": {
+    "events": 1052,
+    "markets": 3455,
+    "ok": true
+   },
+   "started_at": "2026-10-25T12:47:13Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 309,
+   "errors": [],
+   "finished_at": "2026-10-25T16:37:46Z",
+   "http_requests": 945,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 94,
+    "histories_updated": 413,
+    "markets_tracked": 3455,
+    "snapshots_written": 407
+   },
+   "started_at": "2026-10-25T16:32:37Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-10-25T16:38:08Z",
+   "result": {
+    "markets": 2562,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-25T16:37:46Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-25T16:38:11Z",
+   "result": {
+    "events": 1052,
+    "markets": 3455,
+    "ok": true
+   },
+   "started_at": "2026-10-25T16:38:08Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 339,
+   "errors": [],
+   "finished_at": "2026-10-25T21:03:03Z",
+   "http_requests": 945,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 94,
+    "histories_updated": 413,
+    "markets_tracked": 3455,
+    "snapshots_written": 407
+   },
+   "started_at": "2026-10-25T20:57:24Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 12,
+   "finished_at": "2026-10-25T21:03:15Z",
+   "result": {
+    "markets": 2562,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-25T21:03:03Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-25T21:03:17Z",
+   "result": {
+    "events": 1052,
+    "markets": 3455,
+    "ok": true
+   },
+   "started_at": "2026-10-25T21:03:15Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 313,
+   "errors": [],
+   "finished_at": "2026-10-26T05:02:56Z",
+   "http_requests": 946,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 94,
+    "histories_updated": 413,
+    "markets_tracked": 3455,
+    "snapshots_written": 407
+   },
+   "started_at": "2026-10-26T04:57:43Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 21,
+   "finished_at": "2026-10-26T05:03:17Z",
+   "result": {
+    "markets": 2562,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-26T05:02:56Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-26T05:03:20Z",
+   "result": {
+    "events": 1052,
+    "markets": 3455,
+    "ok": true
+   },
+   "started_at": "2026-10-26T05:03:17Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 311,
+   "errors": [],
+   "finished_at": "2026-10-26T13:21:42Z",
+   "http_requests": 948,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 96,
+    "histories_updated": 413,
+    "markets_tracked": 3457,
+    "snapshots_written": 407
+   },
+   "started_at": "2026-10-26T13:16:31Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-10-26T13:22:04Z",
+   "result": {
+    "markets": 2564,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-26T13:21:42Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-26T13:22:07Z",
+   "result": {
+    "events": 1054,
+    "markets": 3457,
+    "ok": true
+   },
+   "started_at": "2026-10-26T13:22:04Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 10,
+   "errors": [],
+   "finished_at": "2026-10-26T14:35:16Z",
+   "http_requests": 38,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 36,
+    "events_frozen": 2,
+    "histories_fetched": 2
+   },
+   "started_at": "2026-10-26T14:35:06Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 2,
+   "errors": [],
+   "finished_at": "2026-10-26T14:35:18Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-10-26T14:35:16Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 21,
+   "finished_at": "2026-10-26T14:35:39Z",
+   "result": {
+    "markets": 2564,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-26T14:35:18Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-26T14:35:42Z",
+   "result": {
+    "events": 1054,
+    "markets": 3457,
+    "ok": true
+   },
+   "started_at": "2026-10-26T14:35:39Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 308,
+   "errors": [],
+   "finished_at": "2026-10-26T22:50:30Z",
+   "http_requests": 946,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 94,
+    "histories_updated": 413,
+    "markets_tracked": 3457,
+    "snapshots_written": 407
+   },
+   "started_at": "2026-10-26T22:45:22Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 21,
+   "finished_at": "2026-10-26T22:50:51Z",
+   "result": {
+    "markets": 2564,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-26T22:50:30Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-26T22:50:54Z",
+   "result": {
+    "events": 1054,
+    "markets": 3457,
+    "ok": true
+   },
+   "started_at": "2026-10-26T22:50:51Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 258,
+   "errors": [],
+   "finished_at": "2026-10-27T05:19:32Z",
+   "http_requests": 946,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 94,
+    "histories_updated": 413,
+    "markets_tracked": 3457,
+    "snapshots_written": 407
+   },
+   "started_at": "2026-10-27T05:15:14Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-10-27T05:19:54Z",
+   "result": {
+    "markets": 2564,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-27T05:19:32Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-27T05:19:57Z",
+   "result": {
+    "events": 1054,
+    "markets": 3457,
+    "ok": true
+   },
+   "started_at": "2026-10-27T05:19:54Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 316,
+   "errors": [],
+   "finished_at": "2026-10-27T12:29:39Z",
+   "http_requests": 948,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 910,
+    "events_refreshed": 96,
+    "histories_updated": 413,
+    "markets_tracked": 3459,
+    "snapshots_written": 407
+   },
+   "started_at": "2026-10-27T12:24:23Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-10-27T12:30:01Z",
+   "result": {
+    "markets": 2566,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-27T12:29:39Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-27T12:30:04Z",
+   "result": {
+    "events": 1056,
+    "markets": 3459,
+    "ok": true
+   },
+   "started_at": "2026-10-27T12:30:01Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 10,
+   "errors": [],
+   "finished_at": "2026-10-27T13:37:36Z",
+   "http_requests": 38,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 36,
+    "events_frozen": 2,
+    "histories_fetched": 2
+   },
+   "started_at": "2026-10-27T13:37:26Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 1,
+   "errors": [],
+   "finished_at": "2026-10-27T13:37:37Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-10-27T13:37:36Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 14,
+   "finished_at": "2026-10-27T13:37:51Z",
+   "result": {
+    "markets": 2566,
+    "scored_units": 356,
+    "units": 414
+   },
+   "started_at": "2026-10-27T13:37:37Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-27T13:37:53Z",
+   "result": {
+    "events": 1056,
+    "markets": 3459,
+    "ok": true
+   },
+   "started_at": "2026-10-27T13:37:51Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 279,
+   "errors": [],
+   "finished_at": "2026-10-27T22:27:53Z",
+   "http_requests": 952,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 911,
+    "events_refreshed": 95,
+    "histories_updated": 418,
+    "markets_tracked": 3464,
+    "snapshots_written": 412
+   },
+   "started_at": "2026-10-27T22:23:14Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 19,
+   "finished_at": "2026-10-27T22:28:13Z",
+   "result": {
+    "markets": 2571,
+    "scored_units": 356,
+    "units": 415
+   },
+   "started_at": "2026-10-27T22:27:54Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-27T22:28:16Z",
+   "result": {
+    "events": 1057,
+    "markets": 3464,
+    "ok": true
+   },
+   "started_at": "2026-10-27T22:28:13Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 313,
+   "errors": [],
+   "finished_at": "2026-10-28T05:59:12Z",
+   "http_requests": 952,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 911,
+    "events_refreshed": 95,
+    "histories_updated": 418,
+    "markets_tracked": 3464,
+    "snapshots_written": 412
+   },
+   "started_at": "2026-10-28T05:53:59Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 21,
+   "finished_at": "2026-10-28T05:59:33Z",
+   "result": {
+    "markets": 2571,
+    "scored_units": 356,
+    "units": 415
+   },
+   "started_at": "2026-10-28T05:59:12Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-28T05:59:36Z",
+   "result": {
+    "events": 1057,
+    "markets": 3464,
+    "ok": true
+   },
+   "started_at": "2026-10-28T05:59:33Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 384,
+   "errors": [],
+   "finished_at": "2026-10-28T13:17:15Z",
+   "http_requests": 956,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 911,
+    "events_refreshed": 97,
+    "histories_updated": 418,
+    "markets_tracked": 3466,
+    "snapshots_written": 412
+   },
+   "started_at": "2026-10-28T13:10:51Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 19,
+   "finished_at": "2026-10-28T13:17:34Z",
+   "result": {
+    "markets": 2573,
+    "scored_units": 356,
+    "units": 415
+   },
+   "started_at": "2026-10-28T13:17:15Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-28T13:17:36Z",
+   "result": {
+    "events": 1059,
+    "markets": 3466,
+    "ok": true
+   },
+   "started_at": "2026-10-28T13:17:34Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 12,
+   "errors": [],
+   "finished_at": "2026-10-28T14:32:05Z",
+   "http_requests": 39,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 37,
+    "events_frozen": 2,
+    "histories_fetched": 2
+   },
+   "started_at": "2026-10-28T14:31:53Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 2,
+   "errors": [],
+   "finished_at": "2026-10-28T14:32:07Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-10-28T14:32:05Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-10-28T14:32:29Z",
+   "result": {
+    "markets": 2573,
+    "scored_units": 356,
+    "units": 415
+   },
+   "started_at": "2026-10-28T14:32:07Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-28T14:32:32Z",
+   "result": {
+    "events": 1059,
+    "markets": 3466,
+    "ok": true
+   },
+   "started_at": "2026-10-28T14:32:29Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 268,
+   "errors": [],
+   "finished_at": "2026-10-28T22:45:44Z",
+   "http_requests": 940,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 912,
+    "events_refreshed": 96,
+    "histories_updated": 406,
+    "markets_tracked": 3471,
+    "snapshots_written": 400
+   },
+   "started_at": "2026-10-28T22:41:16Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-10-28T22:46:06Z",
+   "result": {
+    "markets": 2578,
+    "scored_units": 358,
+    "units": 416
+   },
+   "started_at": "2026-10-28T22:45:44Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-28T22:46:08Z",
+   "result": {
+    "events": 1060,
+    "markets": 3471,
+    "ok": true
+   },
+   "started_at": "2026-10-28T22:46:06Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 266,
+   "errors": [],
+   "finished_at": "2026-10-29T06:02:47Z",
+   "http_requests": 940,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 912,
+    "events_refreshed": 96,
+    "histories_updated": 406,
+    "markets_tracked": 3471,
+    "snapshots_written": 400
+   },
+   "started_at": "2026-10-29T05:58:21Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-10-29T06:03:09Z",
+   "result": {
+    "markets": 2578,
+    "scored_units": 358,
+    "units": 416
+   },
+   "started_at": "2026-10-29T06:02:47Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-29T06:03:12Z",
+   "result": {
+    "events": 1060,
+    "markets": 3471,
+    "ok": true
+   },
+   "started_at": "2026-10-29T06:03:09Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 314,
+   "errors": [],
+   "finished_at": "2026-10-29T13:22:25Z",
+   "http_requests": 943,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 912,
+    "events_refreshed": 98,
+    "histories_updated": 406,
+    "markets_tracked": 3473,
+    "snapshots_written": 400
+   },
+   "started_at": "2026-10-29T13:17:11Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-10-29T13:22:47Z",
+   "result": {
+    "markets": 2580,
+    "scored_units": 358,
+    "units": 416
+   },
+   "started_at": "2026-10-29T13:22:25Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-29T13:22:50Z",
+   "result": {
+    "events": 1062,
+    "markets": 3473,
+    "ok": true
+   },
+   "started_at": "2026-10-29T13:22:47Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 102,
+   "errors": [],
+   "finished_at": "2026-10-29T14:41:58Z",
+   "http_requests": 406,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 43,
+    "events_frozen": 7,
+    "histories_fetched": 40
+   },
+   "started_at": "2026-10-29T14:40:16Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 2,
+   "errors": [],
+   "finished_at": "2026-10-29T14:42:00Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-10-29T14:41:58Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 18,
+   "finished_at": "2026-10-29T14:42:18Z",
+   "result": {
+    "markets": 2580,
+    "scored_units": 361,
+    "units": 416
+   },
+   "started_at": "2026-10-29T14:42:00Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-29T14:42:20Z",
+   "result": {
+    "events": 1062,
+    "markets": 3473,
+    "ok": true
+   },
+   "started_at": "2026-10-29T14:42:18Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 259,
+   "errors": [],
+   "finished_at": "2026-10-29T22:55:10Z",
+   "http_requests": 940,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 915,
+    "events_refreshed": 94,
+    "histories_updated": 405,
+    "markets_tracked": 3494,
+    "snapshots_written": 399
+   },
+   "started_at": "2026-10-29T22:50:51Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-10-29T22:55:32Z",
+   "result": {
+    "markets": 2601,
+    "scored_units": 361,
+    "units": 419
+   },
+   "started_at": "2026-10-29T22:55:10Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-29T22:55:35Z",
+   "result": {
+    "events": 1065,
+    "markets": 3494,
+    "ok": true
+   },
+   "started_at": "2026-10-29T22:55:32Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 260,
+   "errors": [],
+   "finished_at": "2026-10-30T06:03:40Z",
+   "http_requests": 941,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 915,
+    "events_refreshed": 94,
+    "histories_updated": 405,
+    "markets_tracked": 3494,
+    "snapshots_written": 399
+   },
+   "started_at": "2026-10-30T05:59:20Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-10-30T06:04:02Z",
+   "result": {
+    "markets": 2601,
+    "scored_units": 361,
+    "units": 419
+   },
+   "started_at": "2026-10-30T06:03:40Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-30T06:04:05Z",
+   "result": {
+    "events": 1065,
+    "markets": 3494,
+    "ok": true
+   },
+   "started_at": "2026-10-30T06:04:02Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 298,
+   "errors": [],
+   "finished_at": "2026-10-30T13:14:11Z",
+   "http_requests": 943,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 915,
+    "events_refreshed": 96,
+    "histories_updated": 405,
+    "markets_tracked": 3496,
+    "snapshots_written": 399
+   },
+   "started_at": "2026-10-30T13:09:13Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-10-30T13:14:33Z",
+   "result": {
+    "markets": 2603,
+    "scored_units": 361,
+    "units": 419
+   },
+   "started_at": "2026-10-30T13:14:11Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-30T13:14:35Z",
+   "result": {
+    "events": 1067,
+    "markets": 3496,
+    "ok": true
+   },
+   "started_at": "2026-10-30T13:14:33Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 12,
+   "errors": [],
+   "finished_at": "2026-10-30T14:32:19Z",
+   "http_requests": 46,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 39,
+    "events_frozen": 2,
+    "histories_fetched": 3
+   },
+   "started_at": "2026-10-30T14:32:07Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 0,
+   "errors": [],
+   "finished_at": "2026-10-30T14:32:19Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-10-30T14:32:19Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 13,
+   "finished_at": "2026-10-30T14:32:33Z",
+   "result": {
+    "markets": 2603,
+    "scored_units": 361,
+    "units": 419
+   },
+   "started_at": "2026-10-30T14:32:20Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 1,
+   "finished_at": "2026-10-30T14:32:34Z",
+   "result": {
+    "events": 1067,
+    "markets": 3496,
+    "ok": true
+   },
+   "started_at": "2026-10-30T14:32:33Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 280,
+   "errors": [],
+   "finished_at": "2026-10-30T22:32:35Z",
+   "http_requests": 895,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 916,
+    "events_refreshed": 95,
+    "histories_updated": 358,
+    "markets_tracked": 3497,
+    "snapshots_written": 352
+   },
+   "started_at": "2026-10-30T22:27:55Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-10-30T22:32:57Z",
+   "result": {
+    "markets": 2604,
+    "scored_units": 363,
+    "units": 420
+   },
+   "started_at": "2026-10-30T22:32:35Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-30T22:33:00Z",
+   "result": {
+    "events": 1068,
+    "markets": 3497,
+    "ok": true
+   },
+   "started_at": "2026-10-30T22:32:57Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 281,
+   "errors": [],
+   "finished_at": "2026-10-31T05:59:52Z",
+   "http_requests": 894,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 916,
+    "events_refreshed": 95,
+    "histories_updated": 356,
+    "markets_tracked": 3497,
+    "snapshots_written": 350
+   },
+   "started_at": "2026-10-31T05:55:11Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-10-31T06:00:14Z",
+   "result": {
+    "markets": 2604,
+    "scored_units": 363,
+    "units": 420
+   },
+   "started_at": "2026-10-31T05:59:52Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-31T06:00:17Z",
+   "result": {
+    "events": 1068,
+    "markets": 3497,
+    "ok": true
+   },
+   "started_at": "2026-10-31T06:00:14Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 284,
+   "errors": [],
+   "finished_at": "2026-10-31T12:50:11Z",
+   "http_requests": 893,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 916,
+    "events_refreshed": 95,
+    "histories_updated": 356,
+    "markets_tracked": 3497,
+    "snapshots_written": 350
+   },
+   "started_at": "2026-10-31T12:45:27Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 19,
+   "finished_at": "2026-10-31T12:50:31Z",
+   "result": {
+    "markets": 2604,
+    "scored_units": 363,
+    "units": 420
+   },
+   "started_at": "2026-10-31T12:50:12Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-31T12:50:34Z",
+   "result": {
+    "events": 1068,
+    "markets": 3497,
+    "ok": true
+   },
+   "started_at": "2026-10-31T12:50:31Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 72,
+   "errors": [],
+   "finished_at": "2026-10-31T13:55:37Z",
+   "http_requests": 280,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 41,
+    "events_frozen": 10,
+    "histories_fetched": 50
+   },
+   "started_at": "2026-10-31T13:54:25Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 2,
+   "errors": [],
+   "finished_at": "2026-10-31T13:55:39Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-10-31T13:55:37Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-10-31T13:56:01Z",
+   "result": {
+    "markets": 2604,
+    "scored_units": 363,
+    "units": 420
+   },
+   "started_at": "2026-10-31T13:55:39Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-10-31T13:56:04Z",
+   "result": {
+    "events": 1068,
+    "markets": 3497,
+    "ok": true
+   },
+   "started_at": "2026-10-31T13:56:01Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 289,
+   "errors": [],
+   "finished_at": "2026-10-31T21:47:34Z",
+   "http_requests": 891,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 916,
+    "events_refreshed": 85,
+    "histories_updated": 356,
+    "markets_tracked": 3497,
+    "snapshots_written": 350
+   },
+   "started_at": "2026-10-31T21:42:45Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 23,
+   "finished_at": "2026-10-31T21:47:57Z",
+   "result": {
+    "markets": 2604,
+    "scored_units": 363,
+    "units": 420
+   },
+   "started_at": "2026-10-31T21:47:34Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-10-31T21:47:59Z",
+   "result": {
+    "events": 1068,
+    "markets": 3497,
+    "ok": true
+   },
+   "started_at": "2026-10-31T21:47:57Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 294,
+   "errors": [],
+   "finished_at": "2026-11-01T06:26:40Z",
+   "http_requests": 889,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 916,
+    "events_refreshed": 85,
+    "histories_updated": 353,
+    "markets_tracked": 3497,
+    "snapshots_written": 347
+   },
+   "started_at": "2026-11-01T06:21:46Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 12,
+   "finished_at": "2026-11-01T06:26:52Z",
+   "result": {
+    "markets": 2604,
+    "scored_units": 363,
+    "units": 420
+   },
+   "started_at": "2026-11-01T06:26:40Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-01T06:26:54Z",
+   "result": {
+    "events": 1068,
+    "markets": 3497,
+    "ok": true
+   },
+   "started_at": "2026-11-01T06:26:52Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 16,
+   "errors": [],
+   "finished_at": "2026-11-01T14:31:33Z",
+   "http_requests": 56,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 31,
+    "events_frozen": 1,
+    "histories_fetched": 3
+   },
+   "started_at": "2026-11-01T14:31:17Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 2,
+   "errors": [],
+   "finished_at": "2026-11-01T14:31:35Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-11-01T14:31:33Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-11-01T14:31:57Z",
+   "result": {
+    "markets": 2604,
+    "scored_units": 363,
+    "units": 420
+   },
+   "started_at": "2026-11-01T14:31:35Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-01T14:32:00Z",
+   "result": {
+    "events": 1068,
+    "markets": 3497,
+    "ok": true
+   },
+   "started_at": "2026-11-01T14:31:57Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 285,
+   "errors": [],
+   "finished_at": "2026-11-01T18:02:42Z",
+   "http_requests": 887,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 916,
+    "events_refreshed": 84,
+    "histories_updated": 353,
+    "markets_tracked": 3497,
+    "snapshots_written": 347
+   },
+   "started_at": "2026-11-01T17:57:57Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 17,
+   "finished_at": "2026-11-01T18:02:59Z",
+   "result": {
+    "markets": 2604,
+    "scored_units": 363,
+    "units": 420
+   },
+   "started_at": "2026-11-01T18:02:42Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-01T18:03:02Z",
+   "result": {
+    "events": 1068,
+    "markets": 3497,
+    "ok": true
+   },
+   "started_at": "2026-11-01T18:03:00Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 287,
+   "errors": [],
+   "finished_at": "2026-11-01T22:14:41Z",
+   "http_requests": 887,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 916,
+    "events_refreshed": 84,
+    "histories_updated": 353,
+    "markets_tracked": 3497,
+    "snapshots_written": 347
+   },
+   "started_at": "2026-11-01T22:09:54Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 18,
+   "finished_at": "2026-11-01T22:14:59Z",
+   "result": {
+    "markets": 2604,
+    "scored_units": 363,
+    "units": 420
+   },
+   "started_at": "2026-11-01T22:14:41Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-01T22:15:01Z",
+   "result": {
+    "events": 1068,
+    "markets": 3497,
+    "ok": true
+   },
+   "started_at": "2026-11-01T22:14:59Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 260,
+   "errors": [],
+   "finished_at": "2026-11-02T06:27:42Z",
+   "http_requests": 892,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 917,
+    "events_refreshed": 85,
+    "histories_updated": 357,
+    "markets_tracked": 3501,
+    "snapshots_written": 351
+   },
+   "started_at": "2026-11-02T06:23:22Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 14,
+   "finished_at": "2026-11-02T06:27:56Z",
+   "result": {
+    "markets": 2608,
+    "scored_units": 363,
+    "units": 421
+   },
+   "started_at": "2026-11-02T06:27:42Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-02T06:27:58Z",
+   "result": {
+    "events": 1069,
+    "markets": 3501,
+    "ok": true
+   },
+   "started_at": "2026-11-02T06:27:56Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 8,
+   "errors": [],
+   "finished_at": "2026-11-02T17:27:35Z",
+   "http_requests": 30,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 30,
+    "events_frozen": 0,
+    "histories_fetched": 0
+   },
+   "started_at": "2026-11-02T17:27:27Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 1,
+   "errors": [],
+   "finished_at": "2026-11-02T17:27:36Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-11-02T17:27:35Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-11-02T17:27:58Z",
+   "result": {
+    "markets": 2608,
+    "scored_units": 363,
+    "units": 421
+   },
+   "started_at": "2026-11-02T17:27:36Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-02T17:28:00Z",
+   "result": {
+    "events": 1069,
+    "markets": 3501,
+    "ok": true
+   },
+   "started_at": "2026-11-02T17:27:58Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 290,
+   "errors": [],
+   "finished_at": "2026-11-02T21:51:23Z",
+   "http_requests": 906,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 918,
+    "events_refreshed": 88,
+    "histories_updated": 368,
+    "markets_tracked": 3512,
+    "snapshots_written": 362
+   },
+   "started_at": "2026-11-02T21:46:33Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 23,
+   "finished_at": "2026-11-02T21:51:46Z",
+   "result": {
+    "markets": 2619,
+    "scored_units": 363,
+    "units": 422
+   },
+   "started_at": "2026-11-02T21:51:23Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-02T21:51:49Z",
+   "result": {
+    "events": 1072,
+    "markets": 3512,
+    "ok": true
+   },
+   "started_at": "2026-11-02T21:51:46Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 250,
+   "errors": [],
+   "finished_at": "2026-11-03T07:01:55Z",
+   "http_requests": 906,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 918,
+    "events_refreshed": 88,
+    "histories_updated": 368,
+    "markets_tracked": 3512,
+    "snapshots_written": 362
+   },
+   "started_at": "2026-11-03T06:57:45Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 16,
+   "finished_at": "2026-11-03T07:02:11Z",
+   "result": {
+    "markets": 2619,
+    "scored_units": 363,
+    "units": 422
+   },
+   "started_at": "2026-11-03T07:01:55Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-03T07:02:13Z",
+   "result": {
+    "events": 1072,
+    "markets": 3512,
+    "ok": true
+   },
+   "started_at": "2026-11-03T07:02:11Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 10,
+   "errors": [],
+   "finished_at": "2026-11-03T15:29:25Z",
+   "http_requests": 34,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 32,
+    "events_frozen": 2,
+    "histories_fetched": 2
+   },
+   "started_at": "2026-11-03T15:29:15Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 1,
+   "errors": [],
+   "finished_at": "2026-11-03T15:29:26Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-11-03T15:29:25Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 12,
+   "finished_at": "2026-11-03T15:29:38Z",
+   "result": {
+    "markets": 2619,
+    "scored_units": 363,
+    "units": 422
+   },
+   "started_at": "2026-11-03T15:29:26Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-03T15:29:40Z",
+   "result": {
+    "events": 1072,
+    "markets": 3512,
+    "ok": true
+   },
+   "started_at": "2026-11-03T15:29:38Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 251,
+   "errors": [],
+   "finished_at": "2026-11-03T19:40:32Z",
+   "http_requests": 906,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 918,
+    "events_refreshed": 88,
+    "histories_updated": 368,
+    "markets_tracked": 3514,
+    "snapshots_written": 362
+   },
+   "started_at": "2026-11-03T19:36:21Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-11-03T19:40:54Z",
+   "result": {
+    "markets": 2621,
+    "scored_units": 363,
+    "units": 422
+   },
+   "started_at": "2026-11-03T19:40:32Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-03T19:40:57Z",
+   "result": {
+    "events": 1074,
+    "markets": 3514,
+    "ok": true
+   },
+   "started_at": "2026-11-03T19:40:54Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 310,
+   "errors": [],
+   "finished_at": "2026-11-04T06:45:05Z",
+   "http_requests": 969,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 925,
+    "events_refreshed": 95,
+    "histories_updated": 431,
+    "markets_tracked": 3577,
+    "snapshots_written": 425
+   },
+   "started_at": "2026-11-04T06:39:55Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 12,
+   "finished_at": "2026-11-04T06:45:17Z",
+   "result": {
+    "markets": 2684,
+    "scored_units": 363,
+    "units": 429
+   },
+   "started_at": "2026-11-04T06:45:05Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-04T06:45:19Z",
+   "result": {
+    "events": 1081,
+    "markets": 3577,
+    "ok": true
+   },
+   "started_at": "2026-11-04T06:45:17Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 9,
+   "errors": [],
+   "finished_at": "2026-11-04T15:47:32Z",
+   "http_requests": 34,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 32,
+    "events_frozen": 2,
+    "histories_fetched": 2
+   },
+   "started_at": "2026-11-04T15:47:23Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 1,
+   "errors": [],
+   "finished_at": "2026-11-04T15:47:33Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-11-04T15:47:32Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 23,
+   "finished_at": "2026-11-04T15:47:56Z",
+   "result": {
+    "markets": 2684,
+    "scored_units": 363,
+    "units": 429
+   },
+   "started_at": "2026-11-04T15:47:33Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-04T15:47:59Z",
+   "result": {
+    "events": 1081,
+    "markets": 3577,
+    "ok": true
+   },
+   "started_at": "2026-11-04T15:47:56Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 270,
+   "errors": [],
+   "finished_at": "2026-11-04T19:56:37Z",
+   "http_requests": 967,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 925,
+    "events_refreshed": 95,
+    "histories_updated": 429,
+    "markets_tracked": 3579,
+    "snapshots_written": 423
+   },
+   "started_at": "2026-11-04T19:52:07Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 13,
+   "finished_at": "2026-11-04T19:56:50Z",
+   "result": {
+    "markets": 2686,
+    "scored_units": 363,
+    "units": 429
+   },
+   "started_at": "2026-11-04T19:56:37Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-04T19:56:52Z",
+   "result": {
+    "events": 1083,
+    "markets": 3579,
+    "ok": true
+   },
+   "started_at": "2026-11-04T19:56:50Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 262,
+   "errors": [],
+   "finished_at": "2026-11-05T07:03:29Z",
+   "http_requests": 966,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 925,
+    "events_refreshed": 95,
+    "histories_updated": 428,
+    "markets_tracked": 3579,
+    "snapshots_written": 422
+   },
+   "started_at": "2026-11-05T06:59:07Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 17,
+   "finished_at": "2026-11-05T07:03:47Z",
+   "result": {
+    "markets": 2686,
+    "scored_units": 364,
+    "units": 429
+   },
+   "started_at": "2026-11-05T07:03:30Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-05T07:03:49Z",
+   "result": {
+    "events": 1083,
+    "markets": 3579,
+    "ok": true
+   },
+   "started_at": "2026-11-05T07:03:47Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 11,
+   "errors": [],
+   "finished_at": "2026-11-05T15:49:22Z",
+   "http_requests": 40,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 34,
+    "events_frozen": 2,
+    "histories_fetched": 5
+   },
+   "started_at": "2026-11-05T15:49:11Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 1,
+   "errors": [],
+   "finished_at": "2026-11-05T15:49:23Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-11-05T15:49:22Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-11-05T15:49:45Z",
+   "result": {
+    "markets": 2686,
+    "scored_units": 364,
+    "units": 429
+   },
+   "started_at": "2026-11-05T15:49:23Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-05T15:49:47Z",
+   "result": {
+    "events": 1083,
+    "markets": 3579,
+    "ok": true
+   },
+   "started_at": "2026-11-05T15:49:45Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 267,
+   "errors": [],
+   "finished_at": "2026-11-05T20:09:14Z",
+   "http_requests": 967,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 925,
+    "events_refreshed": 95,
+    "histories_updated": 428,
+    "markets_tracked": 3581,
+    "snapshots_written": 422
+   },
+   "started_at": "2026-11-05T20:04:47Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 23,
+   "finished_at": "2026-11-05T20:09:37Z",
+   "result": {
+    "markets": 2688,
+    "scored_units": 364,
+    "units": 429
+   },
+   "started_at": "2026-11-05T20:09:14Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-05T20:09:40Z",
+   "result": {
+    "events": 1085,
+    "markets": 3581,
+    "ok": true
+   },
+   "started_at": "2026-11-05T20:09:37Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 263,
+   "errors": [],
+   "finished_at": "2026-11-06T07:02:42Z",
+   "http_requests": 963,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 925,
+    "events_refreshed": 95,
+    "histories_updated": 424,
+    "markets_tracked": 3581,
+    "snapshots_written": 418
+   },
+   "started_at": "2026-11-06T06:58:19Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 23,
+   "finished_at": "2026-11-06T07:03:06Z",
+   "result": {
+    "markets": 2688,
+    "scored_units": 364,
+    "units": 429
+   },
+   "started_at": "2026-11-06T07:02:43Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-06T07:03:09Z",
+   "result": {
+    "events": 1085,
+    "markets": 3581,
+    "ok": true
+   },
+   "started_at": "2026-11-06T07:03:06Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 14,
+   "errors": [],
+   "finished_at": "2026-11-06T15:24:56Z",
+   "http_requests": 52,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 35,
+    "events_frozen": 2,
+    "histories_fetched": 6
+   },
+   "started_at": "2026-11-06T15:24:42Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 1,
+   "errors": [],
+   "finished_at": "2026-11-06T15:24:57Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-11-06T15:24:56Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 23,
+   "finished_at": "2026-11-06T15:25:20Z",
+   "result": {
+    "markets": 2688,
+    "scored_units": 364,
+    "units": 429
+   },
+   "started_at": "2026-11-06T15:24:57Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-06T15:25:23Z",
+   "result": {
+    "events": 1085,
+    "markets": 3581,
+    "ok": true
+   },
+   "started_at": "2026-11-06T15:25:21Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 264,
+   "errors": [],
+   "finished_at": "2026-11-06T19:34:46Z",
+   "http_requests": 949,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 925,
+    "events_refreshed": 95,
+    "histories_updated": 408,
+    "markets_tracked": 3583,
+    "snapshots_written": 402
+   },
+   "started_at": "2026-11-06T19:30:22Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 18,
+   "finished_at": "2026-11-06T19:35:04Z",
+   "result": {
+    "markets": 2690,
+    "scored_units": 366,
+    "units": 429
+   },
+   "started_at": "2026-11-06T19:34:46Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-06T19:35:06Z",
+   "result": {
+    "events": 1087,
+    "markets": 3583,
+    "ok": true
+   },
+   "started_at": "2026-11-06T19:35:04Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 281,
+   "errors": [],
+   "finished_at": "2026-11-07T06:16:34Z",
+   "http_requests": 951,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 925,
+    "events_refreshed": 95,
+    "histories_updated": 408,
+    "markets_tracked": 3583,
+    "snapshots_written": 402
+   },
+   "started_at": "2026-11-07T06:11:53Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 23,
+   "finished_at": "2026-11-07T06:16:57Z",
+   "result": {
+    "markets": 2690,
+    "scored_units": 366,
+    "units": 429
+   },
+   "started_at": "2026-11-07T06:16:34Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-07T06:17:00Z",
+   "result": {
+    "events": 1087,
+    "markets": 3583,
+    "ok": true
+   },
+   "started_at": "2026-11-07T06:16:58Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 287,
+   "errors": [],
+   "finished_at": "2026-11-07T13:20:16Z",
+   "http_requests": 951,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 925,
+    "events_refreshed": 95,
+    "histories_updated": 408,
+    "markets_tracked": 3583,
+    "snapshots_written": 402
+   },
+   "started_at": "2026-11-07T13:15:29Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 13,
+   "finished_at": "2026-11-07T13:20:29Z",
+   "result": {
+    "markets": 2690,
+    "scored_units": 366,
+    "units": 429
+   },
+   "started_at": "2026-11-07T13:20:16Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-07T13:20:31Z",
+   "result": {
+    "events": 1087,
+    "markets": 3583,
+    "ok": true
+   },
+   "started_at": "2026-11-07T13:20:29Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 35,
+   "errors": [],
+   "finished_at": "2026-11-07T14:22:25Z",
+   "http_requests": 134,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 36,
+    "events_frozen": 4,
+    "histories_fetched": 18
+   },
+   "started_at": "2026-11-07T14:21:50Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 1,
+   "errors": [],
+   "finished_at": "2026-11-07T14:22:26Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-11-07T14:22:25Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 12,
+   "finished_at": "2026-11-07T14:22:38Z",
+   "result": {
+    "markets": 2690,
+    "scored_units": 366,
+    "units": 429
+   },
+   "started_at": "2026-11-07T14:22:26Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-07T14:22:40Z",
+   "result": {
+    "events": 1087,
+    "markets": 3583,
+    "ok": true
+   },
+   "started_at": "2026-11-07T14:22:38Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 275,
+   "errors": [],
+   "finished_at": "2026-11-07T22:03:10Z",
+   "http_requests": 945,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 925,
+    "events_refreshed": 91,
+    "histories_updated": 406,
+    "markets_tracked": 3583,
+    "snapshots_written": 400
+   },
+   "started_at": "2026-11-07T21:58:35Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 13,
+   "finished_at": "2026-11-07T22:03:23Z",
+   "result": {
+    "markets": 2690,
+    "scored_units": 366,
+    "units": 429
+   },
+   "started_at": "2026-11-07T22:03:10Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 1,
+   "finished_at": "2026-11-07T22:03:24Z",
+   "result": {
+    "events": 1087,
+    "markets": 3583,
+    "ok": true
+   },
+   "started_at": "2026-11-07T22:03:23Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 315,
+   "errors": [],
+   "finished_at": "2026-11-08T06:22:01Z",
+   "http_requests": 945,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 925,
+    "events_refreshed": 91,
+    "histories_updated": 406,
+    "markets_tracked": 3583,
+    "snapshots_written": 400
+   },
+   "started_at": "2026-11-08T06:16:46Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 24,
+   "finished_at": "2026-11-08T06:22:25Z",
+   "result": {
+    "markets": 2690,
+    "scored_units": 366,
+    "units": 429
+   },
+   "started_at": "2026-11-08T06:22:01Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-08T06:22:28Z",
+   "result": {
+    "events": 1087,
+    "markets": 3583,
+    "ok": true
+   },
+   "started_at": "2026-11-08T06:22:25Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 259,
+   "errors": [],
+   "finished_at": "2026-11-08T13:44:30Z",
+   "http_requests": 945,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 925,
+    "events_refreshed": 91,
+    "histories_updated": 406,
+    "markets_tracked": 3583,
+    "snapshots_written": 400
+   },
+   "started_at": "2026-11-08T13:40:11Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 23,
+   "finished_at": "2026-11-08T13:44:53Z",
+   "result": {
+    "markets": 2690,
+    "scored_units": 366,
+    "units": 429
+   },
+   "started_at": "2026-11-08T13:44:30Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-08T13:44:56Z",
+   "result": {
+    "events": 1087,
+    "markets": 3583,
+    "ok": true
+   },
+   "started_at": "2026-11-08T13:44:53Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 9,
+   "errors": [],
+   "finished_at": "2026-11-08T14:32:48Z",
+   "http_requests": 32,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 32,
+    "events_frozen": 0,
+    "histories_fetched": 0
+   },
+   "started_at": "2026-11-08T14:32:39Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 1,
+   "errors": [],
+   "finished_at": "2026-11-08T14:32:49Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-11-08T14:32:48Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 17,
+   "finished_at": "2026-11-08T14:33:06Z",
+   "result": {
+    "markets": 2690,
+    "scored_units": 366,
+    "units": 429
+   },
+   "started_at": "2026-11-08T14:32:49Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-08T14:33:09Z",
+   "result": {
+    "events": 1087,
+    "markets": 3583,
+    "ok": true
+   },
+   "started_at": "2026-11-08T14:33:07Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 303,
+   "errors": [],
+   "finished_at": "2026-11-08T22:20:12Z",
+   "http_requests": 945,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 925,
+    "events_refreshed": 91,
+    "histories_updated": 406,
+    "markets_tracked": 3583,
+    "snapshots_written": 400
+   },
+   "started_at": "2026-11-08T22:15:09Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 23,
+   "finished_at": "2026-11-08T22:20:35Z",
+   "result": {
+    "markets": 2690,
+    "scored_units": 366,
+    "units": 429
+   },
+   "started_at": "2026-11-08T22:20:12Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-08T22:20:38Z",
+   "result": {
+    "events": 1087,
+    "markets": 3583,
+    "ok": true
+   },
+   "started_at": "2026-11-08T22:20:35Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 299,
+   "errors": [],
+   "finished_at": "2026-11-09T06:54:43Z",
+   "http_requests": 946,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 925,
+    "events_refreshed": 91,
+    "histories_updated": 406,
+    "markets_tracked": 3583,
+    "snapshots_written": 400
+   },
+   "started_at": "2026-11-09T06:49:44Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 24,
+   "finished_at": "2026-11-09T06:55:07Z",
+   "result": {
+    "markets": 2690,
+    "scored_units": 366,
+    "units": 429
+   },
+   "started_at": "2026-11-09T06:54:43Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-09T06:55:10Z",
+   "result": {
+    "events": 1087,
+    "markets": 3583,
+    "ok": true
+   },
+   "started_at": "2026-11-09T06:55:07Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 8,
+   "errors": [],
+   "finished_at": "2026-11-09T17:50:06Z",
+   "http_requests": 32,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 32,
+    "events_frozen": 0,
+    "histories_fetched": 0
+   },
+   "started_at": "2026-11-09T17:49:58Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 1,
+   "errors": [],
+   "finished_at": "2026-11-09T17:50:07Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-11-09T17:50:06Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 13,
+   "finished_at": "2026-11-09T17:50:20Z",
+   "result": {
+    "markets": 2690,
+    "scored_units": 366,
+    "units": 429
+   },
+   "started_at": "2026-11-09T17:50:07Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-09T17:50:22Z",
+   "result": {
+    "events": 1087,
+    "markets": 3583,
+    "ok": true
+   },
+   "started_at": "2026-11-09T17:50:20Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 277,
+   "errors": [],
+   "finished_at": "2026-11-09T22:33:59Z",
+   "http_requests": 950,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 925,
+    "events_refreshed": 93,
+    "histories_updated": 408,
+    "markets_tracked": 3585,
+    "snapshots_written": 402
+   },
+   "started_at": "2026-11-09T22:29:22Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 14,
+   "finished_at": "2026-11-09T22:34:14Z",
+   "result": {
+    "markets": 2692,
+    "scored_units": 366,
+    "units": 429
+   },
+   "started_at": "2026-11-09T22:34:00Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-09T22:34:16Z",
+   "result": {
+    "events": 1089,
+    "markets": 3585,
+    "ok": true
+   },
+   "started_at": "2026-11-09T22:34:14Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 469,
+   "errors": [],
+   "finished_at": "2026-11-10T07:36:45Z",
+   "http_requests": 962,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 925,
+    "events_refreshed": 93,
+    "histories_updated": 408,
+    "markets_tracked": 3585,
+    "snapshots_written": 402
+   },
+   "started_at": "2026-11-10T07:28:56Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 24,
+   "finished_at": "2026-11-10T07:37:09Z",
+   "result": {
+    "markets": 2692,
+    "scored_units": 366,
+    "units": 429
+   },
+   "started_at": "2026-11-10T07:36:45Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-10T07:37:12Z",
+   "result": {
+    "events": 1089,
+    "markets": 3585,
+    "ok": true
+   },
+   "started_at": "2026-11-10T07:37:09Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 10,
+   "errors": [],
+   "finished_at": "2026-11-10T15:48:36Z",
+   "http_requests": 36,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 34,
+    "events_frozen": 2,
+    "histories_fetched": 2
+   },
+   "started_at": "2026-11-10T15:48:26Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 2,
+   "errors": [],
+   "finished_at": "2026-11-10T15:48:38Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-11-10T15:48:36Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-11-10T15:49:00Z",
+   "result": {
+    "markets": 2692,
+    "scored_units": 366,
+    "units": 429
+   },
+   "started_at": "2026-11-10T15:48:38Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-10T15:49:03Z",
+   "result": {
+    "events": 1089,
+    "markets": 3585,
+    "ok": true
+   },
+   "started_at": "2026-11-10T15:49:00Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 259,
+   "errors": [],
+   "finished_at": "2026-11-10T19:55:13Z",
+   "http_requests": 948,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 927,
+    "events_refreshed": 94,
+    "histories_updated": 407,
+    "markets_tracked": 3602,
+    "snapshots_written": 401
+   },
+   "started_at": "2026-11-10T19:50:54Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 17,
+   "finished_at": "2026-11-10T19:55:31Z",
+   "result": {
+    "markets": 2709,
+    "scored_units": 368,
+    "units": 431
+   },
+   "started_at": "2026-11-10T19:55:14Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-10T19:55:34Z",
+   "result": {
+    "events": 1092,
+    "markets": 3602,
+    "ok": true
+   },
+   "started_at": "2026-11-10T19:55:31Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 260,
+   "errors": [],
+   "finished_at": "2026-11-11T06:46:48Z",
+   "http_requests": 946,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 927,
+    "events_refreshed": 94,
+    "histories_updated": 405,
+    "markets_tracked": 3602,
+    "snapshots_written": 399
+   },
+   "started_at": "2026-11-11T06:42:28Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-11-11T06:47:10Z",
+   "result": {
+    "markets": 2709,
+    "scored_units": 369,
+    "units": 431
+   },
+   "started_at": "2026-11-11T06:46:48Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-11T06:47:13Z",
+   "result": {
+    "events": 1092,
+    "markets": 3602,
+    "ok": true
+   },
+   "started_at": "2026-11-11T06:47:10Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 28,
+   "errors": [],
+   "finished_at": "2026-11-11T15:38:56Z",
+   "http_requests": 109,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 39,
+    "events_frozen": 4,
+    "histories_fetched": 20
+   },
+   "started_at": "2026-11-11T15:38:28Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 1,
+   "errors": [],
+   "finished_at": "2026-11-11T15:38:57Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-11-11T15:38:56Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 18,
+   "finished_at": "2026-11-11T15:39:15Z",
+   "result": {
+    "markets": 2709,
+    "scored_units": 369,
+    "units": 431
+   },
+   "started_at": "2026-11-11T15:38:57Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-11T15:39:17Z",
+   "result": {
+    "events": 1092,
+    "markets": 3602,
+    "ok": true
+   },
+   "started_at": "2026-11-11T15:39:15Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 291,
+   "errors": [],
+   "finished_at": "2026-11-11T19:47:44Z",
+   "http_requests": 946,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 927,
+    "events_refreshed": 92,
+    "histories_updated": 405,
+    "markets_tracked": 3604,
+    "snapshots_written": 399
+   },
+   "started_at": "2026-11-11T19:42:53Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 23,
+   "finished_at": "2026-11-11T19:48:07Z",
+   "result": {
+    "markets": 2711,
+    "scored_units": 369,
+    "units": 431
+   },
+   "started_at": "2026-11-11T19:47:44Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-11T19:48:10Z",
+   "result": {
+    "events": 1094,
+    "markets": 3604,
+    "ok": true
+   },
+   "started_at": "2026-11-11T19:48:07Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 276,
+   "errors": [],
+   "finished_at": "2026-11-12T07:28:10Z",
+   "http_requests": 961,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "candidate_events": 929,
+    "events_refreshed": 94,
+    "histories_updated": 420,
+    "markets_tracked": 3621,
+    "snapshots_written": 414
+   },
+   "started_at": "2026-11-12T07:23:34Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 13,
+   "finished_at": "2026-11-12T07:28:24Z",
+   "result": {
+    "markets": 2728,
+    "scored_units": 369,
+    "units": 433
+   },
+   "started_at": "2026-11-12T07:28:11Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-12T07:28:26Z",
+   "result": {
+    "events": 1096,
+    "markets": 3621,
+    "ok": true
+   },
+   "started_at": "2026-11-12T07:28:24Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 11,
+   "errors": [],
+   "finished_at": "2026-11-12T16:19:17Z",
+   "http_requests": 39,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 37,
+    "events_frozen": 2,
+    "histories_fetched": 2
+   },
+   "started_at": "2026-11-12T16:19:06Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 2,
+   "errors": [],
+   "finished_at": "2026-11-12T16:19:19Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-11-12T16:19:17Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 20,
+   "finished_at": "2026-11-12T16:19:39Z",
+   "result": {
+    "markets": 2728,
+    "scored_units": 369,
+    "units": 433
+   },
+   "started_at": "2026-11-12T16:19:19Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-12T16:19:42Z",
+   "result": {
+    "events": 1096,
+    "markets": 3621,
+    "ok": true
+   },
+   "started_at": "2026-11-12T16:19:40Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 303,
+   "errors": [
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed-rates&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed-rates",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed-rates&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed-rates",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economic-policy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economic-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economic-policy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economic-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=crypto-policy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "crypto-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=crypto-policy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "crypto-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=inflation&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "inflation",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=inflation&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "inflation",
+     "where": "tag_listing"
+    }
+   ],
+   "finished_at": "2026-11-12T20:10:35Z",
+   "http_requests": 1006,
+   "incomplete": [],
+   "n_errors": 12,
+   "result": {
+    "candidate_events": 886,
+    "events_refreshed": 93,
+    "histories_updated": 421,
+    "markets_tracked": 3622,
+    "snapshots_written": 415
+   },
+   "started_at": "2026-11-12T20:05:32Z",
+   "status": "partial"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 17,
+   "finished_at": "2026-11-12T20:10:53Z",
+   "result": {
+    "markets": 2729,
+    "scored_units": 369,
+    "units": 433
+   },
+   "started_at": "2026-11-12T20:10:36Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-12T20:10:55Z",
+   "result": {
+    "events": 1097,
+    "markets": 3622,
+    "ok": true
+   },
+   "started_at": "2026-11-12T20:10:53Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 299,
+   "errors": [
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed-rates&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed-rates",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed-rates&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed-rates",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economic-policy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economic-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economic-policy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economic-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=crypto-policy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "crypto-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=crypto-policy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "crypto-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=inflation&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "inflation",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=inflation&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "inflation",
+     "where": "tag_listing"
+    }
+   ],
+   "finished_at": "2026-11-13T07:00:18Z",
+   "http_requests": 1015,
+   "incomplete": [],
+   "n_errors": 12,
+   "result": {
+    "candidate_events": 887,
+    "events_refreshed": 95,
+    "histories_updated": 428,
+    "markets_tracked": 3644,
+    "snapshots_written": 422
+   },
+   "started_at": "2026-11-13T06:55:19Z",
+   "status": "partial"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-11-13T07:00:40Z",
+   "result": {
+    "markets": 2751,
+    "scored_units": 373,
+    "units": 435
+   },
+   "started_at": "2026-11-13T07:00:18Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-13T07:00:43Z",
+   "result": {
+    "events": 1099,
+    "markets": 3644,
+    "ok": true
+   },
+   "started_at": "2026-11-13T07:00:40Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 21,
+   "errors": [],
+   "finished_at": "2026-11-13T15:42:15Z",
+   "http_requests": 81,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 41,
+    "events_frozen": 0,
+    "histories_fetched": 15
+   },
+   "started_at": "2026-11-13T15:41:54Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 1,
+   "errors": [],
+   "finished_at": "2026-11-13T15:42:16Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-11-13T15:42:15Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 15,
+   "finished_at": "2026-11-13T15:42:31Z",
+   "result": {
+    "markets": 2751,
+    "scored_units": 373,
+    "units": 435
+   },
+   "started_at": "2026-11-13T15:42:16Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-13T15:42:33Z",
+   "result": {
+    "events": 1099,
+    "markets": 3644,
+    "ok": true
+   },
+   "started_at": "2026-11-13T15:42:31Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 273,
+   "errors": [
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed-rates&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed-rates",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed-rates&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed-rates",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economic-policy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economic-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economic-policy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economic-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=crypto-policy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "crypto-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=crypto-policy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "crypto-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=inflation&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "inflation",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=inflation&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "inflation",
+     "where": "tag_listing"
+    }
+   ],
+   "finished_at": "2026-11-13T19:55:22Z",
+   "http_requests": 1013,
+   "incomplete": [],
+   "n_errors": 12,
+   "result": {
+    "candidate_events": 887,
+    "events_refreshed": 95,
+    "histories_updated": 426,
+    "markets_tracked": 3644,
+    "snapshots_written": 420
+   },
+   "started_at": "2026-11-13T19:50:49Z",
+   "status": "partial"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 18,
+   "finished_at": "2026-11-13T19:55:40Z",
+   "result": {
+    "markets": 2751,
+    "scored_units": 373,
+    "units": 435
+   },
+   "started_at": "2026-11-13T19:55:22Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-13T19:55:42Z",
+   "result": {
+    "events": 1099,
+    "markets": 3644,
+    "ok": true
+   },
+   "started_at": "2026-11-13T19:55:40Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 285,
+   "errors": [
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed-rates&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed-rates",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed-rates&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed-rates",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economic-policy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economic-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economic-policy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economic-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=crypto-policy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "crypto-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=crypto-policy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "crypto-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=inflation&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "inflation",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=inflation&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "inflation",
+     "where": "tag_listing"
+    }
+   ],
+   "finished_at": "2026-11-14T06:45:36Z",
+   "http_requests": 1022,
+   "incomplete": [],
+   "n_errors": 12,
+   "result": {
+    "candidate_events": 887,
+    "events_refreshed": 97,
+    "histories_updated": 431,
+    "markets_tracked": 3652,
+    "snapshots_written": 425
+   },
+   "started_at": "2026-11-14T06:40:51Z",
+   "status": "partial"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 13,
+   "finished_at": "2026-11-14T06:45:49Z",
+   "result": {
+    "markets": 2759,
+    "scored_units": 373,
+    "units": 436
+   },
+   "started_at": "2026-11-14T06:45:36Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-14T06:45:51Z",
+   "result": {
+    "events": 1101,
+    "markets": 3652,
+    "ok": true
+   },
+   "started_at": "2026-11-14T06:45:49Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 13,
+   "errors": [],
+   "finished_at": "2026-11-14T14:32:48Z",
+   "http_requests": 53,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 43,
+    "events_frozen": 4,
+    "histories_fetched": 7
+   },
+   "started_at": "2026-11-14T14:32:35Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 2,
+   "errors": [],
+   "finished_at": "2026-11-14T14:32:50Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-11-14T14:32:48Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-11-14T14:33:12Z",
+   "result": {
+    "markets": 2759,
+    "scored_units": 373,
+    "units": 436
+   },
+   "started_at": "2026-11-14T14:32:50Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-14T14:33:15Z",
+   "result": {
+    "events": 1101,
+    "markets": 3652,
+    "ok": true
+   },
+   "started_at": "2026-11-14T14:33:12Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 283,
+   "errors": [
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed-rates&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed-rates",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed-rates&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed-rates",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economic-policy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economic-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economic-policy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economic-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=crypto-policy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "crypto-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=crypto-policy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "crypto-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=inflation&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "inflation",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=inflation&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "inflation",
+     "where": "tag_listing"
+    }
+   ],
+   "finished_at": "2026-11-14T18:20:18Z",
+   "http_requests": 1016,
+   "incomplete": [],
+   "n_errors": 12,
+   "result": {
+    "candidate_events": 886,
+    "events_refreshed": 93,
+    "histories_updated": 429,
+    "markets_tracked": 3652,
+    "snapshots_written": 423
+   },
+   "started_at": "2026-11-14T18:15:35Z",
+   "status": "partial"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 17,
+   "finished_at": "2026-11-14T18:20:35Z",
+   "result": {
+    "markets": 2759,
+    "scored_units": 373,
+    "units": 436
+   },
+   "started_at": "2026-11-14T18:20:18Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-14T18:20:38Z",
+   "result": {
+    "events": 1101,
+    "markets": 3652,
+    "ok": true
+   },
+   "started_at": "2026-11-14T18:20:35Z",
+   "status": "ok"
+  }
+ ]
+}
