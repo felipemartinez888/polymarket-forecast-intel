@@ -1,0 +1,670 @@
+{
+ "calc_version": "1.0.0",
+ "categories": {
+  "crypto_events": 12,
+  "crypto_price": 556,
+  "crypto_regulation": 46,
+  "fed": 731,
+  "macro": 1459
+ },
+ "fomc_transcribed_at": "2026-10-09",
+ "generated_at": "2026-11-28T08:06:32Z",
+ "last_success": {
+  "analyze": "2026-11-27T21:31:44Z",
+  "backfill": "2026-11-27T17:39:57Z",
+  "check": "2026-11-27T21:31:46Z",
+  "discover": "2026-11-28T08:06:32Z",
+  "resolve": "2026-11-27T17:39:56Z"
+ },
+ "latest_observation_ts": 1795853176,
+ "markets_without_history": 69,
+ "n_events": 1122,
+ "n_markets": 2804,
+ "recent_runs": [
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 13,
+   "finished_at": "2026-11-26T08:39:49Z",
+   "result": {
+    "markets": 2802,
+    "scored_units": 378,
+    "units": 440
+   },
+   "started_at": "2026-11-26T08:39:36Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-26T08:39:51Z",
+   "result": {
+    "events": 1120,
+    "markets": 3695,
+    "ok": true
+   },
+   "started_at": "2026-11-26T08:39:49Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 12,
+   "errors": [],
+   "finished_at": "2026-11-26T17:54:23Z",
+   "http_requests": 47,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 40,
+    "events_frozen": 2,
+    "histories_fetched": 3
+   },
+   "started_at": "2026-11-26T17:54:11Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 1,
+   "errors": [],
+   "finished_at": "2026-11-26T17:54:24Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-11-26T17:54:23Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 13,
+   "finished_at": "2026-11-26T17:54:37Z",
+   "result": {
+    "markets": 2802,
+    "scored_units": 378,
+    "units": 440
+   },
+   "started_at": "2026-11-26T17:54:24Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-26T17:54:39Z",
+   "result": {
+    "events": 1120,
+    "markets": 3695,
+    "ok": true
+   },
+   "started_at": "2026-11-26T17:54:37Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 274,
+   "errors": [
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed-rates&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed-rates",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed-rates&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed-rates",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economic-policy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economic-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economic-policy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economic-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=crypto-policy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "crypto-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=crypto-policy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "crypto-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=inflation&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "inflation",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=inflation&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "inflation",
+     "where": "tag_listing"
+    }
+   ],
+   "finished_at": "2026-11-26T21:46:58Z",
+   "http_requests": 1011,
+   "incomplete": [],
+   "n_errors": 12,
+   "result": {
+    "candidate_events": 884,
+    "events_refreshed": 92,
+    "histories_updated": 419,
+    "markets_tracked": 3695,
+    "snapshots_written": 413
+   },
+   "started_at": "2026-11-26T21:42:24Z",
+   "status": "partial"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 22,
+   "finished_at": "2026-11-26T21:47:20Z",
+   "result": {
+    "markets": 2802,
+    "scored_units": 378,
+    "units": 440
+   },
+   "started_at": "2026-11-26T21:46:58Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-26T21:47:24Z",
+   "result": {
+    "events": 1120,
+    "markets": 3695,
+    "ok": true
+   },
+   "started_at": "2026-11-26T21:47:21Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 301,
+   "errors": [
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed-rates&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed-rates",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed-rates&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed-rates",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economic-policy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economic-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economic-policy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economic-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=crypto-policy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "crypto-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=crypto-policy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "crypto-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=inflation&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "inflation",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=inflation&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "inflation",
+     "where": "tag_listing"
+    }
+   ],
+   "finished_at": "2026-11-27T08:51:32Z",
+   "http_requests": 1011,
+   "incomplete": [],
+   "n_errors": 12,
+   "result": {
+    "candidate_events": 884,
+    "events_refreshed": 92,
+    "histories_updated": 419,
+    "markets_tracked": 3695,
+    "snapshots_written": 413
+   },
+   "started_at": "2026-11-27T08:46:31Z",
+   "status": "partial"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 20,
+   "finished_at": "2026-11-27T08:51:52Z",
+   "result": {
+    "markets": 2802,
+    "scored_units": 378,
+    "units": 440
+   },
+   "started_at": "2026-11-27T08:51:32Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 3,
+   "finished_at": "2026-11-27T08:51:55Z",
+   "result": {
+    "events": 1120,
+    "markets": 3695,
+    "ok": true
+   },
+   "started_at": "2026-11-27T08:51:52Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "resolve",
+   "duration_s": 11,
+   "errors": [],
+   "finished_at": "2026-11-27T17:39:56Z",
+   "http_requests": 38,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "events_checked": 38,
+    "events_frozen": 0,
+    "histories_fetched": 0
+   },
+   "started_at": "2026-11-27T17:39:45Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "backfill",
+   "duration_s": 1,
+   "errors": [],
+   "finished_at": "2026-11-27T17:39:57Z",
+   "http_requests": 0,
+   "incomplete": [],
+   "n_errors": 0,
+   "result": {
+    "histories_backfilled": 0,
+    "queue": 0,
+    "remaining": 0
+   },
+   "started_at": "2026-11-27T17:39:56Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 16,
+   "finished_at": "2026-11-27T17:40:13Z",
+   "result": {
+    "markets": 2802,
+    "scored_units": 378,
+    "units": 440
+   },
+   "started_at": "2026-11-27T17:39:57Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-27T17:40:15Z",
+   "result": {
+    "events": 1120,
+    "markets": 3695,
+    "ok": true
+   },
+   "started_at": "2026-11-27T17:40:13Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 273,
+   "errors": [
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed-rates&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed-rates",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed-rates&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed-rates",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economic-policy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economic-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economic-policy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economic-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=crypto-policy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "crypto-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=crypto-policy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "crypto-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=inflation&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "inflation",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=inflation&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "inflation",
+     "where": "tag_listing"
+    }
+   ],
+   "finished_at": "2026-11-27T21:31:29Z",
+   "http_requests": 1011,
+   "incomplete": [],
+   "n_errors": 12,
+   "result": {
+    "candidate_events": 884,
+    "events_refreshed": 92,
+    "histories_updated": 419,
+    "markets_tracked": 3695,
+    "snapshots_written": 413
+   },
+   "started_at": "2026-11-27T21:26:56Z",
+   "status": "partial"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "analyze",
+   "duration_s": 15,
+   "finished_at": "2026-11-27T21:31:44Z",
+   "result": {
+    "markets": 2802,
+    "scored_units": 378,
+    "units": 440
+   },
+   "started_at": "2026-11-27T21:31:29Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "check",
+   "duration_s": 2,
+   "finished_at": "2026-11-27T21:31:46Z",
+   "result": {
+    "events": 1120,
+    "markets": 3695,
+    "ok": true
+   },
+   "started_at": "2026-11-27T21:31:44Z",
+   "status": "ok"
+  },
+  {
+   "calc_version": "1.0.0",
+   "command": "discover",
+   "duration_s": 300,
+   "errors": [
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed-rates&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed-rates",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=fed-rates&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "fed-rates",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economic-policy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economic-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=economic-policy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "economic-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=crypto-policy&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "crypto-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=crypto-policy&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "crypto-policy",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "false",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=inflation&closed=false&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "inflation",
+     "where": "tag_listing"
+    },
+    {
+     "closed": "true",
+     "error": "406 https://gamma-api.polymarket.com/events?tag_slug=inflation&closed=true&limit=100&offset=0&end_date_min=2023-01-01T00%3A00%3A00Z: {\"error\":\"gzip_required\",\"hint\":\"send the header Accept-Encoding: gzip. /events and /events/keyset pages with limit above 50 are served compressed only.\"}",
+     "page": 0,
+     "tag": "inflation",
+     "where": "tag_listing"
+    }
+   ],
+   "finished_at": "2026-11-28T08:06:32Z",
+   "http_requests": 1015,
+   "incomplete": [],
+   "n_errors": 12,
+   "result": {
+    "candidate_events": 884,
+    "events_refreshed": 94,
+    "histories_updated": 419,
+    "markets_tracked": 3697,
+    "snapshots_written": 413
+   },
+   "started_at": "2026-11-28T08:01:32Z",
+   "status": "partial"
+  }
+ ],
+ "rules_version": "1.2.0",
+ "storage": {
+  "bytes": 116308119,
+  "files": 3706
+ }
+}
